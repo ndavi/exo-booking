@@ -1,0 +1,47 @@
+---
+---
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-fixed-top {
+    height:  3.75rem;
+    background-color: #f3f2f1;
+}
+
+.header-padding {
+    padding: 0 .9375rem;
+}
+
+body {
+    background-color: #f3f2f1;
+}
+
+li .resp {
+    width: 100%;
+}
+
+.content {
+    padding-top: 4.75rem;
+}
+
+.post {
+    background-color: white;
+}
+
+a.deco-none {
+    cursor: default!important;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.row-no-padding {
+    padding-left: 0 !important;
+}
