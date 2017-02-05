@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Sample article!"
-date:   2015-11-17 16:16:01 -0600
+title:  "Les musiques qu'on entend dans les locaux de répétition"
+date:   2015-11-17 16:16:01
 images:
-  - url: /img/mountains.jpg
+  - url: /img/rehearsal.jpg
+    alt: Cypripedium Calceolum
+    title: Cypripedium Calceolum
+  - url: /img/rehearsal2.jpg
     alt: Cypripedium Calceolum
     title: Cypripedium Calceolum
 categories: jekyll update
