@@ -13,4 +13,3 @@ Idées d'articles
 - État des lieux du mouvement free-party dans l'Hexagone
 - Les musiques qu'on entend dans les locaux de repetition
 - Comparatif Digitick / TicketNet / ...
-
