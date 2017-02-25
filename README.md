@@ -1,5 +1,5 @@
 # Hubbub.com
-A music blog
+A music hubblog
 
 - Curation de contenu
 - Rendez-vous mensuel avec playlists d'artistes
