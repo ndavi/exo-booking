@@ -1,4 +1,4 @@
-# Hubbub.com
+# Sturbed.com
 A music hubblog
 
 - Curation de contenu
