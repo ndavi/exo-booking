@@ -1,5 +1,5 @@
 # Sturbed.com
-A music hubblog
+A music blog
 
 - Curation de contenu
 - Rendez-vous mensuel avec playlists d'artistes
