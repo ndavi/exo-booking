@@ -14,6 +14,5 @@ Idées d'articles
 - Les musiques qu'on entend dans les locaux de repetition
 - Comparatif Digitick / TicketNet / ...
 - La nouvelle législation sur l'acoustique menace la culture soundsystem en France
-- Combien de kw de son ?
-
+- Combien de kw de son ? (combien de kg de son a Tomorrowland)
 
