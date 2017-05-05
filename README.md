@@ -1,4 +1,4 @@
-# Steamsound.com
+## Steamsound.com
 A music blog
 
 - Curation de contenu
