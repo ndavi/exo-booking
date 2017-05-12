@@ -1,4 +1,4 @@
-# Where tings are
+# Where things are
 source:       .
 destination:  _site
 plugins_dir:  _plugins
