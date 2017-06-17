@@ -70,6 +70,6 @@ kramdown:
   hard_wrap:    false
   footnote_nr:  1
 
-# Style
+# Styles
 sass:
     sass_dir: _sass
