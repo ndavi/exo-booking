@@ -1,5 +1,25 @@
 ---
 ---
+@media screen and (max-width: 1292px) {
+    body > div > ul {
+        padding-right: 40px;
+    }
+}
+.navbar-collapse {
+    max-height: 165px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #080;
+}
 
 .navbar-brand {
   padding: 0px;
@@ -28,10 +48,6 @@ li .resp {
     width: 100%;
 }
 
-.content {
-    padding-top: 4.75rem;
-}
-
 .post {
     background-color: white;
 }
@@ -42,6 +58,11 @@ a.deco-none {
     text-decoration: none;
 }
 
+.row-padding,
 .row-no-padding {
-    padding-left: 0 !important;
+    padding-left: 0;
+}
+
+.row-padding {
+    padding-right: 0;
 }

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Saadji - Fraktal 2016 album"
-date:   2017-06-25 16:16:01
+title:  "Saadji Fraktal album out"
+date:   2016-06-25 16:16:01
 images:
   - url: /img/saadji-fraktal.jpg
     alt: Cypripedium Calceolum

@@ -3,46 +3,49 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Steamsound music articles, playlists and interviews</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=devide-width, initial-scale=1">
+        <title>Exo booking</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-fixed-top">
+            <nav class="navbar navbar-static-top">
                 <div class="container-fluid header-padding">
                   <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                    <button type=button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarm" aria-expanded= "false">
+                        <span class="sr-only">Test</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://disputebills.com"><img src="img/hubbub.png" alt="Hubbub">
-                    </a>
+                    <a class="navbar-brand" href="/"><img src="{{site.baseurl}}/img/hubbub.png" alt="Hubbub"></a>
                   </div>
-                  <div id="navbar1" class="navbar-collapse collapse">
+                  <div class="collapse navbar-collapse" id="navbarm">
                     <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Home</a></li>
+                      <li class="active"><a href="/">Home</a></li>
                       <li><a href="#">About</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Contact</a></li>    
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li class="divider"></li>
-                          <li class="dropdown-header">Nav header</li>
-                          <li><a href="#">Separated link</a></li>
-                          <li><a href="#">One more separated link</a></li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artists <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="brainless.html">Brainless</a></li>
+                          <li><a href="ishiban.html">Ishiban</a></li>
+                          <li><a href="woobedub.html">Woobedub</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="black-mantis-project.html">Back mantis project</a></li>
+                          <li><a href="saadji.html">Saadji</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="okuma-live.html">Okuma live</a></li>
+                          <li><a href="bassturbation.html">Bassturbation</a></li>
                         </ul>
                       </li>
                     </ul>
-                  </div>
-                  <!--/.nav-collapse -->
-                </div>
-                <!--/.container-fluid -->
+                  </div><!--/.nav-collapse -->
+                </div><!--/.container-fluid -->
             </nav>
         </header>
         <div class="content">
