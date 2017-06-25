@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "OKUMA PUMP 01 OUT NOW "
-date:   2017-06-25 23:00:00
+date:   2017-06-25 13:00:00
 images:
-  - url: /img/Okuma.jpg
+  - url: /img/okuma.jpg
     alt: okuma records
     title: okuma records
 categories: article
