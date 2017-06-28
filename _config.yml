@@ -8,6 +8,8 @@ includes:     _includes
 collections:
   posts:
     output:   true
+  artists:
+    output:   true
 
 # Handling reading
 safe:         false
