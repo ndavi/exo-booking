@@ -60,6 +60,7 @@ li .resp {
     background-color: white;
 }
 
+a.deco-none:hover,
 a.deco-none {
     cursor: default!important;
     color: #000000 !important;
@@ -75,44 +76,21 @@ a.deco-none {
     padding-right: 0;
 }
 
+.fa {
+    font-size: 4rem;
+    text-decoration: none;
+    color: #4d734d;
+}
+.fa:hover {
+    text-decoration: none;
+}
+.fa:before {
+    padding-right: 22px;
+}
+
 // Gallery
 
-#gallery {
-  width: 600px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  margin: 100px auto;
-  border: 2px solid #003C72;
-}
-
-#navigation {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-#navigation li {
-  padding: 0;
-  margin: 0;
-  float: left;
-  clear: both;
-}
-
-#navigation li a img {
-  display: block;
-  border: none;
-  width: 100px;
-}
-
-#navigation li a {
-  display: block;
-}
-
-#full-picture {
-  width: 500px;
-  height: 375px;
-  overflow: hidden;
-  float: left;
+#myCarousel > div > div.item {
+    width: auto;
+    height: 100vh;
 }

@@ -36,28 +36,34 @@ layout: default
 
 <div class="col-md-8">
 
-    {{ page.content }}
+    <div class="content">
+        {{ page.content }}
+    </div>
 
-    {% if page.soundcloud %}
-        <i class="fa fa-soundcloud" style="font-size:48px;color:grey"></i>
-        <a class="fa fa-soundcloud" href="{{ page.soundcloud }}"></a>
-    {% endif %}
+    <ul>
+        
+        {% if page.soundcloud %}
+            <li>
+                <a class="fa fa-soundcloud deco-none" href="{{ page.soundcloud }}"></a>
+            </li>
+        {% endif %}
+    
+    
+    </ul>
     {% if page.facebook %}
-        <i class="fa fa-facebook-official" style="font-size:48px;color:grey"></i>
-        <a class="fa fa-facebook-official" href="{{ page.facebook }}">FACEBOOK</a>
+        <a class="fa fa-facebook-official deco-none" href="{{ page.facebook }}">FACEBOOK</a>
     {% endif %}
     {% if page.bandcamp %}
-        <i class="fa fa-bandcamp" style="font-size:48px;color:grey"></i>
-        <a class="fa fa-bandcamp" href="{{ page.bandcamp }}"></a>
+        <a class="fa fa-bandcamp deco-none" href="{{ page.bandcamp }}">BANDCAMP</a>
     {% endif %}
     {% if page.spotify %}
-        <i class="fa fa-spotify" style="font-size:48px;color:grey"></i>
+        <i class="fa fa-spotify deco-none" style="font-size:48px;color:grey"></i>
     {% endif %}
     {% if page.youtube %}
-        <i class="fa fa-youtube-play" style="font-size:48px;color:grey"></i>
+        <i class="fa fa-youtube-play deco-none" style="font-size:48px;color:grey"></i>
     {% endif %}
     {% if page.site %}
-        <i class="fa fa-bandcamp" style="font-size:48px;color:grey"></i>
+        <i class="fa fa-bandcamp deco-none" style="font-size:48px;color:grey"></i>
     {% endif %}
     
 </div>
