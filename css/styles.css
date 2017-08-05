@@ -135,7 +135,6 @@ a.deco-none {
 }
 
 .divider {
-    display: inline-block;
     position: relative; /* Brings the div above the header:after element */
     background: white; /* Must be same as body */
     margin: 0 auto;
@@ -144,12 +143,13 @@ a.deco-none {
 .divider > img {
     display: block;
     width: 28px;
+    opacity: 0.2;
 }
 .divider-wrapper:after {
     content: '';
     display: block;
-    margin-top: -90px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
-    height: 1px;
+    margin-top: -16px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
+    height: 4px;
     width: 100%;
     background-color: #f3f2f1;
 }
