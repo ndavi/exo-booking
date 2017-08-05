@@ -93,12 +93,19 @@ a.deco-none {
     display: inline-block;
     width: 75px;
     vertical-align: middle;
-    font-family: FontAwesome;
+}
+
+.artist {
+    padding: 10px 0 10px 10px;
+    background-color: rgba(0, 255, 0, 0.3);
+    position: absolute;
+    bottom: 0;
 }
 
 li.social {
+    float:left;
     list-style-type: none;
-    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 // Gallery

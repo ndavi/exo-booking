@@ -4,17 +4,27 @@ layout: default
 
 <div class="col-md-12">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
           {% for image in page.images %}
             <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
               <img src="{{ image.url }}" alt="Los Angeles">
             </div>
           {% endfor %}
-      </div>
+        </div>
+        <div class="artist">
+            <h1>{{ page.name }}</h1>
+            <ul>
+                {% for link in page.social %}
+                    {% if link.url %}
+                        <li class="social">
+                            <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>    
+        </div>
     </div>
-
-    <h1>{{ page.name }}</h1>
 </div>
 
 <div class="col-md-12">
@@ -23,13 +33,5 @@ layout: default
         {{ content }}
     </div>
 
-    <ul>
-        {% for link in page.social %}
-            {% if link.url %}
-                <li class="social">
-                    <a class="fa fa-{{ link.name }}" href="{{ link.url }}">{{ link.name | upcase }}</a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul>    
+    
 </div>
