@@ -26,31 +26,34 @@ layout: default
 </div>
 
 <div class="col-xs-12 artist-container">
-    <div class="col-xs-12 col-md-4 artist-actuality">
-        <div>
-            <h2>Releases</h2>
-            <ul>
-            {% for release in page.releases %}
-                <li>{{ release.name }}</li>
-            {% endfor %}
-            </ul>
-        </div>
-    </div>
-        <div class="divider-wrapper">
-            <div class="divider">
-                  <img src="{{site.baseurl}}/img/exo-booking-square.png" alt="exo booking" />
+    <div class="col-xs-12 col-md-4">
+        <div class="col-md-12 artist-actuality">
+            <div>
+                <h2>Releases</h2>
+                <ul>
+                {% for release in page.releases %}
+                    <li>{{ release.name }}</li>
+                {% endfor %}
+                </ul>
             </div>
         </div>
-    <div class="col-xs-12 col-md-4 artist-actuality">
-        <div>
-            <h2>Upcoming events</h2>
-            <ul>
-            {% for event in page.events %}
-                <li><span>{{ event.date }}</span> {{ event.name }}</li>
-            {% endfor %}
-            </ul>
+        <div class="divider-wrapper">
+            <div class="divider">
+                <img src="{{site.baseurl}}/img/exo-booking-square.png" alt="exo booking" />
+            </div>
+        </div>
+        <div class="col-md-12 artist-actuality">
+            <div>
+                <h2>Upcoming events</h2>
+                <ul>
+                {% for event in page.events %}
+                    <li><span>{{ event.date }}</span> {{ event.name }}</li>
+                {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
+
     <div class="col-xs-12 col-md-8">
         <div class="content artist-bio">
             {{ content }}
