@@ -25,26 +25,28 @@ layout: default
     </div>
 </div>
 
-<div class="col-md-4 artist-actuality">
-    <div>
-        <h2>Releases</h2>
-        <ul>
-        {% for release in page.releases %}
-            <li>{{ release.name }}</li>
-        {% endfor %}
-        </ul>
+<div class="container-fluid">
+    <div class="col-md-4 artist-actuality">
+        <div>
+            <h2>Releases</h2>
+            <ul>
+            {% for release in page.releases %}
+                <li>{{ release.name }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        <div>
+            <h2>Upcoming events</h2>
+            <ul>
+            {% for event in page.events %}
+                <li><span>{{ event.date }}</span> {{ event.name }}</li>
+            {% endfor %}
+            </ul>
+        </div>
     </div>
-    <div>
-        <h2>Upcoming events</h2>
-        <ul>
-        {% for event in page.events %}
-            <li><span>{{ event.date }}</span> {{ event.name }}</li>
-        {% endfor %}
-        </ul>
-    </div>
-</div>
-<div class="col-md-8">
-    <div class="content artist-bio">
-        {{ content }}
+    <div class="col-md-8">
+        <div class="content artist-bio">
+            {{ content }}
+        </div>
     </div>
 </div>
