@@ -8,12 +8,12 @@ layout: default
     <div id="gallery">
       <ul id="navigation">
         {% for image in page.images %}
-          <li><a href="#{{ image.url }}"><img alt="" src="{{ image.url }}" /></a></li>
+          <li><a href="#{{ image.title }}"><img alt="" src="{{ image.url }}" /></a></li>
         {% endfor %}
       </ul>
       <div id="full-picture">
         {% for image in page.images %}
-            <div><a name="{{ image.url }}"></a><img alt="{{ image.url }}" title="{{ image.title }}" src="{{ image.url }}" /></div>
+            <div><a name="{{ image.title }}"></a><img alt="{{ image.url }}" title="{{ image.title }}" src="{{ image.url }}" /></div>
         {% endfor %}
       </div>
     </div>
