@@ -27,12 +27,13 @@ releases:
   - name: Diversion EP 
   - name: Greenzone EP
   - name: EP
-  - name: Tetraktys (2017) - ODGcategories: artist
+  - name: Tetraktys (2017) - ODG
 events:
   - date: 12/08
     name: Psychobydub
   - date: 21/10
     name: Underground Bass Session #10
+categories: artist
 ---
 
 ## Bio
