@@ -14,7 +14,4 @@ categories: artist
 ---
 
 Brainless sound system blablablablabla
-Brainless sound system blablablablabla
-Brainless sound system blablablablabla
-Brainless sound system blablablablabla
-Brainless sound system blablablablabla
+lolo sur la video, give me money

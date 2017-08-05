@@ -6,6 +6,13 @@
     }
 }
 
+// todo : change this
+h1 {
+    color: white;
+    padding-left: 200px;
+    font-size: 5vw;
+}
+
 .navbar-collapse {
     max-height: 165px;
 }
