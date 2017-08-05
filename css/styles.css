@@ -122,6 +122,13 @@ a.deco-none {
     color: #f3f2f1;
 }
 
+.artist-actuality {
+    background-color: #000;
+}
+.artist-bio {
+    font-size: 2rem;
+}
+
 // Gallery
 
 .carousel-inner {

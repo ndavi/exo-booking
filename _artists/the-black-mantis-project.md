@@ -23,19 +23,18 @@ social:
    name: site
 youtubevideo:
   - url: https://www.youtube.com/channel/UCwIMXueallR92oPm_ueeUTw
-categories: artist
+releases:
+  - name: Diversion EP 
+  - name: Greenzone EP
+  - name: EP
+  - name: Tetraktys (2017) - ODGcategories: artist
+events:
+  - date: 12/08
+    name: Psychobydub
+  - date: 21/10
+    name: Underground Bass Session #10
 ---
 
 ## Bio
 Le Black Mantis Project renaît de ses cendres...
 Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set instrumental. Sur des rythmes numériques, Black Mantis fait danser en live les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri. Brassage d'influences et d'énergies, le projet prend toute sa dimension sur scène et dans le partage.
-
-## Releases
- - Diversion EP 
- - Greenzone EP
- - EP
- - Tetraktys (2017) - ODG
-
-## Upcoming events :
-12/08 - Psychobydub
-21/10 - Underground Bass Session #10
