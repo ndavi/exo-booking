@@ -103,6 +103,7 @@ a.deco-none {
 #navigation li a img {
   display: block;
   border: none;
+  width: 100px;
 }
 
 #navigation li a {
