@@ -20,9 +20,9 @@ categories: artist
 ---
 
 ## Bio
-> Brainless Sound System est un crew de la région Rhône-Alpes créé début 2012, composé de dubmakers, mcs, operators et boxmen. 
+Brainless Sound System est un crew de la région Rhône-Alpes créé début 2012, composé de dubmakers, mcs, operators et boxmen. 
 
-> Ce projet artistique est né d'une passion commune pour la musique dub et la culture soundsystem. 
+Ce projet artistique est né d'une passion commune pour la musique dub et la culture soundsystem. 
 
 Aujourd'hui armé d'une sono 4 scoops faite maison, le crew s'est lancé dans la production de leur premier album appelé "Human Machine" sorti en novembre 2015. 
 
