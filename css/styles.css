@@ -145,6 +145,7 @@ a.deco-none {
     margin: 0 auto;
     width: 28px;
 }
+.divider-black > img,
 .divider > img {
     display: block;
     width: 28px;
