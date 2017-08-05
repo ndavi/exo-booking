@@ -9,15 +9,15 @@ layout: default
       <!-- Indicators -->
       <ol class="carousel-indicators">
       {% for image in page.images %}
-        <li data-target="#myCarousel" data-slide-to="{{ image.index0 }}"
-            {% if image.index == 1 %}class="active"{% endif %}></li>
-      {% enfor%}
+        <li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}"
+            {% if forloop.index0 == 0 %}class="active"{% endif %}></li>
+      {% endfor %}
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
       {% for image in page.images %}
-        <div class="item {% if image.index == 1 %}active{% endif %}">
+        <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
           <img src="{{ image.url }}" alt="Los Angeles">
         </div>
       {% endfor %}
