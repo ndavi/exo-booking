@@ -3,6 +3,42 @@ layout: default
 ---
 
 <h1>{{ page.name }}</h1>
-{% for image in page.images limit 1 %}
-    <img src="{{ image.url }}" alt="{{ image.url }}" title="{{ image.title }}" />
-{% endfor %}
+
+<div class="col-md-4">
+    <div id="gallery">
+      <ul id="navigation">
+        {% for image in page.images %}
+          <li><a href="{{ image.title }}"><img alt="" src="{{ image.url }}" /></a></li>
+        {% endfor %}
+      </ul>
+      <div id="full-picture">
+        {% for image in page.images %}
+            <div>
+                <a name="{{ image.title }}" />
+                <img alt="{{ image.url }}" title="{{ image.title }}" src="{{ image.url }}" />
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+</div>
+<div class="col-md-8">
+    {% if page.soundcloud %}
+        <i class="fa fa-soundcloud" style="font-size:48px;color:grey"></i>
+    {% endif %}
+    {% if page.facebook %}
+        <i class="fa fa-facebook-official" style="font-size:48px;color:grey"></i>
+    {% endif %}
+    {% if page.bandcamp %}
+        <i class="fa fa-bandcamp" style="font-size:48px;color:grey"></i>
+    {% endif %}
+    {% if page.spotify %}
+        <i class="fa fa-spotify" style="font-size:48px;color:grey"></i>
+    {% endif %}
+    {% if page.youtube %}
+        <i class="fa fa-youtube-play" style="font-size:48px;color:grey"></i>
+    {% endif %}
+    {% if page.site %}
+        <i class="fa fa-bandcamp" style="font-size:48px;color:grey"></i>
+    {% endif %}
+    
+</div>

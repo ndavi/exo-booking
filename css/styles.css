@@ -75,41 +75,43 @@ a.deco-none {
     padding-right: 0;
 }
 
-// VIDEO
+// Gallery
 
-* { box-sizing: border-box; }
-.video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
+#gallery {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
 }
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
 }
-#vidtop-content {
-	top: 0;
-	color: #fff;
+
+#navigation li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
 }
-.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
-.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
-.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
-@media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
+
+#navigation li a img {
+  display: block;
+  border: none;
 }
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
+
+#navigation li a {
+  display: block;
 }
-@media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
-}
-@media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
+
+#full-picture {
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
 }

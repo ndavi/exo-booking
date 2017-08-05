@@ -13,6 +13,8 @@ images: # Images over 750px displays better
 soundcloud: https://soundcloud.com/brain-less
 facebook: https://www.facebook.com/BrainlessSoundSystem/
 bandcamp: https://brainless-sound-system.bandcamp.com
+spotify:
+youtube:
 site:
 categories: artist
 ---
