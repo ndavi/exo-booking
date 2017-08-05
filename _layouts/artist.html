@@ -12,17 +12,15 @@ layout: default
             </div>
           {% endfor %}
         </div>
-        <div class="artist">
+        <div class="artist clearfix">
             <h1>{{ page.name }}</h1>
-            <ul>
+            <div class="social">
                 {% for link in page.social %}
                     {% if link.url %}
-                        <li class="social">
-                            <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>
-                        </li>
+                        <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>
                     {% endif %}
                 {% endfor %}
-            </ul>    
+            </div>
         </div>
     </div>
 </div>
