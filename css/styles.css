@@ -140,6 +140,11 @@ a.deco-none {
     margin: 0 auto;
     width: 28px;
 }
+.divider-black {
+    position: relative; /* Brings the div above the header:after element */
+    margin: 0 auto;
+    width: 28px;
+}
 .divider > img {
     display: block;
     width: 28px;
@@ -156,6 +161,12 @@ a.deco-none {
 
 .divider-wrapper {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 28px;
+}
+
+.divider-wrapper-black {
     margin: 0;
     padding: 0;
     height: 28px;
