@@ -149,19 +149,21 @@ a.deco-none {
     content: '';
     display: block;
     margin-top: -16px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
-    height: 4px;
+    height: 5px;
     width: 100%;
     background-color: #f3f2f1;
+}
+
+.divider-wrapper {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 28px;
 }
 
 #logo img {
   display: block;
 }
-
-
-
-
-
 
 
 // Gallery
