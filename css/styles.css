@@ -14,7 +14,7 @@ h1 {
 }
 
 a {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
 .navbar-collapse {
@@ -83,19 +83,22 @@ a.deco-none {
 .fa {
     font-size: 4rem !important;
     text-decoration: none;
-    color: #4d734d;
+    color: #333;
 }
 .fa:hover {
     text-decoration: none;
+    color: #555;
 }
 .fa:before {
     display: inline-block;
-    width: 45px;
+    width: 75px;
     vertical-align: middle;
+    font-family: FontAwesome;
 }
 
 li.social {
     list-style-type: none;
+    margin-bottom: 20px;
 }
 
 // Gallery
