@@ -103,14 +103,14 @@ a.deco-none {
     font-family: FontAwesome;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .artist {
         text-align: center;
     }
 }
 .artist {
     padding: 30px 30px 30px 30px;
-    background-color: rgba(80, 80, 80, 0.38);
+    background-color: rgba(80, 80, 80, 0.6);
     position: absolute;
     bottom: 0;
     width: 100%;    
