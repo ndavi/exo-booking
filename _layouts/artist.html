@@ -13,8 +13,8 @@ layout: default
           {% endfor %}
         </div>
         <div class="artist clearfix">
-            <h1 class="col-xs-12 col-md-6">{{ page.name }}</h1>
-            <div class="social col-xs-12 col-md-6">
+            <h1 class="col-xs-12 col-md-9">{{ page.name }}</h1>
+            <div class="social col-xs-12 col-md-3">
                 {% for link in page.social %}
                     {% if link.url %}
                         <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>

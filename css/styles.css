@@ -103,7 +103,7 @@ a.deco-none {
     font-family: FontAwesome;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 576px) {
     .artist {
         text-align: center;
     }
@@ -125,10 +125,10 @@ a.deco-none {
 // Gallery
 
 .carousel-inner {
-    height: 500px;
+    height: 40vh;
 }
 div.item {
-    height: 500px;
+    height: 40vh;
     width: 100%;
     overflow: hidden;
 }
@@ -139,5 +139,5 @@ div.item > img {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    height: 500px;
+    height: 40vh;
 }
