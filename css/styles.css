@@ -83,25 +83,33 @@ a.deco-none {
 .social {
     float: right;
 }
+.fa:first-child {
+    margin-left: 0;
+}
 .fa {
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 4rem !important;
     text-decoration: none;
-    color: #333;
+    color: #f3f2f1;
 }
+.fa:focus,
 .fa:hover {
     text-decoration: none;
     color: #555;
 }
 .fa:before {
-    display: inline-block;
     width: 75px;
     vertical-align: middle;
     font-family: FontAwesome;
 }
 
+@media screen and (min-width: 769px) {
+    .artist {
+        text-align: center;
+    }
+}
 .artist {
-    padding: 30px 30px 30px 50px;
+    padding: 30px 30px 30px 30px;
     background-color: rgba(80, 80, 80, 0.38);
     position: absolute;
     bottom: 0;
@@ -112,9 +120,6 @@ a.deco-none {
     float: left;
     margin: 0;
     color: #f3f2f1;
-}
-
-li.social {
 }
 
 // Gallery
