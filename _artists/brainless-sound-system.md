@@ -12,12 +12,19 @@ images: # Images over 750px displays better
     title: brainless3
   - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/19511186_1427572017335480_8498521850388758244_n.jpg?oh=b8e805a42b435e77c020f7ced380a0f2&oe=59C4E318
     title: brainless4
-soundcloud: https://soundcloud.com/brain-less
-facebook: https://www.facebook.com/BrainlessSoundSystem/
-bandcamp: https://brainless-sound-system.bandcamp.com
-spotify:
-youtube:
-site:
+social:
+ - url: https://soundcloud.com/brain-less
+   name: soundcloud
+ - url: https://www.facebook.com/BrainlessSoundSystem/
+   name: facebook
+ - url: https://brainless-sound-system.bandcamp.com
+   name: bandcamp
+ - url:
+   name: spotify
+ - url:
+   name: youtube
+ - url:
+   name: site
 categories: artist
 ---
 

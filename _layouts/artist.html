@@ -41,29 +41,12 @@ layout: default
     </div>
 
     <ul>
-        
-        {% if page.soundcloud %}
-            <li>
-                <a class="fa fa-soundcloud deco-none" href="{{ page.soundcloud }}"></a>
-            </li>
-        {% endif %}
-    
-    
-    </ul>
-    {% if page.facebook %}
-        <a class="fa fa-facebook-official deco-none" href="{{ page.facebook }}">FACEBOOK</a>
-    {% endif %}
-    {% if page.bandcamp %}
-        <a class="fa fa-bandcamp deco-none" href="{{ page.bandcamp }}">BANDCAMP</a>
-    {% endif %}
-    {% if page.spotify %}
-        <i class="fa fa-spotify deco-none" style="font-size:48px;color:grey"></i>
-    {% endif %}
-    {% if page.youtube %}
-        <i class="fa fa-youtube-play deco-none" style="font-size:48px;color:grey"></i>
-    {% endif %}
-    {% if page.site %}
-        <i class="fa fa-bandcamp deco-none" style="font-size:48px;color:grey"></i>
-    {% endif %}
-    
+        {% for link in page.social %}
+            {% if link.url %}
+                <li class="social">
+                    <a class="fa fa-{{ link.name }} deco-none" href="{{ link.url }}">{{ link.name | upcase }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>    
 </div>

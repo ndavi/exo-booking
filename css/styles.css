@@ -88,6 +88,10 @@ a.deco-none {
     padding-right: 22px;
 }
 
+li.social {
+    list-style-type: none;
+}
+
 // Gallery
 
 #myCarousel > div > div.item {
