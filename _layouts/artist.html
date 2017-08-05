@@ -44,7 +44,7 @@ layout: default
         {% for link in page.social %}
             {% if link.url %}
                 <li class="social">
-                    <a class="fa fa-{{ link.name }} deco-none" href="{{ link.url }}">{{ link.name | upcase }}</a>
+                    <a class="fa fa-{{ link.name }}" href="{{ link.url }}">{{ link.name | upcase }}</a>
                 </li>
             {% endif %}
         {% endfor %}

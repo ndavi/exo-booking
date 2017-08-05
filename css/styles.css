@@ -13,6 +13,10 @@ h1 {
     font-size: 5vw;
 }
 
+a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .navbar-collapse {
     max-height: 165px;
 }
@@ -77,7 +81,7 @@ a.deco-none {
 }
 
 .fa {
-    font-size: 4rem;
+    font-size: 4rem !important;
     text-decoration: none;
     color: #4d734d;
 }
@@ -85,7 +89,9 @@ a.deco-none {
     text-decoration: none;
 }
 .fa:before {
-    padding-right: 22px;
+    display: inline-block;
+    width: 45px;
+    vertical-align: middle;
 }
 
 li.social {
