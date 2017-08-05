@@ -139,7 +139,7 @@ a.deco-none {
     position: relative; /* Brings the div above the header:after element */
     background: white; /* Must be same as body */
 }
-.divider:after {
+.divider-wrapper:after {
     content: '';
     display: block;
     margin-top: -90px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
