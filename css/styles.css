@@ -124,10 +124,39 @@ a.deco-none {
 
 .artist-actuality {
     background-color: #FFF;
+    padding-bottom: 10px;
 }
 .artist-bio {
     font-size: 2rem;
 }
+
+.artist-container {
+    margin-top: 25px;
+}
+
+.divider {
+    display: inline-block;
+    position: relative; /* Brings the div above the header:after element */
+    background: white; /* Must be same as body */
+}
+.divider:after {
+    content: '';
+    display: block;
+    margin-top: -90px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
+    height: 1px;
+    width: 100%;
+    background-color: #f3f2f1;
+}
+
+#logo img {
+  display: block;
+}
+
+
+
+
+
+
 
 // Gallery
 
