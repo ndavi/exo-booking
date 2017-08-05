@@ -138,6 +138,12 @@ a.deco-none {
     display: inline-block;
     position: relative; /* Brings the div above the header:after element */
     background: white; /* Must be same as body */
+    margin: 0 auto;
+    width: 28px;
+}
+.divider > img {
+    display: block;
+    width: 28px;
 }
 .divider-wrapper:after {
     content: '';
