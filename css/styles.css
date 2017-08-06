@@ -1,5 +1,9 @@
 ---
 ---
+/**
+ * https://coolors.co/818479-230903-dde0bd-c9c19f-aac0aa
+ *
+ */
 @media screen and (max-width: 1292px) {
     body > div > ul {
         padding-right: 40px;
@@ -30,7 +34,7 @@ a {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #080;
+    background-color: #818479;
 }
 
 .navbar-brand {
@@ -45,7 +49,7 @@ a {
 
 .navbar-fixed-top {
     height:  3.75rem;
-    background-color: #f3f2f1;
+    background-color: #230903;
 }
 
 .header-padding {
@@ -53,7 +57,7 @@ a {
 }
 
 body {
-    background-color: #f3f2f1;
+    background-color: #230903;
 }
 
 li .resp {
@@ -67,7 +71,7 @@ li .resp {
 a.deco-none:hover,
 a.deco-none {
     cursor: default!important;
-    color: #000000 !important;
+    color: #AAC0AA !important;
     text-decoration: none;
 }
 
@@ -90,12 +94,12 @@ a.deco-none {
     margin-left: 15px;
     font-size: 4rem !important;
     text-decoration: none;
-    color: #f3f2f1;
+    color: #AAC0AA;
 }
 .fa:focus,
 .fa:hover {
     text-decoration: none;
-    color: #555;
+    color: #C9C19F;
 }
 .fa:before {
     width: 75px;
@@ -119,7 +123,7 @@ a.deco-none {
     display: inline-block;
     float: left;
     margin: 0;
-    color: #f3f2f1;
+    color: #230903;
 }
 
 .artist-actuality {
@@ -136,7 +140,7 @@ a.deco-none {
 
 .divider {
     position: relative; /* Brings the div above the header:after element */
-    background: white; /* Must be same as body */
+    background: #230903; /* Must be same as body */
     margin: 0 auto;
     width: 28px;
 }
@@ -157,11 +161,11 @@ a.deco-none {
     margin-top: -16px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
     height: 5px;
     width: 100%;
-    background-color: #f3f2f1;
+    background-color: #230903;
 }
 
 .divider-wrapper {
-    background-color: white;
+    background-color: #230903;
     margin: 0;
     padding: 0;
     height: 28px;
