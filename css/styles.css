@@ -135,11 +135,9 @@ li .resp {
     opacity: 1 !important;
 }
 
-.artist > a {
-    color: white;
-}
-
+.artist > a,
 .artist > a:hover,
+.artist > a:visited,
 .cta-book:hover {
     color: white !important;
 }
