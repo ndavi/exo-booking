@@ -2,8 +2,27 @@
 layout: default
 ---
 
-{% for image in page.images limit 1 %}
-    <img src="{{ image.url }}" alt="{{ image.url }}" title="{{ image.title }}" />
-{% endfor %}
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      {% for image in page.images %}
+        <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
+          <img src="{{ image.url }}" title="{{ image.title }}">
+        </div>
+      {% endfor %}
+    </div>
+    <div class="artist clearfix">
+        <h1 class="col-xs-12 col-md-9">{{ page.name }}</h1>
+        <div class="social col-xs-12 col-md-3">
+            {% for link in page.social %}
+                {% if link.url %}
+                    <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
 
-{{ content }}
+<div class="content artist-bio">
+    {{ content }}
+</div>
