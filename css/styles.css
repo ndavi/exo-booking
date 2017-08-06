@@ -16,6 +16,10 @@ h1 {
     font-size: 4rem;
 }
 
+li {
+    list-style: none;
+}
+
 .artist > h1 {
     font-family:  arial, verdana, sans-serif;
     display: inline-block;
