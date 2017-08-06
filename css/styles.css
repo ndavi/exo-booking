@@ -126,6 +126,12 @@ li .resp {
     border-radius: 2px;
 }
 
+cta-book {
+    border-radius: 30px;
+    background-color: 0;
+    color: white;
+}
+
 .fa:visited,
 .fa {
     margin-top: 20px;
