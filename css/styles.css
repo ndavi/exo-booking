@@ -10,12 +10,12 @@
 }
 
 body {
-    color: #292929;
+    background-color: #292929;
 }
 
 h1 {
     font-family:  arial, verdana, sans-serif;
-    color: #73B08E;
+    color: #94b6c7;
     font-size: 4rem;
 }
 
@@ -26,16 +26,16 @@ h1 {
     float: left;
     margin: 0;
     font-size: 5rem;
-    color: #73B08E;
+    color: #94b6c7;
 }
 
 .post {
-    background-color: #698B9C;
+    background-color: #1d1d1d;
 }
 
 h3,
 h2 {
-    color: #73B08E;
+    color: #94b6c7;
     font-family:  arial, verdana, sans-serif;
 }
 
