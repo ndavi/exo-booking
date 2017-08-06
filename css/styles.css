@@ -87,10 +87,6 @@ li .resp {
     width: 100%;
 }
 
-.post {
-    background-color: white;
-}
-
 a.deco-none:hover,
 a.deco-none {
     cursor: default!important;
