@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-family: "Poppins-SemiBold", arial, verdana, sans-serif;
+    font-family: "Poppins", arial, verdana, sans-serif;
     color: #94b6c7;
     font-size: 4rem;
 }
@@ -22,7 +22,7 @@ li {
 }
 
 .artist > h1 {
-    font-family: "Poppins-SemiBold", arial, verdana, sans-serif;
+    font-family: "Poppins", arial, verdana, sans-serif;
     display: inline-block;
     float: left;
     margin: 0;
