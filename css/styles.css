@@ -35,7 +35,8 @@ li {
 }
 
 h3,
-h2 {
+h2,
+h2 > a {
     color: #94b6c7;
     font-family: Poppins, arial, verdana, sans-serif;
 }
