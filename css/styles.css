@@ -9,6 +9,10 @@
     }
 }
 
+body {
+    color: #292929;
+}
+
 h1 {
     font-family:  arial, verdana, sans-serif;
     color: #73B08E;
@@ -36,11 +40,18 @@ h2 {
 }
 
 a {
+    color: #bfbfbf;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+a:hover {
+    color: #efefef
+}
+a:visited {
+    color: #afafaf
 }
 
 p {
-    color: #698B9C;
+    color: #bfbfbf;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
