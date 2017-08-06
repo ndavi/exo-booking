@@ -140,10 +140,10 @@ li .resp {
     background-image: linear-gradient(to right, #3DA35D 51%, #96E072 100%);
 }
 
-.artist > a,
 .artist > a:visited,
 .cta-book:hover {
     color: white !important;
+    border: 0;
 }
 
 .fa:visited,
@@ -151,7 +151,12 @@ li .resp {
     margin-top: 20px;
     font-size: 4rem !important;
     text-decoration: none;
-    color: #3DA35D;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-soundcloud {
+    color: #ff5500;
 }
 .fa:focus,
 .fa:hover {
