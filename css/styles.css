@@ -37,16 +37,14 @@ li {
 h3,
 h2 {
     color: #94b6c7;
-    font-family: "Poppins-SemiBold", arial, verdana, sans-serif;
+    font-family: Poppins, arial, verdana, sans-serif;
 }
 
 a {
     color: #bfbfbf;
     font-family: "Open Sans", "Poppins sans-serif", "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
-a:hover {
-    color: #efefef
-}
+a:hover,
 a:visited {
     color: #afafaf
 }
