@@ -153,6 +153,8 @@ a.deco-none {
 
 .artist-bio > ul > li {
     color: #698B9C;
+    text-justify: inter-word;
+    text-align: justify;
 }
 
 .artist-container {
