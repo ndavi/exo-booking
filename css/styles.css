@@ -120,16 +120,17 @@ a.deco-none {
 .fa:first-child {
     margin-left: 0;
 }
+.fa:visited,
 .fa {
     margin-left: 15px;
     font-size: 4rem !important;
     text-decoration: none;
-    color: #698B9C;
+    color: #eee;
 }
 .fa:focus,
 .fa:hover {
     text-decoration: none;
-    color: #426C80;
+    color: #ccc;
 }
 .fa:before {
     width: 75px;
@@ -144,7 +145,7 @@ a.deco-none {
 }
 .artist {
     padding: 30px 30px 30px 30px;
-    background-color: rgba(80, 80, 80, 0.6);
+    background-color: rgba(80, 80, 80, 0.9);
     position: absolute;
     bottom: 0;
     width: 100%;    
