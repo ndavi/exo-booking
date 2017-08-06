@@ -35,11 +35,16 @@ li {
 }
 
 h3,
-h2,
+h2 {
+    color: #94b6c7;
+    font-family: Poppins, arial, verdana, sans-serif;
+}
+
 h2 > a,
 h1 > a {
     color: #94b6c7;
     font-family: Poppins, arial, verdana, sans-serif;
+    text-decoration: none;
 }
 
 a {
@@ -96,13 +101,6 @@ p {
 li .resp {
     width: 100%;
     list-style: none;
-}
-
-a.deco-none:hover,
-a.deco-none {
-    cursor: default!important;
-    color: #698B9C !important;
-    text-decoration: none;
 }
 
 .row-padding,
