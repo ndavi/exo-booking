@@ -162,6 +162,10 @@ a.deco-none {
     margin: 0 auto;
     width: 28px;
 }
+li.dropdown.open > ul > li > a {
+    color: #94b6c7;
+}
+
 .divider-black {
     position: relative; /* Brings the div above the header:after element */
     margin: 0 auto;
