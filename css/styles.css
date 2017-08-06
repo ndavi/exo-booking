@@ -21,7 +21,7 @@ h1 {
     display: inline-block;
     float: left;
     margin: 0;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #94b6c7;
 }
 
@@ -90,6 +90,7 @@ p {
 
 li .resp {
     width: 100%;
+    list-style-type: none;
 }
 
 a.deco-none:hover,
@@ -153,8 +154,10 @@ a.deco-none {
 
 .artist-bio > ul > li {
     color: #698B9C;
+    list-style-type: none;
     text-justify: inter-word;
     text-align: justify;
+    list-style-type: none;
 }
 
 .artist-container {
@@ -224,4 +227,9 @@ div.item > img {
     transform: translate(-50%, -50%);
     width: 100%;
     height: 40vh;
+}
+
+// Posts
+.post-content {
+    
 }
