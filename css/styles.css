@@ -49,6 +49,8 @@ a:visited {
 p {
     color: #bfbfbf;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .navbar-collapse {
@@ -64,7 +66,7 @@ p {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #479067;
+    background-color: #00c4ff;
 }
 
 .navbar-brand {
