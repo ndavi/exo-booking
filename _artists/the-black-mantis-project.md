@@ -1,5 +1,6 @@
 ---
 layout: artist
+categories: artist
 name:  "The black mantis project"
 images: # Images over 750px displays better
   - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/16938634_1570279869666085_769664628923153707_n.png?oh=04c607026c5f905d24a71d76255d772c&oe=59D29AF1
@@ -13,12 +14,6 @@ social:
    name: soundcloud
  - url: https://www.facebook.com/blackmantisproject
    name: facebook
- - url:
-   name: bandcamp
- - url:
-   name: spotify
- - url:
-   name: youtube
  - url: http://blackmantisproject.com
    name: site
 youtubevideo:
@@ -29,14 +24,12 @@ releases:
   - name: EP
   - name: Tetraktys (2017) - ODG
 events:
-  - date: 12/08
-    name: Psychobydub
-  - date: 21/10
-    name: Underground Bass Session #10
-categories: artist
+  - date:
+    name: soon
 ---
 
 ## Bio
+
 Le Black Mantis Project renaît de ses cendres...
 
 Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set instrumental. 

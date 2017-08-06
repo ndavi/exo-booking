@@ -1,5 +1,6 @@
 ---
 layout: artist
+categories: artist
 name:  "Brainless"
 images: # Images over 750px displays better
   - url: https://f4.bcbits.com/img/a1524275675_2.jpg
@@ -19,16 +20,19 @@ social:
    name: facebook
  - url: https://brainless-sound-system.bandcamp.com
    name: bandcamp
- - url:
-   name: spotify
- - url:
-   name: youtube
- - url:
-   name: site
-categories: artist
+releases:
+ - name: Human Machine (end 2015) (digital, cd)
+ - name: Dub Swap - Brainless meets Digitron EP (2017) - ODG (digital)
+ - name: Brainless meets Pureniceness Vol. 1 - Pure Niceness Records (digital, cd)
+events:
+  - date: 12/08
+    name: Psychobydub
+  - date: 21/10
+    name: Underground Bass Session #10
 ---
 
 ## Bio
+
 Brainless Sound System est un crew de la région Rhône-Alpes créé début 2012, composé de dubmakers, mcs, operators et boxmen. 
 
 Ce projet artistique est né d'une passion commune pour la musique dub et la culture soundsystem. 
@@ -37,12 +41,8 @@ Aujourd'hui armé d'une sono 4 scoops faite maison, le crew s'est lancé dans la
 
 La couleur musicale propagée par Brainless est résolument Dub, tout en s'influançant de musiques éclectiques.
 
-## Releases
- - Human Machine (end 2015) (digital, cd)
- - Dub Swap - Brainless meets Digitron EP (2017) - ODG (digital)
- - Brainless meets Pureniceness Vol. 1 - Pure Niceness Records (digital, cd)
+## Parutions / Remixes avec d’autres artistes :
 
-## Parution / Remixes avec d’autres artistes :
  - Ashkabad - International Skankers (digital)
  - Dub Invaders Vol. 3 - Part 4. - Jarring Effects (digital, cd, vinyl)
  - Rootikal Attack - Roots & Culture - Dixie Peach (vinyl, digital)
