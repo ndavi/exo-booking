@@ -147,21 +147,17 @@ li .resp {
 
 .fa:visited,
 .fa {
+    color: #afafaf;
     margin-top: 20px;
     font-size: 4rem !important;
     text-decoration: none;
-}
-.fa-facebook {
-    color: #3b5998;
-}
-.fa-soundcloud {
-    color: #ff5500;
 }
 .fa:focus,
 .fa:hover {
     text-decoration: none;
     color: #3E8914;
 }
+
 .fa:before {
     width: 75px;
     vertical-align: middle;
