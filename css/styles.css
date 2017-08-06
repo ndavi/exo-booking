@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-family: Poppins, arial, verdana, sans-serif;
-    color: #8BBF9F;
+    color: #96E072;
     font-size: 4rem;
 }
 
@@ -27,7 +27,7 @@ li {
     float: left;
     margin: 0;
     font-size: 4rem;
-    color: #8BBF9F;
+    color: #96E072;
 }
 
 .post {
@@ -36,13 +36,13 @@ li {
 
 h3,
 h2 {
-    color: #8BBF9F;
+    color: #96E072;
     font-family: Poppins, arial, verdana, sans-serif;
 }
 
 h2 > a,
 h1 > a {
-    color: #8BBF9F;
+    color: #96E072;
     font-family: Poppins, arial, verdana, sans-serif;
     text-decoration: none;
 }
@@ -123,12 +123,12 @@ li .resp {
     margin-top: 20px;
     font-size: 4rem !important;
     text-decoration: none;
-    color: #eee;
+    color: #3DA35D;
 }
 .fa:focus,
 .fa:hover {
     text-decoration: none;
-    color: #ccc;
+    color: #3E8914;
 }
 .fa:before {
     width: 75px;
