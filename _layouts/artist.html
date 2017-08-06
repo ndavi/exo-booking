@@ -37,6 +37,9 @@ layout: default
             </ul>
             <hr />
             <h3>Social</h3>
+            {{ page.social | last | size }}
+            {{ page.social | size }}
+            {{ page.social.index }}
             <div class="social col-md-{{ 12 / (page.social | last | size) }} col-xs-12">
                 {% for link in page.social %}
                     {% if link.url %}
