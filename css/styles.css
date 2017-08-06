@@ -1,8 +1,7 @@
 ---
 ---
 /**
- * https://coolors.co/818479-230903-dde0bd-c9c19f-aac0aa
- *
+ * https://coolors.co/818479-230903-dde0bd-c9c19f-e8e9f3
  */
 @media screen and (max-width: 1292px) {
     body > div > ul {
@@ -12,7 +11,7 @@
 
 h1 {
     font-family:  arial, verdana, sans-serif;
-    color: #E3D8F1;
+    color: #E8E9F3;
     padding-left: 200px;
     font-size: 5vw;
 }
@@ -23,7 +22,7 @@ h1 {
     float: left;
     margin: 0;
     font-size: 5vw;
-    color: #E3D8F1;
+    color: #E8E9F3;
 }
 
 h3,
@@ -145,6 +144,10 @@ a.deco-none {
 }
 .artist-bio {
     font-size: 2rem;
+}
+
+.artist-bio > ul > li {
+    color: #C9C19F;
 }
 
 .artist-container {
