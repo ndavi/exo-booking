@@ -127,9 +127,10 @@ li .resp {
 }
 
 .cta-book {
-    border-radius: 30px;
-    background-color: 0;
-    color: white;
+    border-radius: 30px !important;
+    background-color: 0 !important;
+    color: white !important;
+    opacity: 1 !important;
 }
 
 .fa:visited,
