@@ -142,7 +142,6 @@ li .resp {
 
 .artist > a:visited,
 .cta-book:hover {
-    color: white !important;
     border-color: transparent;
 }
 
