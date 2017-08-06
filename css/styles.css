@@ -130,12 +130,13 @@ li .resp {
 .cta-book {
     border-radius: 30px !important;
     border-color: white !important;
-    background-color: transparent!important;
+    background-image: white !important;
     opacity: 1 !important;
 }
 
+.cta-book:hover,
 .artist > a:hover {
-    color: #bfbfbf !important;
+    background-image: linear-gradient(to right, #3DA35D 51%, #96E072 100%);
 }
 
 .artist > a,
