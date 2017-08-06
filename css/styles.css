@@ -12,11 +12,11 @@
 h1 {
     font-family:  arial, verdana, sans-serif;
     color: #E8E9F3;
-    padding-left: 200px;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .artist > h1 {
+    padding-left: 200px;
     font-family:  arial, verdana, sans-serif;
     display: inline-block;
     float: left;
@@ -25,9 +25,13 @@ h1 {
     color: #E8E9F3;
 }
 
+.post {
+    background-color: #818479;
+}
+
 h3,
 h2 {
-    color: #818479;
+    color: #E8E9F3;
     font-family:  arial, verdana, sans-serif;
 }
 
