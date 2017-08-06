@@ -12,9 +12,18 @@
 
 h1 {
     font-family:  arial, verdana, sans-serif;
-    color: #818479;
+    color: #E3D8F1;
     padding-left: 200px;
     font-size: 5vw;
+}
+
+.artist > h1 {
+    font-family:  arial, verdana, sans-serif;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    font-size: 5vw;
+    color: #E3D8F1;
 }
 
 h3,
@@ -82,7 +91,7 @@ li .resp {
 a.deco-none:hover,
 a.deco-none {
     cursor: default!important;
-    color: #AAC0AA !important;
+    color: #C9C19F !important;
     text-decoration: none;
 }
 
@@ -105,12 +114,12 @@ a.deco-none {
     margin-left: 15px;
     font-size: 4rem !important;
     text-decoration: none;
-    color: #AAC0AA;
+    color: #C9C19F;
 }
 .fa:focus,
 .fa:hover {
     text-decoration: none;
-    color: #C9C19F;
+    color: #B9B1BF;
 }
 .fa:before {
     width: 75px;
@@ -130,13 +139,6 @@ a.deco-none {
     bottom: 0;
     width: 100%;    
 }
-.artist >h1 {
-    display: inline-block;
-    float: left;
-    margin: 0;
-    color: #230903;
-}
-
 .artist-actuality {
     background-color: #FFF;
     padding-bottom: 10px;
