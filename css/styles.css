@@ -129,7 +129,7 @@ li .resp {
 
 .cta-book {
     border-radius: 30px !important;
-    border-color: white !important;
+    border-color: white;
     background-image: white !important;
     opacity: 1 !important;
 }
