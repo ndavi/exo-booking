@@ -12,14 +12,14 @@
 
 h1 {
     font-family:  arial, verdana, sans-serif;
-    color: #DDE0BD;
+    color: #818479;
     padding-left: 200px;
     font-size: 5vw;
 }
 
 h3,
 h2 {
-    color: #DDE0BD;
+    color: #818479;
     font-family:  arial, verdana, sans-serif;
 }
 
@@ -28,7 +28,7 @@ a {
 }
 
 p {
-    color: #DDE0BD;
+    color: #818479;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
@@ -45,7 +45,7 @@ p {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #818479;
+    background-color: #DDE0BD;
 }
 
 .navbar-brand {
@@ -151,7 +151,7 @@ a.deco-none {
 
 .divider {
     position: relative; /* Brings the div above the header:after element */
-    background: #230903; /* Must be same as body */
+    background: #818479; /* Must be same as body */
     margin: 0 auto;
     width: 28px;
 }
@@ -172,11 +172,11 @@ a.deco-none {
     margin-top: -16px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
     height: 5px;
     width: 100%;
-    background-color: #230903;
+    background-color: #818479;
 }
 
 .divider-wrapper {
-    background-color: #230903;
+    background-color: #818479;
     margin: 0;
     padding: 0;
     height: 28px;
