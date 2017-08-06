@@ -38,7 +38,7 @@ layout: default
             <hr />
             <h3>Social</h3>
 <!--            {% assign test = 12 / {{ page.social | size }} %}-->
-            {% assign test = 12 | divided_by: {{ page.social | size }} %}
+            {% assign test = 12 | divided_by: {{ page.social }} %}
             <div class="social col-md-{{ test }} col-xs-12">
                 {% for link in page.social %}
                     {% if link.url %}
