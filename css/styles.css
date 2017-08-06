@@ -1,5 +1,6 @@
 ---
 ---
+// https://coolors.co/292929-3e8914-3da35d-96e072-ffffff
 @media screen and (max-width: 1292px) {
     body > div > ul {
         padding-right: 40px;
@@ -130,8 +131,12 @@ li .resp {
     border-radius: 30px !important;
     border-color: white !important;
     background-color: transparent!important;
-    color: white !important;
+    color: #bfbfbf !important;
     opacity: 1 !important;
+}
+
+.cta-book:hover {
+    color: white !important;
 }
 
 .fa:visited,
