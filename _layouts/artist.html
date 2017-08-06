@@ -21,31 +21,25 @@ layout: default
 <div class="col-xs-12 artist-container">
     <div class="col-xs-12 col-md-4">
         <div class="col-xs-12 artist-actuality">
-            <div>
-                <h3>Releases</h3>
-                <ul>
-                {% for release in page.releases %}
-                    <li>{{ release.name }}</li>
-                {% endfor %}
-                </ul>
-            </div>
-        </div>
-        <div class="social col-xs-12 col-md-3">
-            {% for link in page.social %}
-                {% if link.url %}
-                    <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>
-                {% endif %}
+            <h3>Releases</h3>
+            <ul>
+            {% for release in page.releases %}
+                <li>{{ release.name }}</li>
             {% endfor %}
-        </div>
-        <div class="col-xs-12 artist-actuality">
-            <div>
-                <h3>Upcoming events</h3>
-                <ul>
-                {% for event in page.events %}
-                    <li><span>{{ event.date }}</span> {{ event.name }}</li>
+            </ul>
+            <div class="social col-xs-12 col-md-3">
+                {% for link in page.social %}
+                    {% if link.url %}
+                        <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>
+                    {% endif %}
                 {% endfor %}
-                </ul>
             </div>
+            <h3>Upcoming events</h3>
+            <ul>
+            {% for event in page.events %}
+                <li><span>{{ event.date }}</span> {{ event.name }}</li>
+            {% endfor %}
+            </ul>
         </div>
     </div>
 
