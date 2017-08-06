@@ -136,6 +136,7 @@ li .resp {
 
 .cta-book:hover,
 .artist > a:hover {
+    border-color: transparent;
     background-image: linear-gradient(to right, #3DA35D 51%, #96E072 100%);
 }
 
