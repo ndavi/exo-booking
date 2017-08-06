@@ -1,7 +1,7 @@
 ---
 ---
 /**
- * https://coolors.co/818479-230903-dde0bd-c9c19f-e8e9f3
+ * http://paletton.com/palette.php?uid=52Z0u0klekGa%2BuVgmpqq9fCv-al
  */
 @media screen and (max-width: 1292px) {
     body > div > ul {
@@ -11,7 +11,7 @@
 
 h1 {
     font-family:  arial, verdana, sans-serif;
-    color: #E8E9F3;
+    color: #73B08E;
     font-size: 4rem;
 }
 
@@ -22,16 +22,16 @@ h1 {
     float: left;
     margin: 0;
     font-size: 5rem;
-    color: #E8E9F3;
+    color: #73B08E;
 }
 
 .post {
-    background-color: #3A2E39;
+    background-color: #698B9C;
 }
 
 h3,
 h2 {
-    color: #E8E9F3;
+    color: #73B08E;
     font-family:  arial, verdana, sans-serif;
 }
 
@@ -40,7 +40,7 @@ a {
 }
 
 p {
-    color: #3A2E39;
+    color: #698B9C;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
@@ -57,7 +57,7 @@ p {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #DDE0BD;
+    background-color: #479067;
 }
 
 .navbar-brand {
@@ -72,7 +72,7 @@ p {
 
 .navbar-fixed-top {
     height:  3.75rem;
-    background-color: #230903;
+    background-color: #013B1A;
 }
 
 .header-padding {
@@ -80,7 +80,7 @@ p {
 }
 
 body {
-    background-color: #230903;
+    background-color: #013B1A;
 }
 
 li .resp {
@@ -90,7 +90,7 @@ li .resp {
 a.deco-none:hover,
 a.deco-none {
     cursor: default!important;
-    color: #C9C19F !important;
+    color: #698B9C !important;
     text-decoration: none;
 }
 
@@ -113,12 +113,12 @@ a.deco-none {
     margin-left: 15px;
     font-size: 4rem !important;
     text-decoration: none;
-    color: #C9C19F;
+    color: #698B9C;
 }
 .fa:focus,
 .fa:hover {
     text-decoration: none;
-    color: #B9B1BF;
+    color: #426C80;
 }
 .fa:before {
     width: 75px;
@@ -147,7 +147,7 @@ a.deco-none {
 }
 
 .artist-bio > ul > li {
-    color: #C9C19F;
+    color: #698B9C;
 }
 
 .artist-container {
@@ -156,7 +156,7 @@ a.deco-none {
 
 .divider {
     position: relative; /* Brings the div above the header:after element */
-    background: #818479; /* Must be same as body */
+    background: #698B9C; /* Must be same as body */
     margin: 0 auto;
     width: 28px;
 }
@@ -177,11 +177,11 @@ a.deco-none {
     margin-top: -16px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
     height: 5px;
     width: 100%;
-    background-color: #818479;
+    background-color: #698B9C;
 }
 
 .divider-wrapper {
-    background-color: #818479;
+    background-color: #698B9C;
     margin: 0;
     padding: 0;
     height: 28px;
@@ -196,7 +196,6 @@ a.deco-none {
 #logo img {
   display: block;
 }
-
 
 // Gallery
 
