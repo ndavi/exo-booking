@@ -13,7 +13,7 @@ h1 {
     font-family:  arial, verdana, sans-serif;
     color: #E8E9F3;
     padding-left: 200px;
-    font-size: 5vw;
+    font-size: 5rem;
 }
 
 .artist > h1 {
@@ -21,7 +21,7 @@ h1 {
     display: inline-block;
     float: left;
     margin: 0;
-    font-size: 5vw;
+    font-size: 5rem;
     color: #E8E9F3;
 }
 
