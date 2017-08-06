@@ -181,7 +181,6 @@ a.deco-none {
     margin-top: -16px; /* Negative margin up by half height of logo + half total top and bottom padding around logo */
     height: 5px;
     width: 100%;
-    background-color: #698B9C;
 }
 
 .divider-wrapper {
