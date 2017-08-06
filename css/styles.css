@@ -17,7 +17,6 @@ h1 {
 }
 
 .artist > h1 {
-    padding-left: 200px;
     font-family:  arial, verdana, sans-serif;
     display: inline-block;
     float: left;
@@ -171,8 +170,8 @@ a.deco-none {
 .divider-black > img,
 .divider > img {
     display: block;
-    width: 28px;
-    opacity: 0.2;
+    width: 35px;
+    opacity: 0.8;
 }
 .divider-wrapper:after {
     content: '';
@@ -186,7 +185,7 @@ a.deco-none {
     background-color: #fff;
     margin: 0;
     padding: 0;
-    height: 28px;
+    height: 35px;
 }
 
 .divider-wrapper-black {
