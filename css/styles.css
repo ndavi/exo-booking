@@ -122,6 +122,10 @@ li .resp {
 .fa:first-child {
     margin-left: 0;
 }
+#myCarousel {
+    border-radius: 2px;
+}
+
 .fa:visited,
 .fa {
     margin-top: 20px;
@@ -151,10 +155,12 @@ li .resp {
     position: absolute;
     bottom: 0;
     width: 100%;    
+    border-radius: 2px;
 }
 .artist-actuality {
     background-color: #585858;
     padding-bottom: 10px;
+    border-radius: 2px;
 }
 .artist-bio {
     font-size: 2rem;
