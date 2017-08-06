@@ -11,17 +11,18 @@ body {
 }
 
 h1 {
-    font-family: "Poppins SemiBold", arial, verdana, sans-serif;
+    font-family: "Poppins-SemiBold", arial, verdana, sans-serif;
     color: #94b6c7;
     font-size: 4rem;
 }
 
 li {
     list-style: none;
+    font-family: "Open Sans", "Poppins sans-serif", "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
 .artist > h1 {
-    font-family: "Poppins SemiBold", arial, verdana, sans-serif;
+    font-family: "Poppins-SemiBold", arial, verdana, sans-serif;
     display: inline-block;
     float: left;
     margin: 0;
@@ -36,7 +37,7 @@ li {
 h3,
 h2 {
     color: #94b6c7;
-    font-family: "Poppins SemiBold", arial, verdana, sans-serif;
+    font-family: "Poppins-SemiBold", arial, verdana, sans-serif;
 }
 
 a {
