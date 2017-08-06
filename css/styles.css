@@ -17,6 +17,10 @@ h1 {
     font-size: 4rem;
 }
 
+hr {
+    color: #292929;
+}
+
 li > p,
 li {
     list-style: none;
