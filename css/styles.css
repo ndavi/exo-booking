@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: #292929;
+    background: linear-gradient(to bottom, #292929 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
 }
 
 h1 {
@@ -28,6 +29,7 @@ li {
     color: #bfbfbf;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 1.6rem;
 }
 
 .artist > h1 {
@@ -50,6 +52,8 @@ h2 {
 }
 
 h2 > a,
+h2 > a:visited,
+h1 > a:visited,
 h1 > a {
     color: #96E072;
     font-family: Poppins, arial, verdana, sans-serif;
@@ -70,6 +74,7 @@ p {
     font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 1.6rem;
 }
 
 .navbar-collapse {
@@ -187,7 +192,7 @@ li .resp {
     border-radius: 2px;
 }
 .artist-bio {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .artist-bio > ul > li {

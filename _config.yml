@@ -39,8 +39,8 @@ incremental:   false
 # Serving
 detach:        false
 port:          4000
-host:          steamsound.com
-url:           steamsound.com
+host:          localhost
+url:           localhost
 baseurl:       "" # does not include hostname
 show_dir_listing: false
 
