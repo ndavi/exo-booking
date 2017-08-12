@@ -188,6 +188,11 @@ li .resp {
     width: auto;
 }
 
+.album-name {
+    padding-top: 15px;
+    min-height: 150px;
+}
+
 .fa:visited,
 .fa {
     color: #afafaf;
