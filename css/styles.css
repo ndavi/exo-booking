@@ -154,9 +154,14 @@ li .resp {
 
 .social {
     margin-bottom: 15px;
-    text-align: center;
     display: flex;
 }
+
+.social,
+.contact-me {
+    text-align: center;
+}
+
 .fa:first-child {
     margin-left: 0;
 }
