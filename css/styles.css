@@ -368,7 +368,7 @@ textarea {
 }
 
 #containere {
-  border: solid 3px #474544;
+  border: solid 3px #afafab;
   max-width: 768px;
   margin: 60px auto;
   position: relative;
@@ -380,7 +380,7 @@ form {
 }
 
 .underline {
-  border-bottom: solid 2px #474544;
+  border-bottom: solid 2px #afafab;
   margin: -0.512em auto;
   width: 80px;
 }
@@ -392,7 +392,7 @@ form {
 
 .icon {
   display: block;
-  fill: #474544;
+  fill: #afafab;
   height: 50px;
   margin: 0 auto;
   width: 50px;
@@ -406,8 +406,8 @@ form {
 input[type='text'], [type='email'], select, textarea {
 	background: none;
   border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
+	border-bottom: solid 2px #afafab;
+	color: #afafab;
 	font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -468,27 +468,27 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
-	color: #474544;
+	color: #afafab;
 }
 
 :-moz-placeholder { 
-	color: #474544;
+	color: #afafab;
 	opacity: 1;
 }
 
 ::-moz-placeholder {
-	color: #474544;
+	color: #afafab;
 	opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: #474544;
+	color: #afafab;
 }
 
 #form_button {
   background: none;
-  border: solid 2px #474544;
-  color: #474544;
+  border: solid 2px #afafab;
+  color: #afafab;
   cursor: pointer;
   display: inline-block;
   font-family: 'Helvetica', Arial, sans-serif;
@@ -505,7 +505,7 @@ textarea {
 }
 
 #form_button:hover {
-  background: #474544;
+  background: #afafab;
   color: #F2F3EB;
 }
 
