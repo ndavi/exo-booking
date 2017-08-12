@@ -87,12 +87,19 @@ h1 > a {
 }
 
 a {
-    color: #bfbfbf;
+    color: #ddd;
     font-family: "Open Sans", "Poppins sans-serif", "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 a:hover,
-a:visited {
-    color: #afafaf
+a:focus {
+    background-color: #96e072;
+    color: #303030;
+    text-decoration: none;
+}
+
+a.exo {
+    background-color: transparent;
+    color: #ddd;
 }
 
 p {
