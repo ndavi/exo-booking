@@ -149,7 +149,6 @@ li .resp {
     padding-right: 0;
 }
 
-.album-name,
 .social {
     text-align: center;
     display: flex;
@@ -189,8 +188,12 @@ li .resp {
     padding: 0;
 }
 
-.front {
+.album-cover {
     height: 135px;
+}
+
+.front {
+    height: 100%;
     width: auto;
 }
 
