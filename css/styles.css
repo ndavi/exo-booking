@@ -183,7 +183,7 @@ li .resp {
    flex: 1;
 }
 
-.albums > div > a > img {
+.albums > div > div > a > img {
     height: 135px;
     width: auto;
 }
