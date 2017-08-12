@@ -150,6 +150,7 @@ li .resp {
 }
 
 .social {
+    margin-bottom: 15px;
     text-align: center;
     display: flex;
 }
@@ -178,8 +179,9 @@ li .resp {
     border-color: transparent;
 }
 
+.albums,
 .album-wrap {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .album-wrap,
