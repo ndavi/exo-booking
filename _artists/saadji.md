@@ -23,8 +23,6 @@ social:
    name: bandcamp
  - url: https://www.youtube.com/channel/UCFRsC091rZNjmqu8etyABeg/videos
    name: youtube
-youtubevideo:
-  - url: https://www.youtube.com/channel/UCwIMXueallR92oPm_ueeUTw
 releases:
   - name: Fraktal (summer ‘16)
   - name: Synkronism (rentrée ‘14)
@@ -42,3 +40,6 @@ Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set in
 Sur des rythmes numériques, Black Mantis fait danser en live les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri.
 
 Brassage d'influences et d'énergies, le projet prend toute sa dimension sur scène et dans le partage.
+
+{% youtube zZH69KUrIdI %}
+

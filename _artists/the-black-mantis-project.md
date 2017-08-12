@@ -16,8 +16,6 @@ social:
    name: facebook
  - url: http://blackmantisproject.com
    name: site
-youtubevideo:
-  - url: https://www.youtube.com/channel/UCwIMXueallR92oPm_ueeUTw
 releases:
   - name: Diversion EP 
   - name: Greenzone EP

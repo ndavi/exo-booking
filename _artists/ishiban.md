@@ -16,8 +16,6 @@ social:
    name: soundcloud
  - url: https://www.facebook.com/IshibanDub/
    name: facebook
-youtubevideo:
-  - url: https://www.youtube.com/channel/UCwIMXueallR92oPm_ueeUTw
 releases:
   - name: Soon
 events:
