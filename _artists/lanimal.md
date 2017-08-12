@@ -23,6 +23,8 @@ social:
    name: ulule
 releases:
   - name: First Enconter EP (CD & Digital)
+    url:
+    picture:
 events:
   - date: 19/07
     name: World Trance Open Air

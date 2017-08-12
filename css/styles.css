@@ -178,6 +178,7 @@ li .resp {
     border-color: transparent;
 }
 
+.albums,
 .social-item {
    flex: 1;
 }

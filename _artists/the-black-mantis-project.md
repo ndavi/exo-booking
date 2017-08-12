@@ -17,10 +17,18 @@ social:
  - url: http://blackmantisproject.com
    name: site
 releases:
-  - name: Diversion EP 
+  - name: Diversion EP
+    url:
+    picture:
   - name: Greenzone EP
+    url:
+    picture:
   - name: EP
+    url:
+    picture:
   - name: Tetraktys (2017) - ODG
+    url:
+    picture:
 events:
   - date:
     name: soon

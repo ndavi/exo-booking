@@ -25,7 +25,11 @@ social:
    name: youtube
 releases:
   - name: Fraktal (summer ‘16)
+    url:
+    picture:
   - name: Synkronism (rentrée ‘14)
+    url:
+    picture:
 events:
   - date:
     name: Soon

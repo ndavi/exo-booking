@@ -18,6 +18,8 @@ social:
    name: facebook
 releases:
   - name: Soon
+    url:
+    picture:
 events:
   - date:
     name: Soon

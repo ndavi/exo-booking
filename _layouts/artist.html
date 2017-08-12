@@ -22,11 +22,16 @@ layout: default
         <div class="col-xs-12 col-md-4">
             <div class="col-xs-12 artist-actuality">
                 <h3>Releases</h3>
-                <ul>
-                {% for release in page.releases %}
-                    <li>{{ release.name }}</li>
-                {% endfor %}
-                </ul>
+                <div class="albums col-md-12 col-xs-12">
+                    {% for release in page.releases %}
+                        <div class="col-md-6">
+                            <a href="{{ release.url }}">{{ release.picture }}</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="{{ release.url }}">{{ release.name }}</a>
+                        </div>
+                    {% endfor %}
+                </div>
                 <hr />
                 <h3>Upcoming events</h3>
                 <ul>
