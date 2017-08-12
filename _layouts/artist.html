@@ -28,7 +28,9 @@ layout: default
                             <a href="{{ release.url }}">
                                 <img class="front" src="{{ release.picture }}" />
                             </a>
-                            <a class="album-name" href="{{ release.url }}">{{ release.name }}</a>
+                        </div>
+                        <div class="col-md-6 album-name">
+                            <a href="{{ release.url }}">{{ release.name }}</a>
                         </div>
                     </div>
                     {% endfor %}
