@@ -181,7 +181,8 @@ li .resp {
 
 .albums,
 .social-item {
-   flex: 1;
+    flex: 1;
+    padding: 0;
 }
 
 .albums > div > div > a > img {
