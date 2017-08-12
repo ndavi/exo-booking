@@ -90,8 +90,9 @@ a {
     color: #ddd;
     font-family: "Open Sans", "Poppins sans-serif", "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-a:hover,
-a:focus {
+
+#navbarm > ul > li > a:hover,
+#navbarm > ul > li > a:focus {
     background-color: #96e072;
     color: #303030;
     text-decoration: none;
