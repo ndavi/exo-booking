@@ -31,7 +31,6 @@ Actuellement en train de produire sa première release (LP) prévue pour la fin 
 
 On peut deviner ses influences éclectiques à travers son côté novateur et “industriel”.
 
-## Show on Rinse FM : 
-https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617
+## Show on Rinse FM
 
 {% sc_player https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617 %}
