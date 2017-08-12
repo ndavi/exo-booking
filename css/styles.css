@@ -113,7 +113,7 @@ p {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #00c4ff;
+    background-color: #96E072;
 }
 
 .navbar-brand {
@@ -175,6 +175,10 @@ li .resp {
 .artist > a:visited,
 .cta-book:hover {
     border-color: transparent;
+}
+
+.social-item {
+   flex: 1;
 }
 
 .fa:visited,

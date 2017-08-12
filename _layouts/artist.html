@@ -40,7 +40,7 @@ layout: default
                 <div class="social col-md-12 col-xs-12">
                     {% for link in page.social %}
                         {% if link.url %}
-                            <div class="col-md-3 col-xs-3">
+                            <div class="social-item">
                                 <a class="fa fa-{{ link.name }}" href="{{ link.url }}"></a>
                             </div>
                         {% endif %}
