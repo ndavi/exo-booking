@@ -189,14 +189,7 @@ li .resp {
 }
 
 .album-name {
-    padding-top: 15px;
     min-height: 150px;
-}
-
-.valign-album {
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
 }
 
 .fa:visited,
