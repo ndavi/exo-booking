@@ -184,13 +184,19 @@ li .resp {
 }
 
 .albums > div > a > img {
-    height: 150px;
+    height: 135px;
     width: auto;
 }
 
 .album-name {
     padding-top: 15px;
     min-height: 150px;
+}
+
+.valign-album {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
 }
 
 .fa:visited,
