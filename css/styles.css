@@ -98,7 +98,7 @@ a {
     text-decoration: none;
 }
 
-a.exo {
+a.exo:hover {
     background-color: transparent;
     color: #ddd;
 }
