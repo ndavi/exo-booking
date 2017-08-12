@@ -149,6 +149,7 @@ li .resp {
     padding-right: 0;
 }
 
+.album-name,
 .social {
     text-align: center;
     display: flex;
@@ -186,10 +187,6 @@ li .resp {
 .albums > div > div > a > img {
     height: 135px;
     width: auto;
-}
-
-.album-name {
-    min-height: 150px;
 }
 
 .fa:visited,
