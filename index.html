@@ -30,7 +30,7 @@ tagline: sample test
         <div class="col-sm-12">
             <h3>Derniers articles</h3>
             <div class="row row-padding">
-                <div class="col-md-3 post row-no-padding">
+                <div class="col-md-3 post">
                     {% for post in site.posts limit:1 offset:1 %}
                         {% assign image = post.images[0] %}
                         {% include image.html image=image url=post.url %}
@@ -38,7 +38,7 @@ tagline: sample test
                         <p>{{ post.excerpt }}</p>
                     {% endfor %}
                 </div>
-                <div class="col-md-3 post row-no-padding"><!-- i.e. playlists -->
+                <div class="col-md-3 post">
                     {% for post in site.posts limit:1 offset:2 %}
                         {% assign image = post.images[0] %}
                         {% include image.html image=image %}
@@ -46,7 +46,7 @@ tagline: sample test
                         <p>{{ post.excerpt }}</p>
                     {% endfor %}
                 </div>
-                <div class="col-md-3 post row-no-padding"><!-- i.e. interviews -->
+                <div class="col-md-3 post">
                     {% for post in site.posts limit:1 offset:3 %}
                         {% assign image = post.images[0] %}
                         {% include image.html image=image %}
@@ -54,7 +54,7 @@ tagline: sample test
                         <p>{{ post.excerpt }}</p>
                     {% endfor %}
                 </div>
-                <div class="col-md-3 post row-padding">
+                <div class="col-md-3 post">
                     {% for post in site.posts limit:1 offset:4 %}
                         {% assign image = post.images[0] %}
                         {% include image.html image=image %}
