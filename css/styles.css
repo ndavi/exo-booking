@@ -160,10 +160,6 @@ li .resp {
     border-radius: 2px;
 }
 
-.prev-next {
-    background-color: #585858;
-}
-
 .cta-book {
     border-radius: 30px !important;
     border-color: white;
@@ -248,6 +244,7 @@ li .resp {
 
 .artist-container {
     margin-top: 25px;
+    padding: 0;
 }
 
 .divider {
