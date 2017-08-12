@@ -179,6 +179,10 @@ li .resp {
     border-color: transparent;
 }
 
+.album-wrap {
+    padding-bottom: 15px;
+}
+
 .albums,
 .social-item {
     flex: 1;

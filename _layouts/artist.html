@@ -24,8 +24,7 @@ layout: default
                 <h3>Releases</h3>
                 <div class="albums col-md-12 col-xs-12">
                     {% for release in page.releases %}
-                    <div class="col-md-12 col-xs-12">
-                        <div class="col-md-6 album-name">
+                    <div class="col-md-12 col-xs-12 album-wrap">                           <div class="col-md-6 album-name">
                             <a href="{{ release.url }}"><img src="{{ release.picture }}" /></a>
                         </div>
                         <div class="col-md-6 album-name">
