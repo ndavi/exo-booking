@@ -183,6 +183,11 @@ li .resp {
    flex: 1;
 }
 
+.albums > div > a > img {
+    height: 150px;
+    width: auto;
+}
+
 .fa:visited,
 .fa {
     color: #afafaf;

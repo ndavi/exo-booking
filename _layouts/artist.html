@@ -24,10 +24,10 @@ layout: default
                 <h3>Releases</h3>
                 <div class="albums col-md-12 col-xs-12">
                     {% for release in page.releases %}
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <a href="{{ release.url }}"><img src="{{ release.picture }}" /></a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <a href="{{ release.url }}">{{ release.name }}</a>
                         </div>
                     {% endfor %}
