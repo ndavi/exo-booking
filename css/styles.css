@@ -183,13 +183,13 @@ li .resp {
     padding-bottom: 15px;
 }
 
-.albums,
+.album-wrap,
 .social-item {
     flex: 1;
     padding: 0;
 }
 
-.albums > div > div > a > img {
+.front {
     height: 135px;
     width: auto;
 }
