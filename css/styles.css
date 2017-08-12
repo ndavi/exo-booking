@@ -116,6 +116,7 @@ p {
 
 .navbar {
     margin-bottom: 0px;
+    border-bottom: 1px solid #96e072;
 }
 
 .navbar-toggle .icon-bar {
