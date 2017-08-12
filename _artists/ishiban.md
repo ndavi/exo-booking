@@ -33,3 +33,11 @@ On peut deviner ses influences éclectiques à travers son côté novateur et �
 
 ## Show on Rinse FM : 
 https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617
+
+{% soundcloud_sound https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617 %}
+
+{% soundcloud_sound https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617 html5 %}
+
+{% soundcloud_sound https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617 mini %}
+
+{% soundcloud_sound https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617 artwork %}

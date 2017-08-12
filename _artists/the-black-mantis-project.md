@@ -36,4 +36,5 @@ Sur des rythmes numériques, Black Mantis fait danser en live les sonorités ori
 
 Brassage d'influences et d'énergies, le projet prend toute sa dimension sur scène et dans le partage.
 
+
 {% youtube zZH69KUrIdI %}
