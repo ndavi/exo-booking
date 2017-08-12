@@ -41,6 +41,9 @@ h1 {
 hr {
     border-top: 1px solid #292929;
 }
+.hrr {
+    margin: 0;
+}
 
 li > p,
 li {
