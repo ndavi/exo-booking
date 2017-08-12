@@ -41,7 +41,9 @@ Aujourd'hui armé d'une sono 4 scoops faite maison, le crew s'est lancé dans la
 
 La couleur musicale propagée par Brainless est résolument Dub, tout en s'influançant de musiques éclectiques.
 
-## Parutions / Remixes avec d’autres artistes :
+***
+
+## Parutions / Remixes avec d’autres artistes
 
  - Ashkabad - International Skankers (digital)
  - Dub Invaders Vol. 3 - Part 4. - Jarring Effects (digital, cd, vinyl)
