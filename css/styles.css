@@ -151,12 +151,17 @@ li .resp {
 
 .social {
     text-align: center;
+    display: flex;
 }
 .fa:first-child {
     margin-left: 0;
 }
 #myCarousel {
     border-radius: 2px;
+}
+
+.prev-next {
+    background-color: #585858;
 }
 
 .cta-book {
