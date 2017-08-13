@@ -2,52 +2,44 @@
 
 <html lang="en">
     <head>
-<style media="screen" type="text/css">
+        <style media="screen" type="text/css">
+            .grid {
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              grid-template-rows: 100px 100px;
+              grid-gap: 10px;
+            }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100px 100px;
-  grid-gap: 10px;
-}
+            .grid2 {
+              grid-auto-flow: column;
+            }
 
-.grid2 {
-  grid-auto-flow: column;
-}
+            body {
+              padding: 20px;
+            }
 
-body {
-  padding: 20px;
-}
-
-h2 {
-  margin-bottom: 1em;
-}
-</style>
-        
+            h2 {
+              margin-bottom: 1em;
+            }
+        </style>        
     </head>
     <body>
         <h2><code>grid-auto-flow: row;</code></h2>
         <p> The auto-placement algorithm places items by filling each row in turn</p>
 
         <section class="grid">
-          <div class="item">item1</div>
-          <div class="item">item2</div>  
-          <div class="item">item3</div>
-          <div class="item">item4</div>  
-          <div class="item">item5</div>
-          <div class="item">item6</div>
+            {% for artist in page.artists %}
+                <div class="item">{{ artist.name }}</div>
+            {% endfor %}
         </section>
 
         <h2><code>grid-auto-flow: column;</code></h2>
         <p> The auto-placement algorithm places items by filling each column in turn</p>
 
         <section class="grid grid2">
-          <div class="item">item1</div>
-          <div class="item">item2</div>  
-          <div class="item">item3</div>
-          <div class="item">item4</div>  
-          <div class="item">item5</div>
-          <div class="item">item6</div>
+            {% for artist in page.artists %}
+                <div class="item">{{ artist.name }}</div>
+            {% endfor %}
         </section>
 
     </body>
