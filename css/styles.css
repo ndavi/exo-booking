@@ -137,13 +137,13 @@ p {
 }
 
 .navbar-brand {
-  padding: 0px;
+    padding: 0px;
 }
 
 .navbar-brand > img {
-  height: 100%;
-  padding: 15px;
-  width: auto;
+    padding: 5px 0px 5px 15px;
+    opacity: 0.55;
+    width: auto;
 }
 
 .navbar-fixed-top {
