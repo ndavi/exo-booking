@@ -32,6 +32,12 @@
             
             .artist-picture{
                 width: 100%;
+                height: calc(100% / 3);
+            }
+            
+            .artist-picture img {
+                width: 100%;
+                height: 100%;
             }
         </style>        
     </head>
@@ -43,7 +49,7 @@
             {% for artist in site.artists %}
                 <div class="item artist">
                     <div class="artist-picture">
-                        <img src="{{ artist.images[0]url }}" />
+                        <img src="{{ artist.images[0].url }}" />
                      </div>
                     <div class="artist-bio">{{ artist.name }}</div>
                 </div>
