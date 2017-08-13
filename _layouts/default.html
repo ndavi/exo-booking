@@ -21,6 +21,18 @@
             h2 {
               margin-bottom: 1em;
             }
+            
+            .artist {
+                
+            }
+            
+            .artist-bio {
+                width: 100%;
+            }
+            
+            .artist-picture{
+                width: 100%;
+            }
         </style>        
     </head>
     <body>
@@ -29,7 +41,10 @@
 
         <section class="grid">
             {% for artist in site.artists %}
-                <div class="item">{{ artist.name }}</div>
+                <div class="item artist">
+                    <div class="artist-picture" style="background-image: {{ artist.images[0].url }}"></div>
+                    <div class="artist-bio">{{ artist.name }}</div>
+                </div>
             {% endfor %}
         </section>
 
