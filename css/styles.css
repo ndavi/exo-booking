@@ -204,10 +204,6 @@ li .resp {
     border-color: transparent;
 }
 
-.album-wrap {
-    margin-bottom: 15px;
-}
-
 .album-wrap,
 .social-item {
     flex: 1;
