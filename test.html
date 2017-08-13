@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h2><code>grid-auto-flow: row;</code></h2>
+<p> The auto-placement algorithm places items by filling each row in turn</p>
+
+<section class="grid">
+    {% for artist in site.artists %}
+        <div class="item">item{{ artist.index }}</div>
+    {% endfor %}
+</section>
+
+<h2><code>grid-auto-flow: column;</code></h2>
+<p> The auto-placement algorithm places items by filling each column in turn</p>
+
+<section class="grid grid2">
+    {% for artist in site.artists %}
+        <div class="item">item{{ artist.index }}</div>
+    {% endfor %}
+</section>
