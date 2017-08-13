@@ -24,7 +24,7 @@ social:
 releases:
   - name: First Enconter EP (CD & Digital)
     url:
-    picture:
+    picture: https://i1.sndcdn.com/avatars-000225320668-gmqdqi-t500x500.jpg
 events:
   - date: 19/07
     name: World Trance Open Air
@@ -36,3 +36,8 @@ Après dix ans de batterie dans un environnement Metal, il développe sa passion
 Adepte des Free Party, il joue et participe à l’organisation de soirées avec les crew SALT1BANK et POWOW.
 
 Depuis deux ans, armé de ses claviers, il écume les salles lyonnaises et les festivals de sa région. Lanimal offre un live Techno / Trance Prog aux basses entraînantes accompagnés de mélodies aériennes et orientales.
+
+***
+
+{% youtube NT-yEjRL2Ps %}
+

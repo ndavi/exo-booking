@@ -25,11 +25,11 @@ social:
    name: youtube
 releases:
   - name: Fraktal (summer ‘16)
-    url:
-    picture:
+    url: https://saadji.bandcamp.com/album/fraktal
+    picture: https://f4.bcbits.com/img/a2936353322_2.jpg
   - name: Synkronism (rentrée ‘14)
-    url:
-    picture:
+    url: https://soundcloud.com/saadji/sets/synkronism
+    picture: https://i1.sndcdn.com/artworks-000106363566-qxxng3-t500x500.jpg
 events:
   - date:
     name: Soon
@@ -37,6 +37,7 @@ categories: artist
 ---
 
 ## Bio
+
 Le Black Mantis Project renaît de ses cendres...
 
 Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set instrumental. 
@@ -44,3 +45,7 @@ Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set in
 Sur des rythmes numériques, Black Mantis fait danser en live les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri.
 
 Brassage d'influences et d'énergies, le projet prend toute sa dimension sur scène et dans le partage.
+
+***
+
+{% youtube 89CTsDpqVO4 %}

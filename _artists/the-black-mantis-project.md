@@ -18,24 +18,23 @@ social:
    name: site
 releases:
   - name: Diversion EP
-    url:
-    picture:
+    url: https://blackmantisproject.bandcamp.com/album/diversion-ep
+    picture: https://f4.bcbits.com/img/a1573991715_2.jpg
   - name: Greenzone EP
-    url:
-    picture:
+    url: https://blackmantisproject.bandcamp.com/album/greenzone-ep
+    picture: https://f4.bcbits.com/img/a3360616958_2.jpg
   - name: EP
-    url:
-    picture:
+    url: https://blackmantisproject.bandcamp.com/album/ep
+    picture: https://f4.bcbits.com/img/a4191938167_2.jpg
   - name: Tetraktys (2017) - ODG
-    url:
-    picture:
+    url: https://blackmantisproject.bandcamp.com/album/tetraktys
+    picture: https://f4.bcbits.com/img/a2552997919_2.jpg
 events:
   - date:
     name: soon
 ---
 
 ## Bio
-
 Le Black Mantis Project renaît de ses cendres...
 
 Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set instrumental. 
