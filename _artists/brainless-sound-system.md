@@ -51,9 +51,9 @@ La couleur musicale propagée par Brainless est résolument Dub, tout en s'influ
 
 ## Parutions / Remixes avec d’autres artistes
 
- - Ashkabad - International Skankers (digital)
- - Dub Invaders Vol. 3 - Part 4. - Jarring Effects (digital, cd, vinyl)
- - Rootikal Attack - Roots & Culture - Dixie Peach (vinyl, digital)
+ * Ashkabad - International Skankers (digital)
+ * Dub Invaders Vol. 3 - Part 4. - Jarring Effects (digital, cd, vinyl)
+ * Rootikal Attack - Roots & Culture - Dixie Peach (vinyl, digital)
 
 ***
 

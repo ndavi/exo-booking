@@ -218,11 +218,6 @@ li .resp {
     height: 135px;
 }
 
-.front {
-    height: 135px;
-    width: auto;
-}
-
 .fa:visited,
 .fa {
     color: #afafaf;
@@ -274,13 +269,6 @@ li .resp {
 }
 .artist-bio {
     font-size: 1.6rem;
-}
-
-.artist-bio > ul > li {
-    color: #698B9C;
-    list-style: none;
-    text-justify: inter-word;
-    text-align: justify;
 }
 
 .artist-container {
