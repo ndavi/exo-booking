@@ -21,6 +21,10 @@ html {
     padding: 0;
 }
 
+.header-artist{
+    margin-right: 0px !important; 
+}
+
 .exo {
     padding: 17px 30px 0 80px !important;
     text-transform: uppercase;
