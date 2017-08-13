@@ -28,7 +28,7 @@
         <p> The auto-placement algorithm places items by filling each row in turn</p>
 
         <section class="grid">
-            {% for artist in page.artists %}
+            {% for artist in site.artists %}
                 <div class="item">{{ artist.name }}</div>
             {% endfor %}
         </section>
@@ -37,7 +37,7 @@
         <p> The auto-placement algorithm places items by filling each column in turn</p>
 
         <section class="grid grid2">
-            {% for artist in page.artists %}
+            {% for artist in site.artists %}
                 <div class="item">{{ artist.name }}</div>
             {% endfor %}
         </section>
