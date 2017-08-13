@@ -21,7 +21,7 @@ layout: default
     <div class="artist-container">
         <div class="col-xs-12 col-md-4">
             <div class="col-xs-12 artist-actuality">
-                {% if page.releases %}
+                {% if page.releases[0].name %}
                     <h3>Releases</h3>
                     <div class="albums col-md-12 col-xs-12">
                         {% for release in page.releases %}
