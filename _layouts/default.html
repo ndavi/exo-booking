@@ -2,25 +2,18 @@
 
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <h2><code>grid-auto-flow: row;</code></h2>
-        <p> The auto-placement algorithm places items by filling each row in turn</p>
-
         <section class="grid">
-            {% for artist in site.artists %}
-                <div class="item">item{{ forloop.index }}</div>
-            {% endfor %}
-        </section>
-
-        <h2><code>grid-auto-flow: column;</code></h2>
-        <p> The auto-placement algorithm places items by filling each column in turn</p>
-
-        <section class="grid grid2">
-            {% for artist in site.artists %}
-                <div class="item">item{{ forloop.index }}</div>
-            {% endfor %}
+          <div class="item">item1</div>
+          <div class="item">item2</div>  
+          <div class="item">item3</div>
+          <div class="item">item4</div>
+          <div class="item">item5</div>
+          <div class="item">item6</div>  
+          <div class="item">item7</div>
+          <div class="item">item8</div>
         </section>
     </body>
 </html>
