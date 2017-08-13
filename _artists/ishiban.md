@@ -17,7 +17,7 @@ social:
  - url: https://www.facebook.com/IshibanDub/
    name: facebook
 releases:
-  - name: Soon
+  - name:
     url:
     picture:
 events:
