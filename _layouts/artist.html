@@ -21,24 +21,26 @@ layout: default
     <div class="artist-container">
         <div class="col-xs-12 col-md-4">
             <div class="col-xs-12 artist-actuality">
-                <h3>Releases</h3>
-                <div class="albums col-md-12 col-xs-12">
-                    {% for release in page.releases %}
-                    <div class="col-md-12 album-wrap">
-                        <div class="col-md-6 col-xs-12 album-cover">
-                            <a href="{{ release.url }}">
-                                <img class="front img-responsive" src="{{ release.picture }}" />
-                            </a>
+                {% if page.releases %}
+                    <h3>Releases</h3>
+                    <div class="albums col-md-12 col-xs-12">
+                        {% for release in page.releases %}
+                        <div class="col-md-12 album-wrap">
+                            <div class="col-md-6 col-xs-12 album-cover">
+                                <a href="{{ release.url }}">
+                                    <img class="front img-responsive" src="{{ release.picture }}" />
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-xs-12 album-name">
+                                <a class="album-link" href="{{ release.url }}">{{ release.name }}</a>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-xs-12 album-name">
-                            <a class="album-link" href="{{ release.url }}">{{ release.name }}</a>
-                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
-                </div>
-                <div class="col-md-12 col-xs-12 hrr">
-                    <hr />
-                </div>
+                    <div class="col-md-12 col-xs-12 hrr">
+                        <hr />
+                    </div>
+                {% endif %}
                 <h3>Upcoming events</h3>
                 <ul>
                 {% for event in page.events %}
