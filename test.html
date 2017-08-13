@@ -7,7 +7,7 @@ layout: default
 
 <section class="grid">
     {% for artist in site.artists %}
-        <div class="item">item{{ artist.index }}</div>
+        <div class="item">item{{ forloop.index }}</div>
     {% endfor %}
 </section>
 
@@ -16,6 +16,6 @@ layout: default
 
 <section class="grid grid2">
     {% for artist in site.artists %}
-        <div class="item">item{{ artist.index }}</div>
+        <div class="item">item{{ forloop.index }}</div>
     {% endfor %}
 </section>
