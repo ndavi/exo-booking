@@ -22,7 +22,7 @@ html {
 }
 
 .header-artist{
-    margin-right: 0px !important; 
+    margin: 0 0 15px 0; 
 }
 
 .exo {
@@ -274,10 +274,6 @@ li .resp {
 }
 .artist-bio {
     font-size: 1.6rem;
-}
-
-.artist-container {
-    margin-top: 25px;
 }
 
 .divider {
