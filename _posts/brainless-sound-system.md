@@ -1,6 +1,6 @@
 ---
 layout: default
-categories: post
+categories: posts
 name:  "Brainless"
 images: # Images over 750px displays better
   - url: https://f4.bcbits.com/img/a1524275675_2.jpg
