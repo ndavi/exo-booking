@@ -31,10 +31,10 @@
   background-repeat: no-repeat;
 }
 
-exo,
+.exo,
 h1 {
   font-family: Poppins;
-  font-size: 2rem !important;
+  font-size: 2rem;
   min-height: 3vh;
 }
 
