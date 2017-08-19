@@ -1,19 +1,9 @@
 // Par Oznog, trucsweg.com
 // http://trucsweb.com/tutoriels/javascript/defilement_doux
 document.addEventListener('DOMContentLoaded', function() {
-  var aLiens = document.querySelectorAll('#scrollButton');
-
-  for(var i=0, len = aLiens.length; i<len; i++) {
-    console.log(i);
+  for(var i=0, len = document.querySelectorAll('#scrollButton').length; i<len; i++) {
     aLiens[i].onclick = function () {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = this.getAttribute("href").slice(1);
-        console.log(target);
-        if (target.length) {
           scrollTo(document.getElementById(target).offsetTop, 1000);
-          return false;
-        }
-      }
     };
   }
 });
