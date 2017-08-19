@@ -1,18 +1,9 @@
 // Par Oznog, trucsweg.com
 // http://trucsweb.com/tutoriels/javascript/defilement_doux
 document.addEventListener('DOMContentLoaded', function() {
-  var aLiens = document.querySelectorAll('#scrollButton');
-
-  for(var i=0, len = aLiens.length; i<len; i++) {
-    aLiens[i].onclick = function () {
-      var target = this.getAttribute("href").slice(1);
-
-      if (target.length) {
-        scrollTo(document.getElementById(target).offsetTop, 1000);
-        return false;
-      }
+    document.querySelector('#scrollButton').onclick = function () {
+        scrollTo(document.getElementById(this.getAttribute("href").slice(1)).offsetTop, 1000);
     };
-  }
 });
 //Exemple de : Forestrf
 // http://jsfiddle.net/forestrf/tPQSv/2/
