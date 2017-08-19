@@ -1,7 +1,7 @@
 // Par Oznog, trucsweg.com
 // http://trucsweb.com/tutoriels/javascript/defilement_doux
 document.addEventListener('DOMContentLoaded', function() {
-  var aLiens = document.querySelectorAll('a[href*="#"]');
+  var aLiens = document.querySelectorAll('#scrollButton');
 
   for(var i=0, len = aLiens.length; i<len; i++) {
     console.log(i);
