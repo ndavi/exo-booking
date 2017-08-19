@@ -16,14 +16,14 @@
     </head>
     <body>
         <section class="grid">
-            {% for artist in site.artists %}
+            {% for artist in site.posts %}
                 <div class="item artist">
                     <div class="artist-picture">
                         <img src="{{ artist.images[0].url }}" />
                      </div>
                     <div class="artist-bio">
-                      <h1>{{ post.name }}</h1>
-                      <p>{{ post.excerpt }}<p>
+                      <h1>{{ artist.name }}</h1>
+                      <p>{{ artist.excerpt }}<p>
                     </div>
                 </div>
             {% endfor %}
