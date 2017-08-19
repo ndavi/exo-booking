@@ -191,16 +191,6 @@ p {
     display: table;
 }
 
-&.in-transition {
-  transition: transform 900ms ease;
-}
-
-body {
-  &.in-transition {
-    transition: transform 900ms ease;
-  }
-}
-
 h2 {
   margin-bottom: 1em;
 }
@@ -226,9 +216,6 @@ h2 {
   background-image: linear-gradient(to top, white 0%, #5d4157 100%);
   display: flex;
   align-items: center;
-  &.in-transition {
-    transition: transform 900ms ease;
-  }
 }
 
 .exo-welcome img {
