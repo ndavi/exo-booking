@@ -35,7 +35,6 @@
 
             .artist-picture{
                 width: 100%;
-                height: calc(100% / 3);
             }
 
             .artist-picture img {
@@ -52,7 +51,7 @@
                      </div>
                     <div class="artist-bio">
                       <h1>{{ artist.name }}</h1>
-                      <p>{{ artist.excerpt }}</p>
+                      <p>{{ artist.content | strip_html | truncatewords:35 }}</p>
                     </div>
                 </div>
             {% endfor %}
