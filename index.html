@@ -4,65 +4,16 @@ title: Exo booking
 tagline: sample test
 ---
 
-<div class="wrapper container">
-    <div class="row">
-        <div class="col-sm-12">
-            <h3>À la une</h3>
-            <div class="row">
-                <div class="col-md-12 post row-padding">
-                    {% for post in site.posts limit:1 %}
-                        <div class="col-md-8 row-padding">
-                          {% assign image = post.images[0] %}
-                          {% include image.html image=image url=post.url %}
-                        </div>
-                        <div class="col-md-4">
-                            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                            <p>{{ post.excerpt }}</p>
-                        </div>
-                    {% endfor %}
-                </div>
+<section class="grid">
+    {% for artist in site.artists %}
+        <div class="item artist">
+            <div class="artist-picture">
+                <img src="{{ artist.images[0].url }}" />
+             </div>
+            <div class="artist-bio">
+              <h1>{{ artist.name }}</h1>
+              <p>{{ artist.excerpt }}<p>
             </div>
         </div>
-    </div>
-</div>
-<div class="wrapper container">
-    <div class="row">
-        <div class="col-sm-12">
-            <h3>Derniers articles</h3>
-            <div class="row row-padding">
-                <div class="col-md-3 post">
-                    {% for post in site.posts limit:1 offset:1 %}
-                        {% assign image = post.images[0] %}
-                        {% include image.html image=image url=post.url %}
-                        <h2><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-                        <p>{{ post.excerpt }}</p>
-                    {% endfor %}
-                </div>
-                <div class="col-md-3 post">
-                    {% for post in site.posts limit:1 offset:2 %}
-                        {% assign image = post.images[0] %}
-                        {% include image.html image=image %}
-                        <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-                        <p>{{ post.excerpt }}</p>
-                    {% endfor %}
-                </div>
-                <div class="col-md-3 post">
-                    {% for post in site.posts limit:1 offset:3 %}
-                        {% assign image = post.images[0] %}
-                        {% include image.html image=image %}
-                        <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-                        <p>{{ post.excerpt }}</p>
-                    {% endfor %}
-                </div>
-                <div class="col-md-3 post">
-                    {% for post in site.posts limit:1 offset:4 %}
-                        {% assign image = post.images[0] %}
-                        {% include image.html image=image %}
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <p>{{ post.excerpt }}</p>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    {% endfor %}
+</section>

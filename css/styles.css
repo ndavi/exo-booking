@@ -2,11 +2,14 @@
 ---
 // grid
 
+* {
+  margin: 0; padding: 0
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100px 100px;
-  /*grid-gap: 10px;*/
+  min-height: 100vh;
 }
 
 .grid2 {
@@ -19,4 +22,20 @@ body {
 
 h2 {
   margin-bottom: 1em;
+}
+
+.artist {
+
+}
+
+.artist-bio {
+    padding: 30px 30px 120px;
+}
+
+.artist-picture{
+    width: 100%;
+}
+
+.artist-picture img {
+    width: 100%;
 }
