@@ -18,7 +18,7 @@ function getPageScroll() {
 
 button.addEventListener('click', function (event) {
 
-  targetOffset = document.getElementById(event.target.hash.substr(1)).offsetTop;
+  targetOffset = document.getElementById(event.artistgrid.hash.substr(1)).offsetTop;
   currentPosition = getPageScroll();
 
   body.classList.add('in-transition');
