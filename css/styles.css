@@ -82,6 +82,17 @@ p {
     clear: both;
 }
 
+.navbar-custom.top-nav-collapse .navbar-header {
+    background: #000;
+    background: rgba(0,0,0,.25);
+}
+
+.navbar-custom .navbar-header {
+  -webkit-transition: background .25s ease;
+  -o-transition: background .25s ease;
+  transition: background .25s ease;
+}
+
 .navbar:after, .navbar:before {
     content: " ";
     display: table;
