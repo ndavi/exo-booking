@@ -51,7 +51,7 @@
                      </div>
                     <div class="artist-bio">
                       <h1>{{ artist.name }}</h1>
-                      {{ artist.content | strip_html | truncatewords:35 }}
+                      {{ post.content }}
                     </div>
                 </div>
             {% endfor %}
