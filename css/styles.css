@@ -191,10 +191,8 @@ p {
     display: table;
 }
 
-body {
-  &.in-transition {
-    transition: transform 900ms ease;
-  }
+&.in-transition {
+  transition: transform 900ms ease;
 }
 
 h2 {
