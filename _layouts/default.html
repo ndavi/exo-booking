@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:Semi-Bold">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/scrollspy.min.js"></script>
   </head>
-    <body>
+    <body data-spy="scroll" data-target=".exo-welcome" data-offset="50">
       <nav class="navbar navbar-default navbar-custom navbar-fixed-top top-nav-collapse">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -35,10 +35,10 @@
         </div><!--/.nav-collapse -->
       </nav>
       <div class="exo-welcome">
+        <a href="#artistgrid">Section 1</a>
         <img src="img/exo-booking-square-white.png" />
-        <a href="#artist_grid">Section 1</a>
       </div>
-      <section class="artist_grid">
+      <section id="artistgrid" class="artist_grid">
         <div class="row grid">
           <!-- <div class="grid-sizer col-xs-6 col-md-3"></div> -->
           {% for artist in site.posts %}
