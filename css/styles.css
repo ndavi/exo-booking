@@ -115,6 +115,39 @@ p {
     background: #E3E3E3;
 }
 
+custom.top-nav-collapse .navbar-toggle.lines-button:hover {
+    opacity: 1;
+}
+
+.navbar-custom.top-nav-collapse .navbar-toggle.lines-button {
+    -webkit-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media (max-width: 767px)
+main-d85c03dd81.css:1074
+.navbar-custom .navbar-toggle.lines-button:focus, .navbar-custom .navbar-toggle.lines-button:hover {
+    opacity: 1;
+}
+
+.navbar-custom .navbar-toggle.lines-button:focus, .navbar-custom .navbar-toggle.lines-button:hover {
+    opacity: 1;
+}
+@media (max-width: 767px)
+main-d85c03dd81.css:1345
+.navbar-custom.top-nav-collapse .navbar-toggle {
+    padding: 20px 15px 0 0;
+}
+
+.navbar-custom.top-nav-collapse .navbar-toggle {
+    padding: 30px 30px 0 0;
+}
+
 .navbar-custom .navbar-collapse {
     border-top: none;
     box-shadow: none;
