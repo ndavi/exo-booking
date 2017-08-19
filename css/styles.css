@@ -38,6 +38,10 @@ h1 {
   min-height: 3vh;
 }
 
+.exo {
+  color: white;
+}
+
 p {
   font-family: "Open Sans";
   font-size: 1.3rem;
