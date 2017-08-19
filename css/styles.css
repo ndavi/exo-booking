@@ -44,9 +44,15 @@ p {
   min-height: 100vh;
 }
 
-.navbar-default {
+.navbar-custom {
   background-color: #f3f3f3;
   border-color: #e8e5e5;
+  margin-bottom: 0;
+  min-height: initial;
+  background: 0 0;
+  -webkit-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
 }
 
 .artist_grid .row:only-child {
