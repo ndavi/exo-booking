@@ -2,6 +2,7 @@
 // http://trucsweb.com/tutoriels/javascript/defilement_doux
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens = document.querySelectorAll('a[href*="#"]');
+  console.log(aLiens);
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
