@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Simplon Norm Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.428571429;
+    color: #000;
+    background-color: #000;
+}
+
 .section {
   position: relative;
   -webkit-backface-visibility: hidden;
