@@ -94,23 +94,6 @@ p {
     font-size: 4rem !important;
     text-decoration: none;
 }
-.fa:focus,
-.fa:hover {
-    text-decoration: none;
-}
-
-.fa-bandcamp:hover {
-    color: #3E8914;
-}
-.fa-soundcloud:hover {
-    color: #F70;
-}
-.fa-facebook:hover {
-    color: #3B5998;
-}
-.fa-youtube:hover {
-    color: #C4302B;
-}
 
 .fa:before {
     width: 75px;
