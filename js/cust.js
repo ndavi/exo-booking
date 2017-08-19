@@ -1,15 +1,19 @@
-jQuery(function($) {
-    if($(window).width()>769){
-        $('.navbar .dropdown').hover(function() {
-            $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideDown();
+// Scroll to specific values
+// scrollTo is the same
+window.scroll({
+  top: 2500,
+  left: 0,
+  behavior: 'smooth'
+});
 
-        }, function() {
-            $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideUp();
+// Scroll certain amounts from current position
+window.scrollBy({
+  top: 100, // could be negative value
+  left: 0,
+  behavior: 'smooth'
+});
 
-        });
-
-        $('.navbar .dropdown > a').click(function(){
-            location.href = this.href;
-        });
-    }
+// Scroll to a certain element
+document.querySelector('.hello').scrollIntoView({
+  behavior: 'smooth'
 });
