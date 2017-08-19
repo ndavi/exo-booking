@@ -16,22 +16,26 @@ function getPageScroll() {
   return yScroll;
 }
 
-button.addEventListener('click', function (event) {
+var el = document.getElementById('taget');
 
-  targetOffset = document.getElementById(event.target.hash.substr(1)).offsetTop;
-  currentPosition = getPageScroll();
+if (el) {
+  button.addEventListener('click', function (event) {
 
-  body.classList.add('in-transition');
-  body.style.WebkitTransform = "translate(0, -" + (targetOffset - currentPosition) + "px)";
-  body.style.MozTransform = "translate(0, -" + (targetOffset - currentPosition) + "px)";
-  body.style.transform = "translate(0, -" + (targetOffset - currentPosition) + "px)";
+    targetOffset = document.getElementById(event.target.hash.substr(1)).offsetTop;
+    currentPosition = getPageScroll();
 
-  window.setTimeout(function () {
-    body.classList.remove('in-transition');
-    body.style.cssText = "";
-    window.scrollTo(0, targetOffset);
-  }, animateTime);
+    body.classList.add('in-transition');
+    body.style.WebkitTransform = "translate(0, -" + (targetOffset - currentPosition) + "px)";
+    body.style.MozTransform = "translate(0, -" + (targetOffset - currentPosition) + "px)";
+    body.style.transform = "translate(0, -" + (targetOffset - currentPosition) + "px)";
 
-  event.preventDefault();
+    window.setTimeout(function () {
+      body.classList.remove('in-transition');
+      body.style.cssText = "";
+      window.scrollTo(0, targetOffset);
+    }, animateTime);
 
-}, false);
+    event.preventDefault();
+
+  }, false);
+}
