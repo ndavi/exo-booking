@@ -37,24 +37,10 @@ events:
    name: Underground Bass Session #10
 ---
 
-## Bio
+Brainless Sound System est un crew de la région Rhône-Alpes créé début 2012, composé de dubmakers, mcs, operators et boxmen.
 
-Brainless Sound System est un crew de la région Rhône-Alpes créé début 2012, composé de dubmakers, mcs, operators et boxmen. 
+Ce projet artistique est né d'une passion commune pour la musique dub et la culture soundsystem.
 
-Ce projet artistique est né d'une passion commune pour la musique dub et la culture soundsystem. 
-
-Aujourd'hui armé d'une sono 4 scoops faite maison, le crew s'est lancé dans la production de leur premier album appelé "Human Machine" sorti en novembre 2015. 
+Aujourd'hui armé d'une sono 4 scoops faite maison, le crew s'est lancé dans la production de leur premier album appelé "Human Machine" sorti en novembre 2015.
 
 La couleur musicale propagée par Brainless est résolument Dub, tout en s'influançant de musiques éclectiques.
-
-***
-
-## Parutions / Remixes avec d’autres artistes
-
- * Ashkabad - International Skankers (digital)
- * Dub Invaders Vol. 3 - Part 4. - Jarring Effects (digital, cd, vinyl)
- * Rootikal Attack - Roots & Culture - Dixie Peach (vinyl, digital)
-
-***
-
-{% youtube F27ztmtbgA0 %}

@@ -30,14 +30,8 @@ events:
     name: World Trance Open Air
 ---
 
-## Bio
 Après dix ans de batterie dans un environnement Metal, il développe sa passion pour l’enregistrement studio et le traitement du son.
 
 Adepte des Free Party, il joue et participe à l’organisation de soirées avec les crew SALT1BANK et POWOW.
 
 Depuis deux ans, armé de ses claviers, il écume les salles lyonnaises et les festivals de sa région. Lanimal offre un live Techno / Trance Prog aux basses entraînantes accompagnés de mélodies aériennes et orientales.
-
-***
-
-{% youtube NT-yEjRL2Ps %}
-

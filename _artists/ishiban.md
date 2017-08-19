@@ -26,15 +26,8 @@ events:
 categories: artist
 ---
 
-## Bio
 Jeune artiste producteur Dub/Industrial/Stepper tout droit venu de Bourg-en-Bresse (01).
 
 Actuellement en train de produire sa première release (LP) prévue pour la fin d’année 2017, il surprend grâce à un dub sombre et profond.
 
 On peut deviner ses influences éclectiques à travers son côté novateur et “industriel”.
-
-***
-
-## Show on Rinse FM
-
-{% sc_player https://soundcloud.com/dj-bluntsman/one-more-tune-71-w-guest-mix-by-ishiban-rinse-france-110617 %}
