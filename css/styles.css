@@ -77,7 +77,7 @@ p {
 }
 
 .artist_grid {
-  background-color: #a8caba;
+  background-color: white;
 }
 
 .artist_grid .row:only-child {
@@ -217,12 +217,12 @@ h2 {
 
 .exo-welcome {
   height: 100vh;
-  background-image: linear-gradient(to top, #a8caba 0%, #5d4157 100%);
+  background-image: linear-gradient(to top, white 0%, #5d4157 100%);
 }
 
 .contact {
   height: 100vh;
-  background-image: linear-gradient(to bottom, #a8caba 0%, #5d4157 100%);
+  background-image: linear-gradient(to bottom, white 0%, #5d4157 100%);
 }
 
 .artist-picture{
