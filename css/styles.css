@@ -59,6 +59,15 @@ p {
     border-width: 0 0 1px;
 }
 
+.navbar:after, .navbar:before {
+    content: " ";
+    display: table;
+}
+
+:after, :before {
+    box-sizing: border-box;
+}
+
 .artist_grid .row:only-child {
     margin-left: 0;
     margin-right: 0;
@@ -69,8 +78,13 @@ p {
     display: table;
 }
 
-:after, :before {
-    box-sizing: border-box;
+.navbar:after {
+    clear: both;
+}
+
+.navbar:after, .navbar:before {
+    content: " ";
+    display: table;
 }
 
 body {
