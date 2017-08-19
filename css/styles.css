@@ -205,7 +205,7 @@ h2 {
     min-height: 12vh;
 }
 
-@media screen (max-width:767px) {
+@media(max-width:767px) {
   .artist-bio {
     min-height: 25vh;
   }
