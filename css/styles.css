@@ -39,7 +39,7 @@ h1 {
 }
 
 .exo {
-  color: white;
+  color: white !important;
 }
 
 p {
