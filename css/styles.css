@@ -45,14 +45,18 @@ p {
 }
 
 .navbar-custom {
-  background-color: #f3f3f3;
-  border-color: #e8e5e5;
+  border-color: transparent;
   margin-bottom: 0;
   min-height: initial;
   background: 0 0;
   -webkit-transition: all .25s ease;
   -o-transition: all .25s ease;
   transition: all .25s ease;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
 }
 
 .artist_grid .row:only-child {
