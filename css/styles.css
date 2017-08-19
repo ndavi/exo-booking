@@ -36,6 +36,11 @@
   min-height: 100vh;
 }
 
+.navbar-default {
+  background-color: #f3f3f3;
+  border-color: #e8e5e5;
+}
+
 .artist_grid .row:only-child {
     margin-left: 0;
     margin-right: 0;
