@@ -1,24 +1,24 @@
-var targetOffset, currentPosition,
-    body = document.body,
-    button = document.getElementById('scrollButton'),
-    animateTime = 900;
-
-function getPageScroll() {
-  var yScroll;
-
-  if (window.pageYOffset) {
-    yScroll = window.pageYOffset;
-  } else if (document.documentElement && document.documentElement.scrollTop) {
-    yScroll = document.documentElement.scrollTop;
-  } else if (document.body) {
-    yScroll = document.body.scrollTop;
-  }
-  return yScroll;
-}
-
 var el = document.getElementById('taget');
 
 if (el) {
+  var targetOffset, currentPosition,
+      body = document.body,
+      button = document.getElementById('scrollButton'),
+      animateTime = 900;
+
+  function getPageScroll() {
+    var yScroll;
+
+    if (window.pageYOffset) {
+      yScroll = window.pageYOffset;
+    } else if (document.documentElement && document.documentElement.scrollTop) {
+      yScroll = document.documentElement.scrollTop;
+    } else if (document.body) {
+      yScroll = document.body.scrollTop;
+    }
+    return yScroll;
+  }
+
   button.addEventListener('click', function (event) {
 
     targetOffset = document.getElementById(event.target.hash.substr(1)).offsetTop;
