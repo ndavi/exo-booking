@@ -115,6 +115,22 @@ p {
     background: #E3E3E3;
 }
 
+.navbar-custom.top-nav-collapse .navbar-toggle.lines-button:focus .lines:after, .navbar-custom.top-nav-collapse .navbar-toggle.lines-button:hover .lines:after {
+    top: -1.2rem;
+}
+
+.navbar-custom.top-nav-collapse .navbar-toggle.lines-button .lines:after {
+    top: -1rem;
+}
+
+.navbar-custom.top-nav-collapse .navbar-toggle.lines-button:focus .lines:before, .navbar-custom.top-nav-collapse .navbar-toggle.lines-button:hover .lines:before {
+    top: 1.2rem;
+}
+
+.navbar-custom.top-nav-collapse .navbar-toggle.lines-button .lines:before {
+    top: 1rem;
+}
+
 custom.top-nav-collapse .navbar-toggle.lines-button:hover {
     opacity: 1;
 }
