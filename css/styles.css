@@ -34,7 +34,7 @@
 exo,
 h1 {
   font-family: Poppins;
-  font-size: 2rem;
+  font-size: 2rem !important;
   min-height: 3vh;
 }
 
