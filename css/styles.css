@@ -218,6 +218,13 @@ h2 {
 .exo-welcome {
   height: 100vh;
   background-image: linear-gradient(to top, white 0%, #5d4157 100%);
+  display: flex;
+  align-items: center;
+}
+
+.exo-welcome img {
+  width: 100%;
+  opacity: 0.5;
 }
 
 .contact {
