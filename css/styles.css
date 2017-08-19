@@ -60,7 +60,6 @@ p {
   -webkit-transition: all .25s ease;
   -o-transition: all .25s ease;
   transition: all .25s ease;
-  padding: 25px;
 }
 
 .navbar-fixed-top {
