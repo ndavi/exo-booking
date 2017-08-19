@@ -116,7 +116,7 @@ p {
 }
 
 .navbar-toggle {
-
+  border: 0;
 }
 
 .navbar-custom .navbar-collapse {
