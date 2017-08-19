@@ -3,8 +3,32 @@
 // grid
 
 * {
-  margin: 0;
+  /*margin: 0;*/
+  /*padding: 0;*/
+  box-sizing: border-box;
+}
+
+.section {
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: block;
+  min-height: 100vh;
+  overflow: hidden;
   padding: 0;
+  position: relative;
+  text-align: center;
+  -webkit-transform: matrix(1,0,0,1,0,0);
+  -ms-transform: matrix(1,0,0,1,0,0);
+  -o-transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1,0,0,1,0,0);
+  -webkit-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .grid {

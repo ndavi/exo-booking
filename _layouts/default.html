@@ -17,17 +17,18 @@
     <body>
       <section class="artist_grid">
         <div class="row grid">
-            {% for artist in site.posts %}
-                <div class="item artist col-xs-6 col-md-3">
-                    <div class="artist-picture">
-                        <img src="{{ artist.images[0].url }}" />
-                     </div>
-                    <div class="artist-bio">
-                      <h1>{{ artist.name }}</h1>
-                      <p>{{ artist.excerpt }}<p>
-                    </div>
-                </div>
-            {% endfor %}
+          <div class="grid-sizer col-xs-6 col-md-3"></div>
+          {% for artist in site.posts %}
+              <div class="item artist col-xs-6 col-md-3">
+                  <div class="artist-picture">
+                      <img src="{{ artist.images[0].url }}" />
+                   </div>
+                  <div class="artist-bio">
+                    <h1>{{ artist.name }}</h1>
+                    <p>{{ artist.excerpt }}<p>
+                  </div>
+              </div>
+          {% endfor %}
         </div>
       </section>
     </body>
