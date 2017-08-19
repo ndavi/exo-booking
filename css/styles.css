@@ -33,10 +33,12 @@
 
 h1 {
   font-family: Poppins;
+  font-size: 2rem;
 }
 
 p {
   font-family: "Open Sans";
+  font-size: 1.3rem;
 }
 
 .grid {
@@ -192,7 +194,7 @@ h2 {
 }
 
 .artist-bio {
-    padding: 30px 30px 120px;
+    padding: 12px 12px 12px;
 }
 
 .artist-picture{
