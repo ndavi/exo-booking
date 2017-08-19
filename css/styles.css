@@ -82,10 +82,14 @@ p {
     clear: both;
 }
 
+.artist_socials {
+  display: flex;
+}
+
 .social-item {
   margin-bottom: 15px;
   text-align: center;
-  display: flex;
+  flex: 1;
 }
 
 .navbar-custom.top-nav-collapse .navbar-header {
