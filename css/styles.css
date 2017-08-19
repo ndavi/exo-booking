@@ -76,10 +76,13 @@ p {
     box-sizing: border-box;
 }
 
+.artist_grid {
+  background-color: #dbdcd7;
+}
+
 .artist_grid .row:only-child {
     margin-left: 0;
     margin-right: 0;
-    background-color: #dbdcd7;
 }
 
 .row:after, .row:before {
