@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (this.classList.contains('col-md-3')) {
         if (!!artistDetails) {
           closeArtistPanel(artistDetails)
-          artistDetails = this;
         }
+        artistDetails = this;
         openArtistPanel(this);
       } else {
         closeArtistPanel(this);
