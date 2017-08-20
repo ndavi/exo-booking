@@ -69,7 +69,7 @@ function openArtistPanel (artist) {
   artist.classList.remove('col-xs-6');
   artist.classList.add('col-md-6');
   artist.classList.add('col-xs-12');
-  // window.location();
+  window.location = '#' + artist.id;
 }
 
 function closeArtistPanel (artist) {
