@@ -1,7 +1,8 @@
+var artistDetails; // Which div has been clicked
+
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
-  var artistDetails; // Which div has been clicked
 
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
