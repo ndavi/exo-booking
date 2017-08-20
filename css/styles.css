@@ -195,6 +195,10 @@ h2 {
   margin-bottom: 1em;
 }
 
+.artist-content {
+  padding: 0;
+}
+
 .artist {
   padding: 0;
 }
