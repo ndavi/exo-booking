@@ -201,8 +201,8 @@ h2 {
 
 .artist-bio {
     padding: 0 5px 12px;
-    max-height: 25vh;
-    min-height: 13.5vh;
+    max-height: 14vh;
+    min-height: 14vh;
 }
 
 @media(max-width:767px) {
