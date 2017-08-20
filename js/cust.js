@@ -1,10 +1,10 @@
 var artistDetails; // Which div has been clicked
+var allowTouch = true;
 
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
   var touchEvent    = 'ontouchstart' in window ? 'touchend' : 'click';
-  var allowTouch    = true;
   var delayedExec   = function(after, fn) {
       var timer;
       return function() {
@@ -53,6 +53,7 @@ function artistTapEvent(e) {
   if (!allowTouch) {
     return;
   }
+
   if (this.classList.contains('col-md-3')) {
     if (!!artistDetails) {
       closeArtistPanel(artistDetails)
