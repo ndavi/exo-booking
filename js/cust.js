@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   for (var artist of artists) { // @TODO IPHONE TAP EVENT + Smooth scroll
-    artist.addEventListener('touchstart', artistTapEvent)
-          .addEventListener('click', artistTapEvent);
+    artist.addEventListener('touchstart', artistTapEvent);
+    artist.addEventListener('click', artistTapEvent);
   }
 });
 
