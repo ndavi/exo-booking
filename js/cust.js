@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
   var touchEvent    = 'ontouchstart' in window ? 'touchend' : 'click';
+  var allowTouch    = true;
   var delayedExec   = function(after, fn) {
       var timer;
       return function() {
@@ -11,8 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
           timer = setTimeout(fn, after);
       };
   };
+
   var scrollStopper = delayedExec(500, function() {
     document.removeEventListener('touchend', preventScroll);
+    setTimeout(function () {
+      allowTouch = true;
+    }, 500)
+
     console.log('stopped it');
   });
 
@@ -21,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   document.addEventListener('touchmove', function(e) {
+    allowTouch = false;
     this.addEventListener('touchend', preventScroll);
     scrollStopper();
   })
@@ -38,7 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   for (var i = 0; i < artists.length ; i++) { // @TODO IPHONE TAP EVENT + Smooth scroll
-    artists[i].addEventListener(touchEvent, artistTapEvent, false);
+    if (allowTouch) {
+      artists[i].addEventListener(touchEvent, artistTapEvent);
+    }
   }
 });
 
