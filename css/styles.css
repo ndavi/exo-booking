@@ -215,7 +215,8 @@ h2 {
 
 .exo-welcome {
   height: 100vh;
-  background-image: linear-gradient(to top, white 0%, #5d4157 100%);
+  /*background-image: linear-gradient(to top, white 0%, #5d4157 100%);*/
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
   display: flex;
   align-items: center;
 }
@@ -227,7 +228,8 @@ h2 {
 
 .contact {
   height: 100vh;
-  background-image: linear-gradient(to bottom, white 0%, #5d4157 100%);
+  /*background-image: linear-gradient(to bottom, white 0%, #5d4157 100%);*/
+  background-image: linear-gradient(to bottom, #6a85b6 0%, #bac8e0 100%);
 }
 
 .artist-picture{
