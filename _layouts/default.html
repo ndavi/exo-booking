@@ -1,77 +1,79 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=devide-width, initial-scale=1">
-        <title>Exo booking</title>
-        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-        <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
-        <script src="js/cust.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:Semi-Bold">
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/scrollspy.min.js"></script> -->
-  </head>
-    <body>
-      <nav class="navbar navbar-default navbar-custom navbar-fixed-top top-nav-collapse">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll exo" href="#">Exo Booking</a>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=devide-width, initial-scale=1">
+  <title>Exo booking</title>
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+  <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+  <script src="js/cust.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:Semi-Bold">
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/scrollspy.min.js"></script> -->
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top top-nav-collapse">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll exo" href="#">Exo Booking</a>
+    </div>
+    <div class="navbar-collapse navbar-right navbar-over-right col-sm-6 col-md-3">
+      <ul class="main-nav nav navbar-nav">
+        <li class="hidden active"><a href="#">Home</a></li>
+        <li><a href="#about">Stay</a></li>
+        <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li>
+        <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </nav>
+  <div class="exo-welcome">
+    <img src="img/exo-booking-square-white.png" />
+    <a id="scrollButton" href="#target">Section 1</a>
+  </div>
+  <section id="target" class="artist_grid">
+    <div class="row grid">
+      <!-- <div class="grid-sizer col-xs-6 col-md-3"></div> -->
+      {% for artist in site.posts %}
+      <div class="item artist grid-item col-xs-6 col-sm-4 col-md-3">
+        <div class="artist-picture">
+          <img src="{{ artist.images[0].url }}" />
         </div>
-        <div class="navbar-collapse navbar-right navbar-over-right col-sm-6 col-md-3">
-          <ul class="main-nav nav navbar-nav">
-            <li class="hidden active"><a href="#">Home</a></li>
-            <li><a href="#about">Stay</a></li>
-            <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li>
-            <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </nav>
-      <div class="exo-welcome">
-        <img src="img/exo-booking-square-white.png" />
-        <a id="scrollButton" href="#target">Section 1</a>
-      </div>
-      <section id="target" class="artist_grid">
-        <div class="row grid">
-          <!-- <div class="grid-sizer col-xs-6 col-md-3"></div> -->
-          {% for artist in site.posts %}
-              <div class="item artist grid-item col-xs-6 col-sm-4 col-md-3">
-                  <div class="artist-picture">
-                      <img src="{{ artist.images[0].url }}" />
-                   </div>
-                  <div class="artist-bio">
-                    <h1>{{ artist.name }}</h1>
-                    <p>{{ artist.excerpt }}<p>
-                  </div>
-                  <div class="artist_links row">
-                  <div class="book_artist col-xs-12 col-sm-4 col-md-12 col-lg-4">
-                    <a class="book btn btn-default btn-outline" href="https://bookings.a-boss.net:/form/MjS0sNLGMMTH1pR-ytL8uQ6-fSOGVc2zzYQiyGpIUMqg" target="_blank" title="Book Albert van Abbe">Book</a>
-                  </div>
-                  <div class="artist_socials col-xs-12 col-sm-8 col-md-12 col-lg-8">
-                    <div class="social-item">
-                        <a class="fa fa-facebook" href=""></a>
-                    </div>
-                    <div class="social-item">
-                        <a class="fa fa-twitter" href=""></a>
-                    </div>
-                    <div class="social-item">
-                        <a class="fa fa-soundcloud" href=""></a>
-                    </div>
-                  </div>
+        <div class="artist-content">
+          <div class="artist-bio">
+            <h1>{{ artist.name }}</h1>
+            <p>{{ artist.excerpt }}<p>
+            </div>
+            <div class="artist_links row">
+              <div class="book_artist col-xs-12 col-sm-4 col-md-12 col-lg-4">
+                <a class="book btn btn-default btn-outline" href="https://bookings.a-boss.net:/form/MjS0sNLGMMTH1pR-ytL8uQ6-fSOGVc2zzYQiyGpIUMqg" target="_blank" title="Book Albert van Abbe">Book</a>
+              </div>
+              <div class="artist_socials col-xs-12 col-sm-8 col-md-12 col-lg-8">
+                <div class="social-item">
+                  <a class="fa fa-facebook" href=""></a>
+                </div>
+                <div class="social-item">
+                  <a class="fa fa-twitter" href=""></a>
+                </div>
+                <div class="social-item">
+                  <a class="fa fa-soundcloud" href=""></a>
                 </div>
               </div>
-          {% endfor %}
+            </div>
+          </div>
         </div>
-      </section>
-      <div class="contact">
+        {% endfor %}
       </div>
-    </body>
-</html>
+    </section>
+    <div class="contact">
+    </div>
+  </body>
+  </html>
