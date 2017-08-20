@@ -109,6 +109,7 @@ p {
   border-radius: 0;
   font-family: "Open Sans";
   letter-spacing: 0.4em;
+  display: block;
 }
 
 .navbar-custom.top-nav-collapse .navbar-header {
@@ -194,7 +195,7 @@ h2 {
 }
 
 .artist-content {
-  padding: 0;
+  padding: 0 20px;
 }
 
 .artist {
