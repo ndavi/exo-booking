@@ -17,7 +17,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (var artist of artists) {
     artist.addEventListener('click', function(e) {
-      console.log(this, e, artist);
+      if (this.classList.contains('col-md-3')) {
+        this.classList.remove('col-md-3');
+        this.classList.remove('col-xs-6');
+        this.classList.add('col-md-6');
+        this.classList.add('col-xs-12');
+      } else {
+        this.classList.remove('col-md-6');
+        this.classList.remove('col-xs-12');
+        this.classList.add('col-md-3');
+        this.classList.add('col-xs-6');
+      }
     });
   }
 
