@@ -15,14 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
+  console.log(artists);
   for (var artist in artists) {
     artist.addEventListener('click', function(e) {
       console.log(this, e, artist);
     });
-    // trigger.addEventListener('click', function(e) {
-        // e.preventDefault();
-        // element.classList.toggle('sidebar-active'); // or whatever your active class is
-    // });
   }
 
 });
