@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var artists       = document.getElementsByClassName('artist');
   var touchEvent    = 'ontouchstart' in window ? 'touchstart' : 'click';
 
+  document.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+  })
+
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
