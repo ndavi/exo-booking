@@ -6,7 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
   var touchEvent    = 'ontouchstart' in window ? 'touchstart' : 'click';
 
   document.addEventListener('touchmove', function(e) {
-    e.preventDefault();
+    this.addEventListener('touchstart', function(event) {
+      event.preventDefault();
+    })
+  })
+  document.addEventListener('touchstop', function(e) {
+    this.removeEventListener('touchstop');
   })
 
   for(var i=0, len = aLiens.length; i<len; i++) {
