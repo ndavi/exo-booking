@@ -11,16 +11,17 @@ document.addEventListener('DOMContentLoaded', function() {
           timer = setTimeout(fn, after);
       };
   };
-
   var scrollStopper = delayedExec(500, function() {
-    document.removeEventListener('touchend');
+    document.removeEventListener('touchend', preventScroll);
     console.log('stopped it');
   });
 
-  document.addEventListener('touchmove', function(e) {
-    this.addEventListener('touchend', function(event) {
+  function preventScroll (event) {
       event.preventDefault();
-    })
+  }
+
+  document.addEventListener('touchmove', function(e) {
+    this.addEventListener('touchend', preventScroll);
     scrollStopper();
   })
 
