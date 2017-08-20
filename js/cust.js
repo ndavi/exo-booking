@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
-  var touchEvent    = 'ontouchstart' in window ? 'touchstart' : 'click';
   var artistDetails; // Which div has been clicked
 
   for(var i=0, len = aLiens.length; i<len; i++) {
@@ -17,20 +16,23 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   for (var artist of artists) { // @TODO IPHONE TAP EVENT + Smooth scroll
-    artist.addEventListener(touchEvent, function(e) {
-      if (this.classList.contains('col-md-3')) {
-        if (!!artistDetails) {
-          closeArtistPanel(artistDetails)
-        }
-        artistDetails = this;
-        openArtistPanel(this);
-      } else {
-        closeArtistPanel(this);
-        artistDetails = undefined;
-      }
-    });
+    artist.addEventListener('touchstart', artistTapEvent)
+          .addEventListener('click', artistTapEvent);
   }
 });
+
+function artistTapEvent(e) {
+  if (this.classList.contains('col-md-3')) {
+    if (!!artistDetails) {
+      closeArtistPanel(artistDetails)
+    }
+    artistDetails = this;
+    openArtistPanel(this);
+  } else {
+    closeArtistPanel(this);
+    artistDetails = undefined;
+  }
+};
 
 function openArtistPanel (artist) {
   artist.classList.remove('col-md-3');
