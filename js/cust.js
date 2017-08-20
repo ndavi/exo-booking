@@ -17,9 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.removeEventListener('touchend', preventScroll);
     setTimeout(function () {
       allowTouch = true;
-    }, 500)
-
-    console.log('stopped it');
+    }, 150)
   });
 
   function preventScroll (event) {
@@ -44,8 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  for (var i = 0; i < artists.length ; i++) { // @TODO IPHONE TAP EVENT + Smooth scroll
-      artists[i].addEventListener(touchEvent, artistTapEvent);
+  for (var i = 0; i < artists.length ; i++) { // @TODO Smooth scroll
+    artists[i].addEventListener(touchEvent, artistTapEvent);
   }
 });
 
