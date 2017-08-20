@@ -45,13 +45,14 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   for (var i = 0; i < artists.length ; i++) { // @TODO IPHONE TAP EVENT + Smooth scroll
-    if (allowTouch) {
       artists[i].addEventListener(touchEvent, artistTapEvent);
-    }
   }
 });
 
 function artistTapEvent(e) {
+  if (!allowTouch) {
+    return;
+  }
   if (this.classList.contains('col-md-3')) {
     if (!!artistDetails) {
       closeArtistPanel(artistDetails)
