@@ -69,7 +69,7 @@ function openArtistPanel (artist) {
   artist.classList.remove('col-xs-6');
   artist.classList.add('col-md-6');
   artist.classList.add('col-xs-12');
-  window.location = '#' + artist.id;
+  scrollTo(artist.offsetTop, 500);
 }
 
 function closeArtistPanel (artist) {
