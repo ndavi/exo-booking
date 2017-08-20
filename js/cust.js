@@ -3,6 +3,7 @@ var artistDetails; // Which div has been clicked
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
+  var touchEvent    = 'ontouchstart' in window ? 'touchstart' : 'click';
 
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
@@ -17,8 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   for (var i = 0; i < artists.length ; i++) { // @TODO IPHONE TAP EVENT + Smooth scroll
-    artists[i].addEventListener("touchstart", artistTapEvent, false);
-    artists[i].addEventListener('click', artistTapEvent);
+    artists[i].addEventListener(touchEvent, artistTapEvent, false);
   }
 });
 
