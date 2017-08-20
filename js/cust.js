@@ -15,9 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  console.log(artists);
-  for (var artist in artists) {
-    console.log(artist);
+  for (var artist of artists) {
     artist.addEventListener('click', function(e) {
       console.log(this, e, artist);
     });
