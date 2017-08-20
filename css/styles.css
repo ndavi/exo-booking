@@ -34,7 +34,7 @@
 .exo,
 h1 {
   font-family: Poppins;
-  font-size: 2rem;
+  font-size: 28px;
   min-height: 3vh;
 }
 
@@ -44,7 +44,7 @@ h1 {
 
 p {
   font-family: "Open Sans";
-  font-size: 1.3rem;
+  font-size: 18px;
 }
 
 .grid {
@@ -106,7 +106,7 @@ p {
 
 .book {
   padding: 5px 10px;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   border-radius: 0;
   margin-left: 23px;
