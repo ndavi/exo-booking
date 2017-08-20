@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.removeEventListener('touchend', preventScroll);
     setTimeout(function () {
       allowTouch = true;
-    }, 150)
+    }, 50)
   });
 
   function preventScroll (event) {
@@ -69,6 +69,7 @@ function openArtistPanel (artist) {
   artist.classList.remove('col-xs-6');
   artist.classList.add('col-md-6');
   artist.classList.add('col-xs-12');
+  // window.location();
 }
 
 function closeArtistPanel (artist) {
