@@ -1,7 +1,8 @@
-// Par Oznog, trucsweg.com
-// http://trucsweb.com/tutoriels/javascript/defilement_doux
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens = document.querySelectorAll('a[href*="#"]');
+  var artists = document.getElementsByClassName('artist');
+  var trigger = document.getElementById('js-toggle-sidebar'); // or whatever triggers the toggle
+
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -13,9 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     };
   }
+
+  for (var artist in artists) {
+    artist.addEventListener('click', function(e) {
+      console.log(this, e, artist);
+    });
+    // trigger.addEventListener('click', function(e) {
+        // e.preventDefault();
+        // element.classList.toggle('sidebar-active'); // or whatever your active class is
+    // });
+  }
+
 });
-//Exemple de : Forestrf
-// http://jsfiddle.net/forestrf/tPQSv/2/
+
 function scrollTo(element, duration) {
   var e = document.documentElement;
   if(e.scrollTop===0){
