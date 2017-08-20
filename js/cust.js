@@ -16,10 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  for (var artist of artists) { // @TODO IPHONE TAP EVENT + Smooth scroll
-    artist.addEventListener("touchstart", artistTapEvent, false);
-    artist.addEventListener('click', artistTapEvent);
-    artist.addEventListener("touchend", artistTapEvent, false);
+  for (var i = 0; i < artists.length ; i++) { // @TODO IPHONE TAP EVENT + Smooth scroll
+    artists[i].addEventListener("touchstart", artistTapEvent, false);
+    artists[i].addEventListener('click', artistTapEvent);
   }
 });
 
