@@ -114,7 +114,6 @@ p {
 
 .navbar-custom.top-nav-collapse .navbar-header {
     background: #000;
-    background: rgba(0,0,0,.25);
 }
 
 .fa:visited,
@@ -170,6 +169,7 @@ p {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
+    background: rgba(0,0,0,.25);
 }
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
