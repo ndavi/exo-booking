@@ -3,15 +3,25 @@ var artistDetails; // Which div has been clicked
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
-  var touchEvent    = 'ontouchstart' in window ? 'touchstart' : 'click';
+  var touchEvent    = 'ontouchstart' in window ? 'touchend' : 'click';
+  var delayedExec   = function(after, fn) {
+      var timer;
+      return function() {
+          timer && clearTimeout(timer);
+          timer = setTimeout(fn, after);
+      };
+  };
+
+  var scrollStopper = delayedExec(500, function() {
+    document.removeEventListener('touchend');
+    console.log('stopped it');
+  });
 
   document.addEventListener('touchmove', function(e) {
-    this.addEventListener('touchstart', function(event) {
+    this.addEventListener('touchend', function(event) {
       event.preventDefault();
     })
-  })
-  document.addEventListener('touchstop', function(e) {
-    this.removeEventListener('touchstop');
+    scrollStopper();
   })
 
   for(var i=0, len = aLiens.length; i<len; i++) {
