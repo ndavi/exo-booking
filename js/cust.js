@@ -62,6 +62,7 @@ function artistTapEvent(e) {
     closeArtistPanel(this);
     artistDetails = undefined;
   }
+  scrollTo(this.offsetTop, 500); // @TODO : substract header height
 };
 
 function openArtistPanel (artist) {
@@ -69,7 +70,6 @@ function openArtistPanel (artist) {
   artist.classList.remove('col-xs-6');
   artist.classList.add('col-md-6');
   artist.classList.add('col-xs-12');
-  scrollTo(artist.offsetTop, 500); // @TODO : substract header height
 }
 
 function closeArtistPanel (artist) {
