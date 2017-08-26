@@ -214,9 +214,12 @@ h2 {
 
 .down-arrow {
   position: absolute;
-  width: 60px;
   height: auto;
   bottom: 30px;
+  width: 200px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  fill: white;
 }
 
 @media(max-width:767px) {
