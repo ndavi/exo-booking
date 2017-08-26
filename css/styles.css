@@ -47,13 +47,13 @@ p {
   font-family: "Open Sans";
   font-size: 12px;
 }
-@media (max-width: 575px) {
+@media (min-width: 575px) {
   p {
     font-family: "Open Sans";
     font-size: 12px;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   p {
     font-family: "Open Sans";
     font-size: 15px;
