@@ -159,7 +159,7 @@ p {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 999998;
+    z-index: 2;
     -webkit-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
