@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function preventScroll (event) {
-      // event.preventDefault();
+      event.preventDefault();
   }
 
   document.addEventListener('touchmove', function(e) {
