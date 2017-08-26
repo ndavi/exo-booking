@@ -47,19 +47,19 @@ p {
   font-family: "Open Sans";
   font-size: 12px;
 }
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   p {
     font-family: "Open Sans";
     font-size: 12px;
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   p {
     font-family: "Open Sans";
     font-size: 15px;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   p {
     font-family: "Open Sans";
     font-size: 18px;
