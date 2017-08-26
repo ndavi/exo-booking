@@ -62,7 +62,7 @@ function artistTapEvent(e) {
     closeArtistPanel(this);
     artistDetails = undefined;
   }
-  scrollTo(this.offsetTop, 540);
+  scrollTo(this.offsetTop, 500); // @TODO : substract header height
 };
 
 function openArtistPanel (artist) {
