@@ -208,6 +208,7 @@ h2 {
 }
 
 .welcome-wrapper {
+  height: 100vh;
   position: relative;
 }
 
@@ -225,7 +226,7 @@ h2 {
 }
 
 .exo-welcome {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: absolute;
   /*background-image: linear-gradient(to top, white 0%, #5d4157 100%);*/
