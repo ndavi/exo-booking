@@ -216,6 +216,9 @@ h2 {
 .exo-welcome {
   height: 100vh;
   /*background-image: linear-gradient(to top, white 0%, #5d4157 100%);*/
+  background-image: image('img/90.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
   display: flex;
   align-items: center;
 }
