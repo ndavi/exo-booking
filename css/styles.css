@@ -216,10 +216,11 @@ h2 {
 .exo-welcome {
   height: 100vh;
   /*background-image: linear-gradient(to top, white 0%, #5d4157 100%);*/
-  background-image: image('img/90.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  display: flex;
+  background: url('http://www.vibes-culturelles.com/files/uniquebase/img/vibes/Dub%20To%20Trance%204_18%20decembre%202015/90.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   align-items: center;
 }
 
