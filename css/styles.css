@@ -50,7 +50,6 @@ p {
 .grid {
   display: block;
   min-height: 100vh;
-  overflow-x: hidden; // @TODO : not this
 }
 
 .navbar-custom {
