@@ -68,15 +68,19 @@ function artistTapEvent(e) {
 function openArtistPanel (artist) {
   artist.classList.remove('col-md-3');
   artist.classList.remove('col-xs-6');
+  artist.classList.remove('col-sm-4');
   artist.classList.add('col-md-6');
   artist.classList.add('col-xs-12');
+  artist.classList.add('col-sm-8');
 }
 
 function closeArtistPanel (artist) {
   artist.classList.remove('col-md-6');
   artist.classList.remove('col-xs-12');
+  artist.classList.remove('col-sm-8');
   artist.classList.add('col-md-3');
   artist.classList.add('col-xs-6');
+  artist.classList.add('col-sm-4');
 }
 
 function scrollTo (element, duration) {
