@@ -45,7 +45,7 @@ h1 {
 
 p {
   font-family: "Open Sans";
-  font-size: 12px;
+  font-size: 11px;
 }
 @media (min-width: 575px) {
   p {
@@ -214,7 +214,7 @@ h2 {
 }
 
 .artist-content {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .artist {
