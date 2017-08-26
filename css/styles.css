@@ -200,7 +200,7 @@ h2 {
 
 .artist {
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .artist-bio {
