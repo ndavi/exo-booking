@@ -95,7 +95,7 @@ p {
     border-color: rgb(173, 173, 173);
 }
 .artist:hover .artist-picture > img {
-    -webkit-filter: brightness(150%);
+    -webkit-filter: brightness(130%);
 }
 
 .artist_grid {
