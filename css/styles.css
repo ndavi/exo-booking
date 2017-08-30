@@ -89,6 +89,12 @@ p {
     box-sizing: border-box;
 }
 
+.artist:hover {
+    color: rgb(51, 51, 51);
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(173, 173, 173);
+}
+
 .artist_grid {
   background-color: white;
 }
