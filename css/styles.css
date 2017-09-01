@@ -226,8 +226,8 @@ h2 {
 }
 
 .artist-bio {
-    max-height: 14vh;
-    min-height: 14vh;
+    max-height: 24vh;
+    min-height: 24vh;
 }
 
 .welcome-wrapper {
