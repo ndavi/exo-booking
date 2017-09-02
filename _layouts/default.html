@@ -62,15 +62,11 @@
                 <a class="book btn btn-default btn-outline" href="mailto:quentin@exo-booking.com" target="_blank" title="Book Albert van Abbe">BOOK</a>
               </div>
               <div class="artist_socials col-xs-12 col-md-12">
-                <div class="social-item">
-                  <a class="fa fa-facebook" href=""></a>
-                </div>
-                <div class="social-item">
-                  <a class="fa fa-twitter" href=""></a>
-                </div>
-                <div class="social-item">
-                  <a class="fa fa-soundcloud" href=""></a>
-                </div>
+                {% for social in site.social %}
+                  <div class="social-item">
+                    <a class="fa fa-{{ social.name }}" href="{{ social.url }}"></a>
+                  </div>
+                {% enfor %}
               </div>
             </div>
           </div>
