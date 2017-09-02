@@ -49,10 +49,15 @@ h3 {
   text-align: center;
   padding: 5vw 20vw;
   text-align: center;
-  > label {
-    font-family: "Open sans";
-    color: white;
-  }
+}
+
+label {
+  font-family: "Open sans";
+  color: white;
+}
+
+.text-muted {
+  color: lightgray;
 }
 
 .form-control {
