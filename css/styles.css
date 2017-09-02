@@ -63,9 +63,6 @@ p {
     font-family: "Open Sans";
     font-size: 12px;
   }
-  .artist-bio {
-      min-height: 7vh;
-  }
 }
 @media (min-width: 768px) {
   p {
@@ -78,7 +75,7 @@ p {
     display: block !important;
   }
   .artist-bio {
-      min-height: 24vh;
+      min-height: 24vh !important;
   }
 }
 
@@ -245,6 +242,7 @@ p {
 
 .artist-bio {
     min-height: 24vh;
+    min-height: 7vh;
 }
 
 .welcome-wrapper {
