@@ -50,11 +50,11 @@
     <div class="row grid">
       {% for artist in site.posts %}
       <div id="artist-{{ forloop.index0 }}" class="item artist grid-item col-xs-6 col-sm-4 col-md-3">
-        <div class="artist-picture">
+        <div class="artist-picture" href="#">
           <img src="{{ artist.images[0].url }}" />
         </div>
         <div class="artist-content">
-          <div class="artist-bio">
+          <div class="artist-bio" href="#">
             <h2>{{ artist.name }}</h2>
             <div class="genre">{{ artist.genre }}</div>
             <div class="desktop-excerpt" style="display: none;">{{ artist.excerpt }}</div>
