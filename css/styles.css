@@ -231,6 +231,13 @@ p {
     display: table;
 }
 
+.genre {
+    padding: 10px 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 .artist-content {
   padding: 0 10px;
 }
