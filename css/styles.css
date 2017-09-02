@@ -39,9 +39,13 @@ h2 {
   overflow: hidden;
 }
 
-h4,
+h4 {
+  font-size: 20px;
+  font-family: Poppins;
+  color: white !important;
+}
 h3 {
-  font-size: 28px;
+  font-size: 24px;
   font-family: Poppins;
   color: white !important;
 }
