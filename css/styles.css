@@ -45,6 +45,15 @@ h3 {
   color: white !important;
 }
 
+.form {
+  padding: 5px;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
 h3:hover,
 h3:visited {
     text-decoration: none;
