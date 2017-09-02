@@ -75,7 +75,7 @@ p {
     display: block !important;
   }
   .artist-bio {
-      min-height: 24vh !important;
+      min-height: 25vh !important;
   }
 }
 
@@ -234,7 +234,7 @@ p {
 .genre {
     font-family: "Open Sans";
     padding: 10px 0;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -249,8 +249,7 @@ p {
 }
 
 .artist-bio {
-    min-height: 24vh;
-    min-height: 8vh;
+    min-height: 15vh;
 }
 
 .welcome-wrapper {
