@@ -16,6 +16,4 @@ social:
 releases:
 events:
 ---
-
 Duo dub, instrumental et métissé : Footprint joue avec les courant et influences musicales en tout genre pour créer des productions Dub personnelles et porteuses de messages forts.
-

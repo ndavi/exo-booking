@@ -16,5 +16,4 @@ social:
 releases:
 events:
 ---
-
 Bassturbation, c’est un combo scénique : un producteur et “liveur” hardcore, accompagné d’une danseuse classique. Le résultat sur scène donne un show électrique et visuel unique.
