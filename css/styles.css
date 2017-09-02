@@ -284,6 +284,13 @@ p {
   font-family: "Open sans";
   color: white;
 }
+.welcome-arrow {
+  bottom: 0;
+  height: 23vh;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
 
 .exo-welcome {
   height: 100%;
