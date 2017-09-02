@@ -39,6 +39,7 @@ h2 {
 }
 
 h3 {
+  font-size: 28px;
   font-family: Poppins;
   color: white !important;
 }
@@ -243,7 +244,7 @@ p {
 
 .down-arrow {
   height: auto;
-  width: 15vw;
+  width: 50px;
   left: 50%;
 }
 
