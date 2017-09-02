@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:Semi-Bold">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/css/bootstrap-formhelpers.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/js/bootstrap-formhelpers.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-custom navbar-fixed-top top-nav-collapse">
@@ -98,7 +100,13 @@
             </div>
             <div class="form-group">
               <label for="textarea">Message to Agent</label>
-              <textarea class="form-control" rows="2" cols="200" disabled="disabled" style="width:500px;" id="textarea"></textarea>
+              <textarea class="form-control" rows="3" id="textarea"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="vat" aria-describedby="vat" placeholder="Organization VAT / Tax Number">
+            </div>
+            <div class="form-group">
+              <select class="input-medium bfh-countries" data-country="US"></select>
             </div>
         	</div>
         	<div class="col span_1_of_2">
