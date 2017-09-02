@@ -97,7 +97,7 @@ p {
     display: block !important;
   }
   .artist-bio {
-      min-height: 25vh !important;
+      min-height: 20vh !important;
   }
 }
 
@@ -176,6 +176,7 @@ p {
   border-radius: 0;
   font-family: "Open Sans";
   letter-spacing: 0.4em;
+  margin: 0 35px;
   display: block;
 }
 
