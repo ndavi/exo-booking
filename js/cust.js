@@ -1,6 +1,5 @@
 var artistDetails; // Which div has been clicked
 var allowTouch = true;
-var clickDisabled = false;
 
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
@@ -76,21 +75,18 @@ function openArtistPanel (artist) {
 }
 
 function closeArtistPanel (artist) {
-  $('#click').click(function(){
-   if (clickDisabled)
-      return;
-
+  allowTouch = false;
   artist.classList.remove('col-md-6');
   artist.classList.remove('col-xs-12');
   artist.classList.remove('col-sm-8');
   artist.classList.add('col-md-3');
   artist.classList.add('col-xs-6');
   artist.classList.add('col-sm-4');
-  clickDisabled = true;
-  setTimeout(function(){clickDisabled = false;}, 5);
-});
 
-}
+  setTimeout(function() {
+    allowTouch = true;
+  }, 200);
+}}
 
 function scrollTo (element, duration) {
   var e = document.documentElement;
