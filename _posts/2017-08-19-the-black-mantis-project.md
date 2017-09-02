@@ -34,7 +34,5 @@ events:
   - date:
     name: soon
 ---
-Le Black Mantis Project renaît de ses cendres...
 Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set instrumental.
 Sur des rythmes numériques, Black Mantis fait danser en live les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri.
-Brassage d'influences et d'énergies, le projet prend toute sa dimension sur scène et dans le partage.
