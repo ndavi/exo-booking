@@ -3,7 +3,7 @@ var allowTouch = true;
 
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
-  var artists       = document.getElementsByClassName('artist');
+  var artists       = document.getElementsByClassName('artist-picture artist-bio');
   console.log(artists);
   var touchEvent    = 'ontouchstart' in window ? 'touchend' : 'click';
   var delayedExec   = function(after, fn) {
@@ -31,10 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollStopper();
   })
 
-console.log(aLiens);
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
-      console.log(this.pathname);
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = this.getAttribute("href").slice(1);
         if (target.length) {
