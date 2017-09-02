@@ -298,6 +298,7 @@ p {
 }
 .exo-contact,
 .exo-welcome {
+  width: 100%;
   position: absolute;
   background: url('../img/90.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
