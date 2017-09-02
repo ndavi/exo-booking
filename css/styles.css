@@ -158,11 +158,11 @@ p {
 }
 
 .artist_socials {
+  display: flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
 }
 
 .social-item {
@@ -189,14 +189,12 @@ p {
     margin-top: 10px;
     font-size: 2.5rem !important;
     text-decoration: none;
-    z-index: 3;
 }
 
 .fa:before {
     width: 75px;
     vertical-align: middle;
     font-family: FontAwesome;
-    z-index: 3;
 }
 
 .navbar-custom .navbar-header {
