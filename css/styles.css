@@ -191,6 +191,10 @@ p {
     font-size: 2.5rem !important;
     text-decoration: none;
 }
+.fa:hover {
+  text-decoration: none;
+  color: #23527c;
+}
 
 .fa:before {
     width: 75px;
