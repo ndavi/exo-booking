@@ -32,11 +32,15 @@
 }
 
 .exo,
-h2,
 h1 {
   font-family: Poppins;
   font-size: 28px;
   min-height: 3vh;
+}
+
+h3 {
+  font-family: Poppins;
+  color: white;
 }
 
 .exo {
@@ -213,10 +217,6 @@ p {
     display: table;
 }
 
-h2 {
-  margin-bottom: 1em;
-}
-
 .artist-content {
   padding: 0 10px;
 }
@@ -247,6 +247,7 @@ h2 {
   height: 23vh;
   position: absolute;
   width: 100%;
+  text-align: center;
 }
 
 @media(max-width:767px) {
