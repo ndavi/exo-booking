@@ -242,7 +242,7 @@ p {
 
 .artist-bio {
     min-height: 24vh;
-    min-height: 7vh;
+    min-height: 8vh;
 }
 
 .welcome-wrapper {
@@ -262,12 +262,6 @@ p {
   position: absolute;
   width: 100%;
   text-align: center;
-}
-
-@media(max-width:767px) {
-  .artist-bio {
-    min-height: 25vh;
-  }
 }
 
 .exo-welcome {
