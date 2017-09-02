@@ -3,16 +3,9 @@ layout: default
 categories: posts
 name:  "Brainless"
 images: # Images over 750px displays better
-  - url: https://f4.bcbits.com/img/a1524275675_2.jpg
-    alt: Cypripedium Calceolum
-    title: brainless1
-  - url: https://f4.bcbits.com/img/a3294912766_2.jpg
-    alt: Cypripedium Calceolum
-    title: brainless2
-  - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/17620151_1339207969505219_5272175736473217271_o.jpg?oh=f70e2ac36f5614fec01982994aecca5d&oe=5A0DC8D5
-    title: brainless3
-  - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/19511186_1427572017335480_8498521850388758244_n.jpg?oh=b8e805a42b435e77c020f7ced380a0f2&oe=59C4E318
-    title: brainless4
+  - url: img/brainless.jpg
+    alt: brainless sound system
+    title: brainless
 social:
  - url: https://soundcloud.com/brain-less
    name: soundcloud
