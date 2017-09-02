@@ -16,7 +16,7 @@ social:
  - url: https://www.facebook.com/blackmantisproject
    name: facebook
  - url: http://blackmantisproject.com
-   name: site
+   name: globe
 releases:
   - name: Diversion EP
     url: https://blackmantisproject.bandcamp.com/album/diversion-ep
