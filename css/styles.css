@@ -64,6 +64,7 @@ label {
   color: lightgray;
 }
 
+.input-medium,
 .form-control {
   outline: 0;
   background: transparent;
