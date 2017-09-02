@@ -3,7 +3,8 @@ var allowTouch = true;
 
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
-  var artists       = document.getElementsByClassName('artist-picture');
+  var artists       = document.getElementsByClassName('artist');
+  console.log(artists);
   var touchEvent    = 'ontouchstart' in window ? 'touchend' : 'click';
   var delayedExec   = function(after, fn) {
       var timer;
