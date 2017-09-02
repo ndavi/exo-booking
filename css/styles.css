@@ -283,7 +283,8 @@ p {
 .artists-arrow {
   font-family: Poppins;
   color: white;
-  font-size: 4rem;
+  font-size: 6rem;
+  margin-bottom: 25px;
 }
 .welcome-arrow {
   bottom: 0;
