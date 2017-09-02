@@ -287,8 +287,7 @@ p {
   margin-bottom: 25px;
 }
 .welcome-arrow {
-  bottom: 0;
-  height: 23vh;
+  bottom: 25px;
   position: absolute;
   width: 100%;
   text-align: center;
