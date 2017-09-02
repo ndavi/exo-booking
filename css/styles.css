@@ -255,8 +255,7 @@ h2 {
   height: 100%;
   width: 100%;
   position: absolute;
-  /*background-image: linear-gradient(to top, white 0%, #5d4157 100%);*/
-  background: url('img/90.jpg') no-repeat center center fixed;
+  background-image: url('img/90.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
