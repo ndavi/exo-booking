@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-// function artistTapEvent(e) {
+function artistTapEvent(e) {
 //   if (!allowTouch) {
 //     return;
 //   }
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //     artistDetails = undefined;
 //   }
 //   scrollTo(this.offsetTop, 500); // @TODO : substract header height
-// };
+};
 
 function openArtistPanel (artist) {
   artist.classList.remove('col-md-3');
