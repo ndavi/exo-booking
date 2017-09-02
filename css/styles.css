@@ -40,7 +40,7 @@ h2 {
 
 h3 {
   font-family: Poppins;
-  color: white;
+  color: white !important;
 }
 
 .exo {
