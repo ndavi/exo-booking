@@ -46,12 +46,15 @@ h3 {
 }
 
 .form {
-  padding: 5px;
+  text-align: center;
+  padding: 0 20vw;
+  text-align: center;
 }
 
 .form-control {
   background-color: rgba(0, 0, 0, 0);
   border: none;
+  font-family: "Open sans";
 }
 
 h3:hover,
