@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 console.log(aLiens);
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
+      console.log(this.pathname);
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = this.getAttribute("href").slice(1);
         if (target.length) {
