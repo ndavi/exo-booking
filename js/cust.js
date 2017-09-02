@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.removeEventListener('touchend', preventScroll);
     setTimeout(function () {
       allowTouch = true;
-    }, 200)
+    }, 50)
   });
 
   function preventScroll (event) {
@@ -62,7 +62,6 @@ function artistTapEvent(e) {
     closeArtistPanel(this);
     artistDetails = undefined;
   }
-
   scrollTo(this.offsetTop, 500); // @TODO : substract header height
 };
 
@@ -82,7 +81,7 @@ function closeArtistPanel (artist) {
   artist.classList.add('col-md-3');
   artist.classList.add('col-xs-6');
   artist.classList.add('col-sm-4');
-}}
+}
 
 function scrollTo (element, duration) {
   var e = document.documentElement;
