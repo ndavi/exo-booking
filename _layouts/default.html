@@ -36,9 +36,11 @@
   </nav>
   <div class="welcome-wrapper">
     <div class="exo-welcome"></div>
-    <a id="scrollButton" href="#target"><img class="down-arrow" src="img/scroll-down-arrow.png" /></a>
+    <a id="scrollButton" href="#target">
+      <h2>Artists</h2>
+      <img class="down-arrow" src="img/scroll-down-arrow.png" />
+    </a>
   </div>
-
   <section id="target" class="artist_grid">
     <div class="row grid">
       {% for artist in site.posts %}

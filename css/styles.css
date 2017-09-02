@@ -239,7 +239,7 @@ h2 {
   position: absolute;
   height: auto;
   bottom: 30px;
-  width: 200px;
+  width: 15vw;
   left: 50%;
   transform: translate(-50%, 0);
   fill: white;
