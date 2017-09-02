@@ -8,12 +8,10 @@ images: # Images over 750px displays better
     alt: Bassturbation
     title: Bassturbation
 social:
- - url: https://soundcloud.com/blackmantisproject
+ - url: https://soundcloud.com/bassturbation-37150050
    name: soundcloud
- - url: https://www.facebook.com/blackmantisproject
+ - url: https://www.facebook.com/bassturbation/
    name: facebook
- - url: http://blackmantisproject.com
-   name: globe
 releases:
 events:
 ---

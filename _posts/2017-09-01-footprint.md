@@ -2,18 +2,16 @@
 layout: artist
 categories: artist
 name:  "Footprint System"
-genre: Dub
+genre: Ethnic Dub
 images: # Images over 750px displays better
   - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/17917392_1316230275150723_3343530616247969628_o.jpg?oh=a9e9f5ec91cd3ad8af1d3bb5cd18f5a9&oe=5A2212E3
     alt: Footprint System
     title: Footprint System
 social:
- - url: https://soundcloud.com/blackmantisproject
-   name: soundcloud
- - url: https://www.facebook.com/blackmantisproject
+ - url: https://www.facebook.com/FootPrint-System-151827768257652/
    name: facebook
- - url: http://blackmantisproject.com
-   name: globe
+ - url: http://footprintsystem.bandcamp.com
+   name: bandcamp
 releases:
 events:
 ---

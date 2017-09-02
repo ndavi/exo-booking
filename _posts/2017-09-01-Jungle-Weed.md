@@ -8,12 +8,10 @@ images: # Images over 750px displays better
     alt: Jungle Weed
     title: Jungle Weed
 social:
- - url: https://soundcloud.com/blackmantisproject
+ - url: https://soundcloud.com/jungle-weed
    name: soundcloud
  - url: https://www.facebook.com/blackmantisproject
    name: facebook
- - url: http://blackmantisproject.com
-   name: globe
 releases:
 events:
 ---
