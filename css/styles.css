@@ -281,8 +281,9 @@ p {
   left: 50%;
 }
 .artists-arrow {
-  font-family: "Open sans";
+  font-family: Poppins;
   color: white;
+  font-size: 4rem;
 }
 .welcome-arrow {
   bottom: 0;
