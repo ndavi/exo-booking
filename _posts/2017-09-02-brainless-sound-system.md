@@ -2,6 +2,7 @@
 layout: default
 categories: posts
 name:  "Brainless"
+genre: dub
 images: # Images over 750px displays better
   - url: img/brainless.jpg
     alt: brainless sound system
