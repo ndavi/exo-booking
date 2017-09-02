@@ -158,11 +158,11 @@ p {
 }
 
 .artist_socials {
-  display: flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
 }
 
 .social-item {
