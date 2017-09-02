@@ -241,8 +241,6 @@ h2 {
   bottom: 30px;
   width: 15vw;
   left: 50%;
-  transform: translate(-50%, 0);
-  fill: white;
 }
 
 @media(max-width:767px) {
