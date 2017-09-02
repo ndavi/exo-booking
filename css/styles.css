@@ -232,6 +232,7 @@ p {
 }
 
 .genre {
+    font-family: "Open Sans";
     padding: 10px 0;
     font-weight: 700;
     letter-spacing: 2px;
