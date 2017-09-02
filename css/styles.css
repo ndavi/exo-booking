@@ -35,7 +35,7 @@
 h2 {
   font-family: Poppins;
   font-size: 28px;
-  min-height: 5vh;
+  /*min-height: 5vh;*/
 }
 
 h3 {
@@ -80,7 +80,7 @@ p {
 
 .grid {
   display: block;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 .navbar-custom {
