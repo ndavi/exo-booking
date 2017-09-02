@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollStopper();
   })
 
+console.log(aLiens);
   for(var i=0, len = aLiens.length; i<len; i++) {
     aLiens[i].onclick = function () {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
