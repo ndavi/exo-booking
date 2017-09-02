@@ -10,7 +10,7 @@ images: # Images over 750px displays better
 social:
  - url: https://soundcloud.com/jungle-weed
    name: soundcloud
- - url: https://www.facebook.com/blackmantisproject
+ - url: https://www.facebook.com/Jungle-Weed-191509304222851/
    name: facebook
 releases:
 events:
