@@ -24,7 +24,13 @@
   background-repeat: no-repeat;
 }
 
-.exo,
+.exoh,
+.exo {
+  font-family: Poppins;
+  font-size: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+}
 h2 {
   font-family: Poppins;
   font-size: 28px;
