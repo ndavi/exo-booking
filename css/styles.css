@@ -10,13 +10,6 @@
 
 .section {
   position: relative;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  display: block;
-  min-height: 100vh;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
   text-align: center;
   -webkit-transform: matrix(1,0,0,1,0,0);
   -ms-transform: matrix(1,0,0,1,0,0);
@@ -64,6 +57,7 @@ label {
   color: lightgray;
 }
 
+.send,
 .input-medium,
 .form-control {
   outline: 0;
