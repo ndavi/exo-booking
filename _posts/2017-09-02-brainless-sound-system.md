@@ -31,4 +31,4 @@ events:
    name: Underground Bass Session #10
 ---
 Brainless Sound System est un crew composé de dubmakers, mcs, operators et boxmen.
-Aujourd'hui armé d'une sono 4 scoops faite maison, leur premier album appelé "Human Machine" est sorti en novembre 2015. La couleur musicale propagée par Brainless est résolument Dub, tout en s'influançant de musiques éclectiques.
+Aujourd'hui armé d'une sono 4 scoops faite maison, la couleur musicale propagée par Brainless est résolument Dub, tout en s'influançant de musiques éclectiques.
