@@ -243,6 +243,17 @@ h2 {
   left: 50%;
 }
 
+.welcome-arrow {
+  bottom: 0;
+  height: 10vh;
+  position: absolute;
+  z-index: 1;
+  display: table;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
 @media(max-width:767px) {
   .artist-bio {
     min-height: 25vh;
