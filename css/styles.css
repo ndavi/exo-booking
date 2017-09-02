@@ -53,10 +53,6 @@ h3:visited {
   color: white !important;
 }
 
-.artist_links {
-  min-height: 10vh;
-}
-
 p {
   font-family: "Open Sans";
   font-size: 12px;
