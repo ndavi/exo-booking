@@ -293,10 +293,11 @@ p {
   width: 100%;
   text-align: center;
 }
-
 .exo-welcome {
   height: 100%;
-  width: 100%;
+}
+.exo-contact,
+.exo-welcome {
   position: absolute;
   background: url('../img/90.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
