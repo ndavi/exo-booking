@@ -87,7 +87,7 @@ function closeArtistPanel (artist) {
   artist.classList.add('col-xs-6');
   artist.classList.add('col-sm-4');
   clickDisabled = true;
-  setTimeout(function(){clickDisabled = false;}, 500);
+  setTimeout(function(){clickDisabled = false;}, 5);
 });
 
 }
