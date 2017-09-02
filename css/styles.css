@@ -277,17 +277,14 @@ p {
 
 .down-arrow {
   height: auto;
-  width: 50px;
+  width: 10vw;
   left: 50%;
 }
-
-.welcome-arrow {
-  bottom: 0;
-  height: 23vh;
-  position: absolute;
-  width: 100%;
-  text-align: center;
+.artists-arrow {
+  font-family: "Open sans";
+  color: white;
 }
+
 .exo-welcome {
   height: 100%;
 }
@@ -301,10 +298,6 @@ p {
   -o-background-size: cover;
   background-size: cover;
   align-items: center;
-}
-
-.exo-welcome img {
-  opacity: 0.7;
 }
 
 .contact {
