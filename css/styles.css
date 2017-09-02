@@ -43,6 +43,11 @@ h3 {
   color: white !important;
 }
 
+h3:hover,
+h3:visited {
+    text-decoration: none;
+}
+
 .exo {
   color: white !important;
 }
