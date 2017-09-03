@@ -44,6 +44,9 @@ h4 {
   font-family: Poppins;
   color: white !important;
 }
+.title {
+  padding-top: 3vh;
+}
 h3 {
   font-size: 26px;
   font-family: Poppins;
@@ -51,7 +54,7 @@ h3 {
 }
 
 .form {
-  padding: 5vw;
+  padding: 0 5vw;
   text-align: center;
 }
 
@@ -325,6 +328,7 @@ p {
 }
 
 .contact {
+  text-align: center;
   height: 100vh;
   background-image: linear-gradient(to bottom, white 0%, #5d4157 100%);
 }
