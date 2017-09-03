@@ -404,7 +404,7 @@ p {
 .AmbientShadow::before,
   .AmbientShadow::after {
   content: "";
-  background-image: url('img/exo-booking-square.png');
+  background-image: url('../img/exo-booking-square.png');
   -webkit-animation: switchBackground 6s infinite linear;
           animation: switchBackground 6s infinite linear;
   -webkit-animation-direction: both;
@@ -465,7 +465,7 @@ p {
   }
 
   20%, 30% {
-    background-image: url('img/exo-booking-square-white.png');
+    background-image: url('../img/exo-booking-square-white.png');
   }
 
   100% {
@@ -483,7 +483,7 @@ p {
   }
 
   20%, 30% {
-    background-image: url('img/exo-booking-square.png');
+    background-image: url('../img/exo-booking-square.png');
   }
 
   100% {
