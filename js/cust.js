@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = this.getAttribute("href").slice(1);
         if (target.length) {
-          scrollTo(document.getElementById(target).offsetTop, 1000);
+          // scrollTo(document.getElementById(target).offsetTop, 1000);
           return false;
         }
       }
