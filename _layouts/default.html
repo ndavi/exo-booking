@@ -80,7 +80,7 @@
           <div class="artist_links">
             <div class="book_artist">
               <!-- <a class="book btn btn-default btn-outline" href="mailto:quentin@exo-booking.com" target="_blank" title="Book Albert van Abbe">BOOK</a> -->
-              <a class="book btn btn-default btn-outline" href="#contact" onClick="autoFillForm();" title="Book Albert van Abbe">BOOK</a>
+              <a class="book btn btn-default btn-outline" href="#contact" onClick="autoFillForm(); return false;" title="Book this artist">BOOK</a>
             </div>
             <div class="artist_socials col-xs-12 col-md-12">
               {% for soc in artist.social %}
