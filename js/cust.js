@@ -1,21 +1,6 @@
 var artistDetails; // Which div has been clicked
 var allowTouch = true;
 
-function autoFillForm(artist) {
-  form = document.getElementsByClassName('form');
-  for (var i=0 ; len = form.length ; i++) {
-    form[i].classList.remove('hidden');
-  }
-  // console.log(artist);
-  switch (expression) {
-    case expression:
-
-      break;
-    default:
-
-  }
-}
-
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
@@ -59,6 +44,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (var i = 0; i < artists.length ; i++) { // @TODO Smooth scroll
     artists[i].addEventListener(touchEvent, artistTapEvent);
+  }
+
+  function autoFillForm() {
+    form = document.getElementsByClassName('form');
+    for (var i=0 ; len = form.length ; i++) {
+      form[i].classList.remove('hidden');
+    }
+    // console.log(artist);
+    switch (expression) {
+      case expression:
+
+        break;
+      default:
+
+    }
   }
 });
 
