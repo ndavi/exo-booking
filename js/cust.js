@@ -1,6 +1,19 @@
 var artistDetails; // Which div has been clicked
 var allowTouch = true;
 
+function autoFillForm() {
+  form = document.getElementsByClassName('form');
+  form[0].classList.remove('hidden');
+  scrollTo(document.getElementById('contact').offsetTop, 500);
+  // console.log(artist);
+  switch (expression) {
+    case expression:
+      break;
+    default:
+      break;
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
@@ -44,19 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (var i = 0; i < artists.length ; i++) { // @TODO Smooth scroll
     artists[i].addEventListener(touchEvent, artistTapEvent);
-  }
-
-  function autoFillForm() {
-    form = document.getElementsByClassName('form');
-    form[0].classList.remove('hidden');
-    scrollTo(document.getElementById('contact').offsetTop, 500);
-    // console.log(artist);
-    switch (expression) {
-      case expression:
-        break;
-      default:
-        break;
-    }
   }
 });
 
