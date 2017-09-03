@@ -1,13 +1,13 @@
 var artistDetails; // Which div has been clicked
 var allowTouch = true;
 
-function autoFillForm() {
+function autoFillForm(artist) {
   form = document.getElementsByClassName('form');
   form[0].classList.remove('hidden');
   scrollTo(document.getElementById('contact').offsetTop, 500);
   // console.log(artist);
-  switch (expression) {
-    case expression:
+  switch (artist) {
+    case 'truc':
       break;
     default:
       break;
