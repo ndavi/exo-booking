@@ -2,7 +2,7 @@ var artistDetails; // Which div has been clicked
 var allowTouch = true;
 
 function autoFillForm(artist) {
-  form = document.getElementsByClassName('form')
+  form = document.getElementsByClassName('form');
   for (var i=0 ; len = form.length ; i++) {
     form[i].classList.remove('hidden');
   }
