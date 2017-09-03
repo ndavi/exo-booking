@@ -317,6 +317,7 @@ p {
 }
 .exo-contact,
 .exo-welcome {
+  text-align: center;
   width: 100%;
   position: absolute;
   background: url('../img/90.jpg') no-repeat center center fixed;
@@ -328,7 +329,6 @@ p {
 }
 
 .contact {
-  text-align: center;
   height: 100vh;
   background-image: linear-gradient(to bottom, white 0%, #5d4157 100%);
 }
