@@ -1,7 +1,9 @@
 var artistDetails; // Which div has been clicked
 var allowTouch = true;
 
-function autoFillForm(e) {
+function autoFillForm(artist) {
+  document.getElementsByClassName('form').classList.remove('hidden');
+  console.log(artist);
   switch (expression) {
     case expression:
 
