@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function autoFillForm() {
     document.getElementsByClassName('form')[0].classList.remove('hidden');
+    scrollTo(document.getElementById('contact').offsetTop, 500);
     // console.log(artist);
     switch (expression) {
       case expression:
