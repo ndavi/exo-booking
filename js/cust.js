@@ -3,7 +3,7 @@ var allowTouch = true;
 
 function autoFillForm(artist) {
   document.getElementsByClassName('form').classList.remove('hidden');
-  console.log(artist);
+  // console.log(artist);
   switch (expression) {
     case expression:
 
