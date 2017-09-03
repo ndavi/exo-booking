@@ -47,10 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function autoFillForm() {
-    form = document.getElementsByClassName('form');
-    for (var i=0 ; len = form.length ; i++) {
-      form[i].classList.remove('hidden');
-    }
+    document.getElementsByClassName('form')[0].classList.remove('hidden');
     // console.log(artist);
     switch (expression) {
       case expression:
