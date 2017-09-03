@@ -101,12 +101,17 @@ p {
   h2 {
     font-size: 25px !important;
     min-height: 91px !important;
+    white-space: normal !important;
   }
 }
 @media (min-width: 768px) {
   p {
     font-family: "Open Sans";
     font-size: 13px;
+  }
+  h2 {
+    font-size: 25px !important;
+    /*min-height: 91px !important;*/
   }
 }
 @media (min-width: 1200px) {
