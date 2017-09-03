@@ -45,7 +45,7 @@ h4 {
   color: white !important;
 }
 .title {
-  padding: 1.5vh 0; 
+  padding: 1.5vh 0;
 }
 h3 {
   font-size: 26px;
@@ -97,6 +97,10 @@ p {
   p {
     font-family: "Open Sans";
     font-size: 12px;
+  }
+  h2 {
+    font-size: 25px;
+    min-height: 91px;
   }
 }
 @media (min-width: 768px) {
