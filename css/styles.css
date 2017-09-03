@@ -415,6 +415,27 @@ p {
   right: 0
 }
 
+.AmbientShadow::before {
+  z-index: 0;
+  padding: 50%;
+  position: absolute;
+  top: 20px;
+  top: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.AmbientShadow::after {
+  position: absolute;
+  z-index: 1;
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.15" intercept="-0.07499999999999996" /><feFuncG type="linear" slope="1.15" intercept="-0.07499999999999996" /><feFuncB type="linear" slope="1.15" intercept="-0.07499999999999996" /></feComponentTransfer></filter></svg>#filter');
+  -webkit-filter: contrast(1.15);
+          filter: contrast(1.15);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .2)
+}
+
 @-webkit-keyframes switchBackground {
   19% {
     background-image: url(var(--image1));
