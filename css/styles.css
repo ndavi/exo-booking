@@ -31,13 +31,6 @@
   white-space: nowrap;
   margin-top: 0px !important;
 }
-h2 {
-  font-family: Poppins;
-  font-size: 28px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .title,
 h4 {
   font-size: 24px;
@@ -92,6 +85,12 @@ h3:visited {
 p {
   font-family: "Open Sans";
   font-size: 12px;
+}
+h2 {
+  font-size: 25px;
+  min-height: 91px;
+  white-space: normal;
+  overflow: hidden;
 }
 @media (min-width: 576px) {
   p {
