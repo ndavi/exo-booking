@@ -45,7 +45,7 @@ h4 {
   color: white !important;
 }
 .title {
-  padding-top: 3vh;
+  padding: 0 1.5vh; 
 }
 h3 {
   font-size: 26px;
