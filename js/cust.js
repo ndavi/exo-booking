@@ -1,6 +1,16 @@
 var artistDetails; // Which div has been clicked
 var allowTouch = true;
 
+function autoFillForm(e) {
+  switch (expression) {
+    case expression:
+
+      break;
+    default:
+
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
