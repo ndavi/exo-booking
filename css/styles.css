@@ -109,8 +109,9 @@ h2 {
     font-size: 13px;
   }
   h2 {
-    font-size: 25px !important;
-    /*min-height: 91px !important;*/
+    font-size: 28px !important;
+    min-height: inherit !important;
+    white-space: nowrap !important;
   }
 }
 @media (min-width: 1200px) {
