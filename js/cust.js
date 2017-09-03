@@ -61,21 +61,21 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function artistTapEvent(e) {
-//   if (!allowTouch) {
-//     return;
-//   }
-//
-//   if (this.classList.contains('col-md-3')) {
-//     if (!!artistDetails) {
-//       closeArtistPanel(artistDetails)
-//     }
-//     artistDetails = this;
-//     openArtistPanel(this);
-//   } else {
-//     closeArtistPanel(this);
-//     artistDetails = undefined;
-//   }
-//   scrollTo(this.offsetTop, 500); // @TODO : substract header height
+  // if (!allowTouch) {
+    return;
+  // }
+
+  if (this.classList.contains('col-md-3')) {
+    if (!!artistDetails) {
+      closeArtistPanel(artistDetails)
+    }
+    artistDetails = this;
+    openArtistPanel(this);
+  } else {
+    closeArtistPanel(this);
+    artistDetails = undefined;
+  }
+  scrollTo(this.offsetTop, 500); // @TODO : substract header height
 };
 
 function openArtistPanel (artist) {
