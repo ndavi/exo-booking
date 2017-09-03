@@ -99,8 +99,8 @@ p {
     font-size: 12px;
   }
   h2 {
-    font-size: 25px;
-    min-height: 91px;
+    font-size: 25px !important;
+    min-height: 91px !important;
   }
 }
 @media (min-width: 768px) {
