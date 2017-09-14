@@ -12,6 +12,8 @@ social:
    name: facebook
  - url: http://footprintsystem.bandcamp.com
    name: bandcamp
+ - url: https://soundcloud.com/footprintsystem
+   name: soundcloud
 releases:
 events:
 ---

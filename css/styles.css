@@ -108,7 +108,7 @@ p {
 @media (min-width: 1200px) {
   .desktop-excerpt {
     display: block !important;
-    min-height: 19vh;
+    min-height: 20vh;
   }
   .artist-bio {
       min-height: 20vh !important;
