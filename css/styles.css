@@ -108,10 +108,7 @@ p {
 @media (min-width: 1200px) {
   .desktop-excerpt {
     display: block !important;
-    min-height: 19vh;
-  }
-  .artist-bio {
-      min-height: 20vh !important;
+    min-height: 21vh;
   }
 }
 
@@ -282,6 +279,7 @@ p {
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    min-height: 10vh;
 }
 
 .artist-content {
