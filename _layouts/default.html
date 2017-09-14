@@ -56,14 +56,12 @@
   <div name="home" class="welcome-wrapper">
     <div class="exo-welcome">
         <div class="welcome-arrow">
-          <a id="scrollButton" href="#target">
-            <div class="artists-arrow">Artists</div>
-            <img class="down-arrow" src="img/scroll-down-arrow.png" />
-          </a>
+            <div class="artists-arrow" onclick="gotoArtists();return false;">Artists</div>
+            <img class="down-arrow"  onclick="gotoArtists();return false;"src="img/scroll-down-arrow.png" />
         </div>
     </div>
   </div>
-  <section name="artists" id="target" class="artist_grid">
+  <section name="artists" id="artists-start" class="artist_grid">
     <div class="row grid">
       {% for artist in site.posts %}
       <div id="artist-{{ forloop.index0 }}" class="item artist grid-item col-xs-6 col-sm-4 col-md-3">
@@ -72,7 +70,7 @@
         </div>
         <div class="artist-content">
           <div class="artist-bio">
-            <h2>{{ artist.name }}</h2>
+            <h2 {% if artist.name == 'The black mantis project' %}class="bmp"{% endif %}>{{ artist.name }}</h2>
             <div class="genre">{{ artist.genre }}</div>
             <div class="desktop-excerpt" style="display: none;">{{ artist.excerpt }}</div>
             </div>

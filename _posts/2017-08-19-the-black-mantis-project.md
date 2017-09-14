@@ -5,11 +5,8 @@ name:  "The black mantis project"
 genre: Alternative Dub
 images: # Images over 750px displays better
   - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/16938634_1570279869666085_769664628923153707_n.png?oh=04c607026c5f905d24a71d76255d772c&oe=59D29AF1
-    alt: Cypripedium Calceolum
-    title: brainless1
-  - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/428776_401098113250939_1831912269_n.jpg?oh=a604edfc548168170603de146ede58ba&oe=5A117973
-    alt: Cypripedium Calceolum
-    title: brainless2
+    alt: black mantis project
+    title: black mantis project
 social:
  - url: https://soundcloud.com/blackmantisproject
    name: soundcloud

@@ -5,8 +5,8 @@ name:  "Brainless"
 genre: dub
 images: # Images over 750px displays better
   - url: img/brainless.jpg
-    alt: brainless sound system
-    title: brainless
+    alt: brainless sound system shiva sensi likkle guru
+    title: brainless sound system
 social:
  - url: https://soundcloud.com/brain-less
    name: soundcloud
@@ -25,8 +25,6 @@ releases:
    url: https://pureniceness.bandcamp.com/album/brainless-meets-pure-niceness-vol-1
    picture: https://f4.bcbits.com/img/a3878386405_16.jpg
 events:
- - date: 12/08
-   name: Psychobydub
  - date: 21/10
    name: Underground Bass Session #10
 ---

@@ -15,6 +15,10 @@ function autoFillForm(artist) {
   }
 }
 
+function gotoArtists() {
+  scrollTo(document.getElementById('artists-start').offsetTop, 500);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
