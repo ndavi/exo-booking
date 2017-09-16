@@ -25,15 +25,15 @@
 .exo-logo {
   white-space: nowrap;
   background: url(../img/exo-booking-square-white.png) no-repeat center;
-  height: 35vh;
-  margin: 2em 0;
+  height: 25vh;
+  margin: 1em 0;
   background-size: contain;
 }
 .exo-booking > h1{
   font-family: "zeronero";
   font-size: 4rem;
   color: white;
-  margin: 2em 0;
+  margin: 0.3em 0;
 }
 .exo-booking:after {
     content: '';
@@ -45,7 +45,7 @@
     border-style: solid;
 }
 .exo-artists {
-    margin: 0 20vw;
+    margin: 0 12vw;
 }
 @font-face {
   font-family: "zeronero";
