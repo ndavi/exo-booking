@@ -33,7 +33,7 @@
 }
 .exo-booking > h1{
   font-family: "zeronero";
-  font-size: 45px;
+  font-size: 50px;
   color: white;
 }
 .exo-artists {
@@ -351,11 +351,7 @@ p {
   text-align: center;
   width: 100%;
   position: absolute;
-  background: url('../img/90.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: black;
   align-items: center;
 }
 
