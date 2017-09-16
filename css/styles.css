@@ -3,8 +3,6 @@
 // grid
 
 * {
-  /*margin: 0;*/
-  /*padding: 0;*/
   box-sizing: border-box;
 }
 
@@ -27,8 +25,8 @@
 .exo-logo {
   white-space: nowrap;
   background: url(../img/exo-booking-square-white.png) no-repeat center;
-  height: 40vh;
-  margin: 20px 0;
+  height: 35vh;
+  margin: 30px 0;
   background-size: contain;
 }
 .exo-booking > h1{
@@ -47,7 +45,7 @@
   color: white;
 }
 .text-red {
-  color: red;
+  color: rgb(205, 23, 26);
 }
 .text-white,
 .text-red {
