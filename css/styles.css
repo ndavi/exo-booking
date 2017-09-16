@@ -26,14 +26,14 @@
   white-space: nowrap;
   background: url(../img/exo-booking-square-white.png) no-repeat center;
   min-height: 25vh;
-  margin: 1em 0;
+  margin: 2em 0;
   background-size: contain;
 }
 .exo-booking > h1{
   font-family: "zeronero";
-  font-size: 4em;
+  font-size: 3.2em;
   color: white;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
 }
 .exo-booking:after {
     content: '';
@@ -45,7 +45,7 @@
     border-style: solid;
 }
 .exo-artists {
-    margin: 0 12vw;
+    margin: 0 4vw;
 }
 @font-face {
   font-family: "zeronero";
@@ -59,9 +59,9 @@
 }
 .text-white,
 .text-red {
-  margin: 0 0.2em;
+  margin: 0 0.05em;
   font-family: "zeronero";
-  font-size: 2em;
+  font-size: 1.65em;
   text-transform: uppercase;
 }
 h2 {
