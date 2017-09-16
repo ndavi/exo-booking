@@ -26,14 +26,14 @@
   white-space: nowrap;
   background: url(../img/exo-booking-square-white.png) no-repeat center;
   height: 35vh;
-  margin: 30px 0;
+  margin: 2em 0;
   background-size: contain;
 }
 .exo-booking > h1{
   font-family: "zeronero";
   font-size: 4rem;
   color: white;
-  margin: 10px 0;
+  margin: 2em 0;
 }
 .exo-booking:after {
     content: '';
