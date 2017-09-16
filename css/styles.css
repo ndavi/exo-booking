@@ -31,7 +31,7 @@
 }
 .exo-booking > h1{
   font-family: "zeronero";
-  font-size: 55px;
+  font-size: 4rem;
   color: white;
   margin: 10px 0;
 }
@@ -45,7 +45,7 @@
     border-style: solid;
 }
 .exo-artists {
-    margin: 0 240px;
+    margin: 0 20vw;
 }
 @font-face {
   font-family: "zeronero";
@@ -59,9 +59,9 @@
 }
 .text-white,
 .text-red {
-  margin: 0 5px;
+  margin: 0 0.2em;
   font-family: "zeronero";
-  font-size: 30px;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 h2 {
