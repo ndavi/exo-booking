@@ -35,26 +35,18 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-custom navbar-fixed-top top-nav-collapse">
-    <div class="navbar-header">
-      <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> -->
-        <!-- <span class="icon-bar"></span> -->
-        <!-- <span class="icon-bar"></span> -->
-        <!-- <span class="icon-bar"></span> -->
-      <!-- </button> -->
-      <h1 class="exoh"><a class="navbar-brand page-scroll exo" href="#home">Exo Booking</a></h1>
-    </div>
-    <div class="navbar-collapse navbar-right navbar-over-right col-sm-12 col-md-12">
-      <ul class="main-nav nav navbar-nav">
-        <!-- <li class="hidden active"><a href="#">Home</a></li> -->
-        <!-- <li><a href="#about">Stay</a></li> -->
-        <!-- <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li> -->
-        <!-- <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li> -->
-      </ul>
-    </div><!--/.nav-collapse -->
-  </nav>
   <div name="home" class="welcome-wrapper">
     <div class="exo-welcome">
+        <div class="exo-logo">
+        </div>
+        <div class="exo-booking">
+        </div>
+        <div class="exo-artists">
+            {% for artist in site.posts %}
+                {% assign loopindex = forloop.index | modulo: 2 %}
+                <span class="{% if loopindex ==1 %}text-red{% else %}text-white{% endif %}">{{ artist.name }}</span>
+            {% endfor %}
+        </div>
         <div class="welcome-arrow">
             <div class="artists-arrow" onclick="gotoArtists();return false;">Artists</div>
             <img class="down-arrow"  onclick="gotoArtists();return false;"src="img/scroll-down-arrow.png" />

@@ -1,5 +1,4 @@
 ---
-layout: artist
 categories: artist
 name:  "Bassturbation"
 genre: Live Hardcore Danse Classique

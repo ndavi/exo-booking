@@ -1,6 +1,5 @@
 ---
-layout: default
-categories: posts
+categories: artist
 name:  "Brainless"
 genre: dub
 images: # Images over 750px displays better

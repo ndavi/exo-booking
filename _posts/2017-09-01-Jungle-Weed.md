@@ -1,5 +1,4 @@
 ---
-layout: artist
 categories: artist
 name:  "Jungle Weed"
 genre: Dub

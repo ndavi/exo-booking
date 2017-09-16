@@ -1,5 +1,4 @@
 ---
-layout: artist
 categories: artist
 name:  "Footprint System"
 genre: Ethnic Dub

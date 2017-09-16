@@ -1,5 +1,4 @@
 ---
-layout: artist
 categories: artist
 name:  "The black mantis project"
 genre: Alternative Dub

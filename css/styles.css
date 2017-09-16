@@ -24,12 +24,27 @@
   background-repeat: no-repeat;
 }
 
-.exoh,
-.exo {
-  font-family: Poppins;
-  font-size: 30px;
+.exo-logo {
   white-space: nowrap;
-  margin-top: 0px !important;
+  margin-top: 0px !important;    
+}
+.exo-booking {
+  font-family: Poppins;
+  font-size: 30px;  
+}
+.text-white {
+    
+}
+.text-red {
+    
+}
+.text-white,
+.text-red {
+    font-family: "zeronero";
+}
+@font-face {
+  font-family: "zeronero";
+  src: url('img/zeronero.ttf');
 }
 h2 {
   font-family: Poppins;
