@@ -31,9 +31,10 @@
   margin: 20px 0;
   background-size: contain;
 }
-.exo-booking {
-  font-family: Poppins;
-  font-size: 30px;  
+.exo-booking > h1{
+  font-family: "zeronero";
+  font-size: 45px;
+  color: white;
 }
 .exo-artists {
     margin: 0 80px;
