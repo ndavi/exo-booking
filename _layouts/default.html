@@ -56,7 +56,7 @@
   <section name="artists" id="artists-start" class="artist_grid">
     <div class="row grid">
       {% for artist in site.posts %}
-      <div id="artist-{{ forloop.index0 }}" class="item artist grid-item col-xs-12 col-sm-4 col-md-3">
+      <div id="artist-{{ forloop.index0 }}" class="item artist grid-item col-xs-6 col-sm-4 col-md-3">
         <div class="artist-picture">
           <img src="{{ artist.images[0].url }}" alt="{{ artist.images[0].alt }}" title="{{ artist.images[0].title }}" />
         </div>
