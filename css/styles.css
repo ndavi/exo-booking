@@ -32,19 +32,20 @@
   font-family: Poppins;
   font-size: 30px;  
 }
+@font-face {
+  font-family: "zeronero";
+  src: url('../img/zeronero.ttf');
+}
 .text-white {
-    
+  color: white;
 }
 .text-red {
-    
+  color: red;
 }
 .text-white,
 .text-red {
-    font-family: "zeronero";
-}
-@font-face {
   font-family: "zeronero";
-  src: url('img/zeronero.ttf');
+  font-size: 30px;
 }
 h2 {
   font-family: Poppins;
