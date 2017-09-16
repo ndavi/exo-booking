@@ -31,8 +31,9 @@
 }
 .exo-booking > h1{
   font-family: "zeronero";
-  font-size: 50px;
+  font-size: 55px;
   color: white;
+  margin: 10px 0;
 }
 .exo-booking:after {
     content: '';
