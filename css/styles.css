@@ -138,6 +138,7 @@ p {
   .desktop-excerpt {
     display: block !important;
     min-height: 21vh;
+    max-height: 200px;
   }
 }
 
