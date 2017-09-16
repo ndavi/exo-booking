@@ -23,29 +23,20 @@
 }
 
 .exo-logo {
-  white-space: nowrap;
-  background: url(../img/exo-booking-square-white.png) no-repeat center;
-  min-height: 25vh;
-  margin: 2em 0;
-  background-size: contain;
+    white-space: nowrap;
+    background: url(../img/exo-booking-square-white.png) no-repeat center;
+    height: 27vh;
+    margin: 3vh 0;
+    background-size: contain;
 }
 .exo-booking > h1{
-  font-family: "zeronero";
-  font-size: 3.2em;
-  color: white;
-  margin: 0.5em 0;
-}
-.exo-booking:after {
-    content: '';
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 1px;
-    border-width: 0 0 1px;
-    border-style: solid;
+    font-family: "zeronero";
+    font-size: 8vh;
+    color: white;
+    margin: 2vh 0;
 }
 .exo-artists {
-    margin: 0 4vw;
+    margin: 0 5vw;
 }
 @font-face {
   font-family: "zeronero";
@@ -59,10 +50,10 @@
 }
 .text-white,
 .text-red {
-  margin: 0 0.05em;
-  font-family: "zeronero";
-  font-size: 1.65em;
-  text-transform: uppercase;
+    margin: 0 0.2vw;
+    font-family: "zeronero";
+    font-size: 4vh;
+    text-transform: uppercase;
 }
 h2 {
   font-family: Poppins;
@@ -335,7 +326,7 @@ p {
 
 .down-arrow {
   height: auto;
-  width: 11rem;
+  width: 13vh;
   left: 50%;
 }
 .artists-arrow {
