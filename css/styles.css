@@ -36,7 +36,8 @@
     margin: 2vh 0;
 }
 .exo-artists {
-    margin: 0 5vw;
+    max-width: 600px;
+    margin: auto;
 }
 @font-face {
   font-family: "zeronero";
