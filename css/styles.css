@@ -25,13 +25,13 @@
 .exo-logo {
   white-space: nowrap;
   background: url(../img/exo-booking-square-white.png) no-repeat center;
-  height: 25vh;
+  min-height: 25vh;
   margin: 1em 0;
   background-size: contain;
 }
 .exo-booking > h1{
   font-family: "zeronero";
-  font-size: 4rem;
+  font-size: 4em;
   color: white;
   margin: 0.3em 0;
 }
@@ -61,7 +61,7 @@
 .text-red {
   margin: 0 0.2em;
   font-family: "zeronero";
-  font-size: 2rem;
+  font-size: 2em;
   text-transform: uppercase;
 }
 h2 {
