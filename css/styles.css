@@ -26,12 +26,17 @@
 
 .exo-logo {
   white-space: nowrap;
-  margin-top: 0px !important;
-  background-image: url('../img/exo-booking-square-white.png');
+  background: url(../img/exo-booking-square-white.png) no-repeat center;
+  height: 40vh;
+  margin: 20px 0;
+  background-size: contain;
 }
 .exo-booking {
   font-family: Poppins;
   font-size: 30px;  
+}
+.exo-artists {
+    margin: 0 80px;
 }
 @font-face {
   font-family: "zeronero";
@@ -45,6 +50,7 @@
 }
 .text-white,
 .text-red {
+  margin: 0 5px;
   font-family: "zeronero";
   font-size: 30px;
   text-transform: uppercase;
