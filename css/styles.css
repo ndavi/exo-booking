@@ -323,7 +323,12 @@ p {
   height: 100vh;
   position: relative;
 }
-
+.welcome-arrow {
+  bottom: 25px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
 .down-arrow {
   height: auto;
   width: 13vh;
