@@ -335,7 +335,7 @@ p {
 
 .down-arrow {
   height: auto;
-  width: 135px;
+  width: 11rem;
   left: 50%;
 }
 .artists-arrow {
@@ -344,13 +344,6 @@ p {
   font-size: 6rem;
   margin-bottom: 25px;
 }
-.welcome-arrow {
-  bottom: 25px;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
 .exo-welcome {
   height: 100%;
 }
