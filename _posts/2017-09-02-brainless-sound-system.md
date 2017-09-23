@@ -1,6 +1,6 @@
 ---
 categories: artist
-name:  "Brainless"
+name:  "Brainless Sound"
 genre: dub
 images: # Images over 750px displays better
   - url: img/brainless.jpg

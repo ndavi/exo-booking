@@ -1,6 +1,6 @@
 ---
 categories: artist
-name:  "The black mantis project"
+name:  "Black mantis project"
 genre: Alternative Dub
 images: # Images over 750px displays better
   - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/16938634_1570279869666085_769664628923153707_n.png?oh=04c607026c5f905d24a71d76255d772c&oe=59D29AF1

@@ -43,9 +43,10 @@
             <h1>EXO BOOKING</h1>
         </div>
         <div class="exo-artists">
-            {% for artist in site.posts %}
+            {% assign sortedPosts = site.posts | sort: 'name' %}
+            {% for artist in sortedPosts %}
                 {% assign loopindex = forloop.index | modulo: 2 %}
-                <span class="{% if loopindex ==1 %}text-red{% else %}text-white{% endif %}">{{ artist.name | replace: ' ', '&#160;' }}</span>
+                <span class="{% if loopindex == 0 %}text-red{% else %}text-white{% endif %}">{{ artist.name | replace: ' ', '&#160;' }}</span>
             {% endfor %}
         </div>
         <div class="welcome-arrow">
@@ -87,9 +88,9 @@
     </section>
     <div name="contact" id="contact" class="exo-contact">
       <div class="title">
-        Contact : <a href="mailto:contact@exo-booking.com">contact@exo-booking.com</a>
-        <br />ALLEGRET Bérengère - <a href="mailto:berengere@exo-booking.com">berengere@exo-booking.com</a> - +33625321606
-        <br />DENIAU Quentin - <a href="mailto:quentin@exo-booking.com">quentin@exo-booking.com</a> - +33612872024
+        Contact : <a class="contact-mail" href="mailto:contact@exo-booking.com">contact@exo-booking.com</a>
+        <br />ALLEGRET Bérengère - <a class="contact-mail" href="mailto:berengere@exo-booking.com">berengere@exo-booking.com</a> - +33625321606
+        <br />DENIAU Quentin - <a class="contact-mail" href="mailto:quentin@exo-booking.com">quentin@exo-booking.com</a> - +33612872024
       </div>
       <form action="https://formspree.io/klem.deniau@gmail.com" method="post" class="hidden form">
         <div class="title">You can also fill the following form to book <span id="form-artist"></span> : </div>
