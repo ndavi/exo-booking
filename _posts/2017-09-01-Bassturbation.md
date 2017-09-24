@@ -3,7 +3,7 @@ categories: artist
 name:  "Bassturbation"
 genre: Live Hardcore Danse Classique
 images: # Images over 750px displays better
-  - url: img/bassturbation.png
+  - url: img/Bassturbation-Profil.jpg
     alt: Bassturbation
     title: Bassturbation
 social:

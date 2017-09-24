@@ -3,7 +3,7 @@ categories: artist
 name:  "Brainless Sound"
 genre: dub
 images: # Images over 750px displays better
-  - url: img/brainless.jpg
+  - url: img/Brainless-Profil.jpg
     alt: brainless sound system shiva sensi likkle guru
     title: brainless sound system
 social:
