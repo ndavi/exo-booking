@@ -1,5 +1,5 @@
-var artistDetails; // Which div has been clicked
-var allowTouch = true;
+var artistDetails, // Which div has been clicked
+    allowTouch = true;
 
 function autoFillForm(artist) {
   form = document.getElementsByClassName('form');
