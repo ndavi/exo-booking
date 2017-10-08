@@ -1,28 +1,31 @@
+'use strict';
+
 var artistDetails, // Which div has been clicked
+    form,
     allowTouch = true;
 
 function autoFillForm(artist) {
   form = document.getElementsByClassName('form');
   form[0].classList.remove('hidden');
-  scrollTo(document.getElementById('contact').offsetTop, 500);
-  // console.log(artist);
+  scrollTo(document.getElementById('contact').offsetTop, 200);
   document.getElementById('form-artist').innerHTML = artist;
-  switch (artist) {
-    case 'truc':
-      break;
-    default:
-      break;
-  }
+//  switch (artist) {
+//    case 'truc':
+//      break;
+//    default:
+//      break;
+//  }
 }
 
 function gotoArtists() {
-  scrollTo(document.getElementById('artists-start').offsetTop, 500);
+  scrollTo(document.getElementById('artists-start').offsetTop, 200);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
   var aLiens        = document.querySelectorAll('a[href*="#"]');
   var artists       = document.getElementsByClassName('artist');
-  var touchEvent    = 'ontouchstart' in window ? 'touchend' : 'click';
+  var touchEvent    = !!('ontouchstart') in window ? 'touchend' : 'click';
+    console.log(touchEvent);
   var delayedExec   = function(after, fn) {
       var timer;
       return function() {
@@ -53,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = this.getAttribute("href").slice(1);
         if (target.length) {
-          // scrollTo(document.getElementById(target).offsetTop, 1000);
-          return false;
+            scrollTo(document.getElementById(target).offsetTop, 200);
+            return false;
         }
       }
     };
@@ -62,43 +65,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (var i = 0; i < artists.length ; i++) { // @TODO Smooth scroll
     artists[i].addEventListener(touchEvent, artistTapEvent);
+//    artists[i].addEventListener();
   }
 });
 
-function artistTapEvent(e) {
-  // if (!allowTouch) {
-    return;
-  // }
 
-  if (this.classList.contains('col-md-3')) {
+function artistTapEvent(e) {
+    console.log('tap');
+   if (!allowTouch) {
+    return;
+   }
+
+    console.log(artistDetails);
+//  if (this.classList.contains('col-md-3')) {
     if (!!artistDetails) {
       closeArtistPanel(artistDetails)
     }
     artistDetails = this;
     openArtistPanel(this);
-  } else {
-    closeArtistPanel(this);
-    artistDetails = undefined;
-  }
-  scrollTo(this.offsetTop, 500); // @TODO : substract header height
+//  } else {
+//    closeArtistPanel(this);
+//    artistDetails = undefined;
+//  }
+  scrollTo(this.offsetTop, 800); // @TODO : substract header height
 };
 
 function openArtistPanel (artist) {
-  artist.classList.remove('col-md-3');
-  artist.classList.remove('col-xs-6');
-  artist.classList.remove('col-sm-4');
-  artist.classList.add('col-md-6');
-  artist.classList.add('col-xs-12');
-  artist.classList.add('col-sm-8');
+  console.log('openArtistPanel');
 }
 
 function closeArtistPanel (artist) {
+    
+    console.log('closeArtistPanel');
   artist.classList.remove('col-md-6');
-  artist.classList.remove('col-xs-12');
-  artist.classList.remove('col-sm-8');
-  artist.classList.add('col-md-3');
-  artist.classList.add('col-xs-6');
-  artist.classList.add('col-sm-4');
 }
 
 function scrollTo (element, duration) {
@@ -113,13 +112,15 @@ function scrollTo (element, duration) {
 
 function scrollToC (element, from, to, duration) {
   if (duration < 0) return;
-  if(typeof from === "object")from=from.offsetTop;
-  if(typeof to === "object")to=to.offsetTop;
+  if (typeof from === "object")from=from.offsetTop;
+  if (typeof to === "object")to=to.offsetTop;
   scrollToX(element, from, to, 0, 1/duration, 20, easeOutCuaic);
 }
 
 function scrollToX (element, x1, x2, t, v, step, operacion) {
-  if (t < 0 || t > 1 || v <= 0) return;
+  if (t < 0 || t > 1 || v <= 0) {
+      return;
+  }
   element.scrollTop = x1 - (x1-x2)*operacion(t);
   t += v * step;
   setTimeout(function() {

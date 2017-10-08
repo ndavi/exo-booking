@@ -16,6 +16,16 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  width: auto;
+  padding: 0;
+}
+.container:before {
+    display: none;
+}
+
 .exo-logo {
     white-space: nowrap;
     background: url(../img/exo-booking-square-white.png) no-repeat center;
@@ -126,17 +136,15 @@ p {
     background-color: rgb(230, 230, 230);
     border-color: rgb(173, 173, 173);
 }
+.artist {
+  transition: all 300ms;
+}
 .artist:hover .artist-picture > img { -webkit-filter: brightness(130%); }
 .artist_grid { background-color: white; }
 .artist_grid .row:only-child {
     margin-left: 0;
     margin-right: 0;
 }
-.row:after, .row:before {
-    content: " ";
-    display: table;
-}
-.navbar:after { clear: both; }
 .artist_socials {
   display: -webkit-flex;
   display: -ms-flex;
@@ -183,10 +191,6 @@ p {
     min-height: 11vh;
 }
 .artist-content { padding: 0 10px; }
-.artist {
-  padding: 0;
-  overflow: hidden;
-}
 .welcome-wrapper {
   height: 100vh;
   position: relative;
@@ -202,12 +206,6 @@ p {
   width: 13vh;
   left: 50%;
 }
-.artists-arrow {
-  font-family: Poppins;
-  color: white;
-  font-size: 6rem;
-  margin-bottom: 25px;
-}
 .exo-welcome { height: 100%; }
 .exo-contact,
 .exo-welcome {
@@ -216,10 +214,6 @@ p {
   position: absolute;
   background-color: black;
   align-items: center;
-}
-.contact {
-  height: 100vh;
-  background-image: linear-gradient(to bottom, white 0%, #5d4157 100%);
 }
 .artist-picture{ width: 100%; }
 .artist-picture img { width: 100%; }
@@ -238,7 +232,7 @@ p {
 .col:first-child { margin-left: 0; }
 /*  GROUPING  */
 .group:before,
-.group:after { content:""; display:table; }
+/*.group:after { content:""; display:table; }*/
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF TWO  */
