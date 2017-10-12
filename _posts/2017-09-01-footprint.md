@@ -15,5 +15,9 @@ social:
    name: soundcloud
 releases:
 events:
+ - date: 31/03
+   name: TBA - Lyon
 ---
-Duo dub, instrumental et métissé : Footprint joue avec les courant et influences musicales en tout genre pour créer des productions Dub personnelles et porteuses de messages forts.
+Footprint est un duo dub qui joue avec les courant et influences musicales en tout genre pour créer des productions Dub personnelles et porteuses de messages forts. Accompagnés d’instruments en live, l’idée d’origine était d’utiliser le sound system comme un terrain d’expérimentation musicale et sensorielle. Une traversée des âges et des continents aux confluences des musiques actuelles et antiques.
+
+Lien lecteur : https://soundcloud.com/footprintsystem/sets/footprint-system-shakti-2016
