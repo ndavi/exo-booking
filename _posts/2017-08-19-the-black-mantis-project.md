@@ -32,4 +32,4 @@ events:
 ---
 Ce groupe de live-bass-music délivre un set instrumental sur des rythmes numériques. Black Mantis fait danser les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri.
 
-Lien lecteur : https://www.youtube.com/watch?v=esmIyxnejow
+{% include youtube.html id=esmIyxnejow %}

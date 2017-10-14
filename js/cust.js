@@ -78,7 +78,7 @@ function artistTapEvent(e) {
     return;
    }
 
-  if (this.classList.contains('col-md-6')) {
+  if (this.classList.contains('pouet')) {
     closeArtistPanel(this);
     artistDetails = undefined; 
   } else {
@@ -92,8 +92,11 @@ function artistTapEvent(e) {
 };
 
 function openArtistPanel (artist) {
-  var innerWidth = window.innerWidth;       artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'none');
+  var innerWidth = window.innerWidth;
+  artist.classList.add('pouet');
+  artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'none');
   artist.getElementsByClassName('expand-info')['0'].style.setProperty('display', 'block');
+  artist.getElementsByClassName('expand-info')['1'].style.setProperty('display', 'block');
 
     if (innerWidth < 576) {
       return;
@@ -146,7 +149,9 @@ function closeArtistPanel (artist) {
       nodes[i].classList.remove('col-md-6');
       nodes[i].classList.remove('col-xs-6');
     }
+    artist.classList.remove('pouet');
     artist.getElementsByClassName('expand-info')['0'].style.setProperty('display', 'none');
+    artist.getElementsByClassName('expand-info')['1'].style.setProperty('display', 'none');
     artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'block');
   }
 }
