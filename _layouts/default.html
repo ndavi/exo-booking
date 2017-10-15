@@ -77,26 +77,28 @@
             </div>
             <div class="desktop-excerpt">{{ artist.excerpt }}</div>
             </div>
-            <div class="expand-info" style="display: none">
+            <div class="expand-info" style="display: none; 
+    min-height: 21vh;
+    margin-bottom: 110px;">
                 <div>
                   {{ artist.content }}
                 </div>
             </div>
           </div>
-          <div class="artist_links">
-            <div class="book_artist">
-              <a class="book btn btn-default btn-outline" onclick="autoFillForm('{{ artist.name }}');return false;" title="Book this artist">BOOK</a>
-            </div>
-            <div class="artist_socials col-xs-12 col-md-12">
-              {% for soc in artist.social %}
-                <!-- {{ soc }} -->
-                <div class="social-item">
-                  <a class="fa fa-{{ soc.name }}" href="{{ soc.url }}"></a>
+            <div class="artist_links col-md-12 col-xs-12" style="position: absolute; bottom: 5px;">
+                <div class="book_artist">
+                  <a class="book btn btn-default btn-outline" onclick="autoFillForm('{{ artist.name }}');return false;" title="Book this artist">BOOK</a>
                 </div>
-              {% endfor %}
+                <div class="artist_socials col-xs-12 col-md-12">
+                  {% for soc in artist.social %}
+                    <!-- {{ soc }} -->
+                    <div class="social-item">
+                      <a class="fa fa-{{ soc.name }}" href="{{ soc.url }}"></a>
+                    </div>
+                  {% endfor %}
+                </div>
             </div>
           </div>
-        </div>
         {% endfor %}
       </div>
     </section>

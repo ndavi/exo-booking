@@ -129,15 +129,16 @@ p {
   }
 }
 @media (min-width: 1200px) {
-  .desktop-excerpt {
-    display: block;
-    min-height: 21vh;
-    max-height: 200px;
-  }
   .container {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+  .desktop-excerpt {
+    display: block;
+    min-height: 21vh;
+    max-height: 200px;
+    margin-bottom: 110px;
+  }
 .grid { display: block; }
 .artist:hover {
     color: rgb(51, 51, 51);
@@ -146,6 +147,7 @@ p {
 }
 .artist {
   transition: all 300ms;
+  position: relative;
 }
 .artist:hover .artist-picture > img { -webkit-filter: brightness(130%); }
 .artist_grid { background-color: white; }
@@ -196,7 +198,6 @@ p {
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    min-height: 11vh;
 }
 .artist-content { padding: 0 10px; }
 .welcome-wrapper {

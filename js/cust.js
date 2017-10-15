@@ -120,8 +120,13 @@ function artistPanelHorizontal (artist) {
     for(var i = 0; i < nodes.length; i++) {
       if (nodes[i].nodeName.toLowerCase() == 'div') {
         nodes[i].classList.add('col-md-6');
+        nodes[i].classList.remove('col-md-12');
+        nodes[i].classList.remove('col-xs-12');
         if (i == 1) {
             nodes[i].style.setProperty('padding', 0);
+        }
+        if (i == 5) {
+            nodes[i].style.setProperty('position', 'relative');
         }
       }
     }
@@ -132,10 +137,24 @@ function artistPanelHorizontalMobile (artist) {
     for(var i = 0; i < nodes.length; i++) {
       if (nodes[i].nodeName.toLowerCase() == 'div') {
         nodes[i].classList.add('col-xs-6');
-        if (i == 1) {
-          nodes[i].style.setProperty('padding', 0);
+        nodes[i].classList.remove('col-md-12');
+        nodes[i].classList.remove('col-xs-12');
+        switch (i) {
+            case 1:
+                nodes[i].style.setProperty('padding', 0);
+                return;
+            case 5:
+                nodes[i].style.setProperty('position', 'relative');
+                return;
+            default:
+                return;
         }
-
+//        if (i == 1) {
+//          nodes[i].style.setProperty('padding', 0);
+//        }
+//        if (i == 5) {
+//            nodes[i].style.setProperty('position', 'relative');
+//        }
       }
     }
 }
@@ -145,9 +164,18 @@ function closeArtistPanel (artist) {
   artist.style.removeProperty('grid-row');
   var nodes = artist.childNodes;
   for(var i = 0; i < nodes.length; i++) {
+      console.log(i, nodes[i]);
     if (nodes[i].nodeName.toLowerCase() == 'div') {
       nodes[i].classList.remove('col-md-6');
       nodes[i].classList.remove('col-xs-6');
+      nodes[i].classList.add('col-xs-12');
+      nodes[i].classList.add('col-md-12');
+      if (i == 1) {
+          nodes[i].style.setProperty('padding', 0);
+      }
+      if (i == 5) {
+        nodes[i].style.setProperty('position', 'absolute');
+      }
     }
     artist.classList.remove('pouet');
     artist.getElementsByClassName('expand-info')['0'].style.setProperty('display', 'none');
