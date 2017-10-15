@@ -14,6 +14,8 @@ social:
  - url: https://soundcloud.com/footprintsystem
    name: soundcloud
 releases:
+members: 2
+location: "Paris"
 events:
  - date: 31/03
    name: TBA - Lyon

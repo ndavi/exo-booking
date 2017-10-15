@@ -14,6 +14,8 @@ social:
  - url: https://www.youtube.com/user/JungleWeeddubsound
    name: youtube
 releases:
+members: 1
+location: "Toulouse"
 events:
  - date: 06/04
    name: TBA - Besançon

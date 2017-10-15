@@ -12,6 +12,8 @@ social:
  - url: https://www.facebook.com/bassturbation/
    name: facebook
 releases:
+members: 2
+location: "Besançon"
 events:
 ---
 Rappelez-vous de votre tendre enfance... Voyage initiatique d’une croissance insignifiante entre une macération d’oursins aux confins d’un sac à jarretelles, et les divagations nostalgiques d’un poulpe se promenant quai Branly. Lors de ce pèlerinage hypnotique, vous serez bercés par des algo-rythmes à rebonds qui viendront chatouiller vos sens et émoustiller vos tabous les plus sombres. Ainsi font, font, font, les sales gosses de BassTurbation… 

@@ -122,11 +122,15 @@ function artistPanelHorizontal (artist) {
         nodes[i].classList.add('col-md-6');
         nodes[i].classList.remove('col-md-12');
         nodes[i].classList.remove('col-xs-12');
-        if (i == 1) {
-            nodes[i].style.setProperty('padding', 0);
-        }
-        if (i == 5) {
-            nodes[i].style.setProperty('position', 'relative');
+        switch (i) {
+            case 1:
+                nodes[i].style.setProperty('padding', 0);
+                return;
+            case 5:
+                nodes[i].style.setProperty('position', 'relative');
+                return;
+            default:
+                return;
         }
       }
     }
@@ -137,6 +141,7 @@ function artistPanelHorizontalMobile (artist) {
     for(var i = 0; i < nodes.length; i++) {
       if (nodes[i].nodeName.toLowerCase() == 'div') {
         nodes[i].classList.add('col-xs-6');
+        nodes[i].classList.add('col-md-6');
         nodes[i].classList.remove('col-md-12');
         nodes[i].classList.remove('col-xs-12');
         switch (i) {
@@ -149,12 +154,6 @@ function artistPanelHorizontalMobile (artist) {
             default:
                 return;
         }
-//        if (i == 1) {
-//          nodes[i].style.setProperty('padding', 0);
-//        }
-//        if (i == 5) {
-//            nodes[i].style.setProperty('position', 'relative');
-//        }
       }
     }
 }

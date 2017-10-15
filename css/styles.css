@@ -133,12 +133,12 @@ p {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-  .desktop-excerpt {
+.desktop-excerpt {
     display: block;
     min-height: 21vh;
     max-height: 200px;
     margin-bottom: 110px;
-  }
+}
 .grid { display: block; }
 .artist:hover {
     color: rgb(51, 51, 51);

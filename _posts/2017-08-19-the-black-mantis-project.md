@@ -26,6 +26,8 @@ releases:
   - name: Tetraktys (2017) - ODG
     url: https://blackmantisproject.bandcamp.com/album/tetraktys
     picture: https://f4.bcbits.com/img/a2552997919_2.jpg
+members: 4
+location: "Lille"
 events:
   - date: 11/11
     name: Rabadub 2017 - Felleries
