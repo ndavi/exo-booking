@@ -16,6 +16,15 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.container {
+  display: grid;
+  width: auto;
+  padding: 0;
+}
+.container:before {
+    display: none;
+}
+
 .exo-logo {
     white-space: nowrap;
     background: url(../img/exo-booking-square-white.png) no-repeat center;
@@ -106,19 +115,29 @@ p {
     font-family: "Open Sans";
     font-size: 12px;
   }
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   p {
     font-family: "Open Sans";
     font-size: 13px;
   }
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (min-width: 1200px) {
-  .desktop-excerpt {
-    display: block !important;
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.desktop-excerpt {
+    display: block;
     min-height: 21vh;
     max-height: 200px;
-  }
+    margin-bottom: 110px;
 }
 .grid { display: block; }
 .artist:hover {
@@ -126,17 +145,16 @@ p {
     background-color: rgb(230, 230, 230);
     border-color: rgb(173, 173, 173);
 }
+.artist {
+  transition: all 300ms;
+  position: relative;
+}
 .artist:hover .artist-picture > img { -webkit-filter: brightness(130%); }
 .artist_grid { background-color: white; }
 .artist_grid .row:only-child {
     margin-left: 0;
     margin-right: 0;
 }
-.row:after, .row:before {
-    content: " ";
-    display: table;
-}
-.navbar:after { clear: both; }
 .artist_socials {
   display: -webkit-flex;
   display: -ms-flex;
@@ -180,13 +198,8 @@ p {
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    min-height: 11vh;
 }
 .artist-content { padding: 0 10px; }
-.artist {
-  padding: 0;
-  overflow: hidden;
-}
 .welcome-wrapper {
   height: 100vh;
   position: relative;
@@ -202,12 +215,6 @@ p {
   width: 13vh;
   left: 50%;
 }
-.artists-arrow {
-  font-family: Poppins;
-  color: white;
-  font-size: 6rem;
-  margin-bottom: 25px;
-}
 .exo-welcome { height: 100%; }
 .exo-contact,
 .exo-welcome {
@@ -217,11 +224,6 @@ p {
   background-color: black;
   align-items: center;
 }
-.contact {
-  height: 100vh;
-  background-image: linear-gradient(to bottom, white 0%, #5d4157 100%);
-}
-.artist-picture{ width: 100%; }
 .artist-picture img { width: 100%; }
 /*  SECTIONS  */
 .section {
@@ -238,7 +240,7 @@ p {
 .col:first-child { margin-left: 0; }
 /*  GROUPING  */
 .group:before,
-.group:after { content:""; display:table; }
+/*.group:after { content:""; display:table; }*/
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF TWO  */

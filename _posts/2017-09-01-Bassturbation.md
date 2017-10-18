@@ -12,6 +12,10 @@ social:
  - url: https://www.facebook.com/bassturbation/
    name: facebook
 releases:
+members: 2
+location: "Besançon"
 events:
 ---
-Bassturbation, c’est un combo scénique : un producteur et “liveur” hardcore, accompagné d’une danseuse classique. Le résultat sur scène donne un show électrique et visuel unique.
+Rappelez-vous de votre tendre enfance... Voyage initiatique d’une croissance insignifiante entre une macération d’oursins aux confins d’un sac à jarretelles, et les divagations nostalgiques d’un poulpe se promenant quai Branly. Lors de ce pèlerinage hypnotique, vous serez bercés par des algo-rythmes à rebonds qui viendront chatouiller vos sens et émoustiller vos tabous les plus sombres. Ainsi font, font, font, les sales gosses de BassTurbation… 
+
+Lien lecteur : https://www.facebook.com/bassturbation/videos/1264188463616368/

@@ -26,9 +26,12 @@ releases:
   - name: Tetraktys (2017) - ODG
     url: https://blackmantisproject.bandcamp.com/album/tetraktys
     picture: https://f4.bcbits.com/img/a2552997919_2.jpg
+members: 4
+location: "Lille"
 events:
-  - date:
-    name: soon
+  - date: 11/11
+    name: Rabadub 2017 - Felleries
 ---
-Désormais en trio, le groupe de live-bass-music délivre un tout nouveau set instrumental.
-Sur des rythmes numériques, Black Mantis fait danser en live les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri.
+Ce groupe de live-bass-music délivre un set instrumental sur des rythmes numériques. Black Mantis fait danser les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri.
+
+{% include youtube.html id=esmIyxnejow %}
