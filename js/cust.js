@@ -9,13 +9,6 @@ function autoFillForm(artist) {
   form[0].classList.remove('hidden');
   scrollTo(document.getElementById('contact').offsetTop, 200);
   document.getElementById('form-artist').innerHTML = artist;
-//  switch (artist) {
-//    case 'truc':
-//      break;
-//    default:
-//      break;
-//  }
-}
 
 function gotoArtists() {
     console.log('gotoartist');
