@@ -9,9 +9,9 @@ function autoFillForm(artist) {
   form[0].classList.remove('hidden');
   scrollTo(document.getElementById('contact').offsetTop, 200);
   document.getElementById('form-artist').innerHTML = artist;
+}
 
 function gotoArtists() {
-    console.log('gotoartist');
   scrollTo(document.getElementById('artists-start').offsetTop, 200);
 }
 
@@ -64,14 +64,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function artistTapEvent(e) {
-   if (
-       !allowTouch
-       || (!!e.path["0"] && e.path["0"].classList.contains('book'))
-      ) {
+   if (!allowTouch || (!!e.path["0"] && e.path["0"].classList.contains('book'))) {
     return;
    }
 
-  if (this.classList.contains('pouet')) {
+  if (this.classList.contains('clickd')) {
     closeArtistPanel(this);
     artistDetails = undefined; 
   } else {
@@ -86,7 +83,7 @@ function artistTapEvent(e) {
 
 function openArtistPanel (artist) {
   var innerWidth = window.innerWidth;
-  artist.classList.add('pouet');
+  artist.classList.add('clickd');
   artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'none');
   artist.getElementsByClassName('expand-info')['0'].style.setProperty('display', 'block');
   artist.getElementsByClassName('expand-info')['1'].style.setProperty('display', 'block');
@@ -94,74 +91,29 @@ function openArtistPanel (artist) {
     if (innerWidth < 576) {
       return;
     } else if (innerWidth < 960) {
-        artist.style.setProperty('grid-column', '1 / 3')
-        artist.style.setProperty('grid-row', '1 / 2')
-        artistPanelHorizontalMobile(artist);
+        artist.style.setProperty('grid-column', '1 / 3');
+        artist.style.setProperty('grid-row', '1 / 2');
+        artist.style.setProperty('flex-direction', 'unset');
     } else if (innerWidth < 1200) {
-        artist.style.setProperty('grid-column', '1 / 4')
-        artistPanelHorizontal(artist);
-        artist.style.setProperty('grid-row', '1 / 2')
+        artist.style.setProperty('grid-column', '1 / 4');
+        artist.style.setProperty('grid-row', '1 / 2');
+        artist.style.setProperty('flex-direction', 'unset');
     } else {
-        artistPanelHorizontal(artist);
-        artist.style.setProperty('grid-column', '1 / 5')
-        artist.style.setProperty('grid-row', '1 / 2')
+        artist.style.setProperty('grid-column', '1 / 5');
+        artist.style.setProperty('grid-row', '1 / 2');
+        artist.style.setProperty('flex-direction', 'unset');
     }
-}
-
-function artistPanelHorizontal (artist) {
-    var nodes = artist.childNodes;
-    for(var i = 0; i < nodes.length; i++) {
-      if (nodes[i].nodeName.toLowerCase() == 'div') {
-        nodes[i].classList.add('col-md-6');
-        nodes[i].classList.remove('col-md-12');
-        nodes[i].classList.remove('col-xs-12');
-        switch (i) {
-            case 1:
-                nodes[i].style.setProperty('padding', 0);
-                return;
-            case 5:
-                nodes[i].style.setProperty('position', 'relative');
-                return;
-            default:
-                return;
-        }
-      }
-    }
-}
-
-function artistPanelHorizontalMobile (artist) {
-    var nodes = artist.childNodes;
-    for(var i = 0; i < nodes.length; i++) {
-      if (nodes[i].nodeName.toLowerCase() == 'div') {
-        nodes[i].classList.add('col-xs-6');
-        nodes[i].classList.add('col-md-6');
-        nodes[i].classList.remove('col-md-12');
-        nodes[i].classList.remove('col-xs-12');
-        switch (i) {
-            case 1:
-                nodes[i].style.setProperty('padding', 0);
-                return;
-            case 5:
-                nodes[i].style.setProperty('position', 'relative');
-                return;
-            default:
-                return;
-        }
-      }
-    }
+    artistPanelHorizontal(artist);
 }
 
 function closeArtistPanel (artist) {
   artist.style.removeProperty('grid-column');
   artist.style.removeProperty('grid-row');
+  artist.style.setProperty('flex-direction', 'column');
   var nodes = artist.childNodes;
-  for(var i = 0; i < nodes.length; i++) {
-      console.log(i, nodes[i]);
+  for (var i = 0; i < nodes.length; i++) {
     if (nodes[i].nodeName.toLowerCase() == 'div') {
       nodes[i].classList.remove('col-md-6');
-      nodes[i].classList.remove('col-xs-6');
-      nodes[i].classList.add('col-xs-12');
-      nodes[i].classList.add('col-md-12');
       if (i == 1) {
           nodes[i].style.setProperty('padding', 0);
       }
@@ -169,11 +121,19 @@ function closeArtistPanel (artist) {
         nodes[i].style.setProperty('position', 'absolute');
       }
     }
-    artist.classList.remove('pouet');
+    artist.classList.remove('clickd');
     artist.getElementsByClassName('expand-info')['0'].style.setProperty('display', 'none');
     artist.getElementsByClassName('expand-info')['1'].style.setProperty('display', 'none');
     artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'block');
   }
+}
+
+function artistPanelHorizontal (artist) {
+    var pic = artist.getElementsByTagName('div')[0];
+    var content = artist.getElementsByTagName('div')[1];
+    
+    pic.classList.add('col-md-6');
+    content.classList.add('col-md-6');
 }
 
 // Smooth scroll is handled with the following 4 methods
