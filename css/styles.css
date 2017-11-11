@@ -137,7 +137,6 @@ p {
     display: block;
     min-height: 21vh;
     max-height: 200px;
-    margin-bottom: 110px;
 }
 .grid { display: block; }
 .artist:hover {
