@@ -65,7 +65,7 @@
           <div class="artist-bio">
             <h2 {% if artist.name == 'The black mantis project' %}class="bmp"{% endif %}>{{ artist.name }}</h2>
             <div class="genre">{{ artist.genre }}</div>
-            <div class="col-md-12 expand-info" style="display: none">
+            <div class="expand-info" style="display: none">
               {% if artist.members %}
               <div class="col-md-6 genre">
                 {% for counter in (1..artist.members) %}
@@ -87,24 +87,23 @@
                   {{ artist.content }}
                 </div>
             </div>
-          </div>
-            <div class="artist_links col-md-12 col-xs-12" style="position: absolute; bottom: 5px;">
+            <div class="artist_links">
                 <div class="book_artist">
                   <a class="book btn btn-default btn-outline" onclick="autoFillForm('{{ artist.name }}');return false;" title="Book this artist">BOOK</a>
                 </div>
-                <div class="artist_socials col-xs-12 col-md-12">
+                <div class="artist_socials">
                   {% for soc in artist.social %}
-                    <!-- {{ soc }} -->
                     <div class="social-item">
                       <a class="fa fa-{{ soc.name }}" href="{{ soc.url }}"></a>
                     </div>
                   {% endfor %}
                 </div>
             </div>
-          </div>
-        {% endfor %}
+        </div>
       </div>
-    </section>
+    {% endfor %}
+  </div>
+</section>
     <div name="contact" id="contact" class="exo-contact">
       <div class="title">
         Contact : <a class="contact-mail" href="mailto:contact@exo-booking.com">contact@exo-booking.com</a>

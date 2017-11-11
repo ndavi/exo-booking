@@ -147,7 +147,8 @@ p {
 }
 .artist {
   transition: all 300ms;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .artist:hover .artist-picture > img { -webkit-filter: brightness(130%); }
 .artist_grid { background-color: white; }
@@ -199,7 +200,13 @@ p {
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
-.artist-content { padding: 0 10px; }
+.artist-content {
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
 .welcome-wrapper {
   height: 100vh;
   position: relative;
