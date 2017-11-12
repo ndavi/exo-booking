@@ -110,11 +110,9 @@ function closeArtistPanel (artist) {
   for (var i = 0; i < nodes.length; i++) {
     if (nodes[i].nodeName.toLowerCase() == 'div') {
       nodes[i].classList.remove('col-md-6');
+      nodes[i].classList.remove('col-sm-6');
       if (i == 1) {
           nodes[i].style.setProperty('padding', 0);
-      }
-      if (i == 5) {
-        nodes[i].style.setProperty('position', 'absolute');
       }
     }
     artist.classList.remove('clickd');
@@ -128,8 +126,10 @@ function artistPanelHorizontal (artist) {
     var pic = artist.getElementsByTagName('div')[0];
     var content = artist.getElementsByTagName('div')[1];
     pic.classList.add('col-md-6');
+    pic.classList.add('col-sm-6');
     pic.style.setProperty('padding', 0);
     content.classList.add('col-md-6');
+    content.classList.add('col-sm-6');
 }
 
 // Smooth scroll is handled with the following 4 methods
