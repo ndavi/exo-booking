@@ -3,7 +3,7 @@ categories: artist
 name:  "Jungle Weed"
 genre: Dub
 images: # Images over 750px displays better
-  - url: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/14264052_1303269209713516_6201425113187928683_n.jpg?oh=4a66361b824314dcef3bf096dabf523f&oe=5A1E2D40
+  - url: img/jungleweed.jpg
     alt: Jungle Weed
     title: Jungle Weed
 social:
