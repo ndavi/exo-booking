@@ -62,7 +62,6 @@ h2 {
   font-size: 28px;
   min-height: 30px;
   white-space: nowrap;
-  overflow: hidden;
 }
 .bmp { font-size: 23px !important; }
 .contact-mail {
