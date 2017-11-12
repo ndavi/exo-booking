@@ -154,6 +154,19 @@ p {
     margin-left: 0;
     margin-right: 0;
 }
+.expand-info {
+    display: none;
+}
+.expand-content {
+    min-height: 21vh;
+    margin-bottom: 110px;
+}
+.expand-info .genre {
+    flex: 1;
+}
+span.fa {
+    min-width: 30px;
+}
 .artist_socials {
   display: -webkit-flex;
   display: -ms-flex;

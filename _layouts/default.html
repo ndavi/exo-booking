@@ -61,24 +61,22 @@
           <div class="artist-bio">
             <h2 {% if artist.name == 'The black mantis project' %}class="bmp"{% endif %}>{{ artist.name }}</h2>
             <div class="genre">{{ artist.genre }}</div>
-            <div class="expand-info" style="display: none">
+            <div class="expand-info">
               {% if artist.members %}
-              <div class="genre" style="flex: 1">
+              <div class="genre">
                 {% for counter in (1..artist.members) %}
-                  <span class="fa fa-user" style="min-width: 30px"></span>
+                  <span class="fa fa-user"></span>
                 {% endfor %}
                 <span class="genre">{{ artist.members }} membre{% if artist.members != 1 %}s{% endif %}</span>
               </div>
               {% endif %}
-              <div class="genre" style="flex: 1">
-                <span class="fa fa-map-marker" style="width: 30px"></span>{{ artist.location }}
+              <div class="genre">
+                <span class="fa fa-map-marker"></span>{{ artist.location }}
               </div>
             </div>
             <div class="desktop-excerpt">{{ artist.excerpt }}</div>
             </div>
-            <div class="expand-info" style="display: none; 
-    min-height: 21vh;
-    margin-bottom: 110px;">
+            <div class="expand-info expand-content">
                 <div>
                   {{ artist.content }}
                 </div>
