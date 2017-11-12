@@ -127,8 +127,8 @@ function closeArtistPanel (artist) {
 function artistPanelHorizontal (artist) {
     var pic = artist.getElementsByTagName('div')[0];
     var content = artist.getElementsByTagName('div')[1];
-    
     pic.classList.add('col-md-6');
+    pic.style.setProperty('padding', 0);
     content.classList.add('col-md-6');
 }
 
