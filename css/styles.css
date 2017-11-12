@@ -194,10 +194,11 @@ p {
 }
 .genre {
     font-family: Poppins;
-    padding: 10px 0;
+    padding: 5px 0;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    font-size: medium;
 }
 .artist-content {
     height: 100%;
@@ -231,29 +232,22 @@ p {
   align-items: center;
 }
 .artist-picture img { width: 100%; }
-/*  SECTIONS  */
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
-/*  COLUMN SETUP  */
 .col {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
 .col:first-child { margin-left: 0; }
-/*  GROUPING  */
 .group:before,
-/*.group:after { content:""; display:table; }*/
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF TWO  */
+.group { zoom:1; }
 .span_2_of_2 { width: 100%; }
 .span_1_of_2 { width: 49.2%; }
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col { margin: 1% 0 1% 0%; }
 }

@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollStopper();
   })
 
-  for(var i=0, len = aLiens.length; i<len; i++) {
+  for(var i = 0, len = aLiens.length; i < len; i++) {
     aLiens[i].onclick = function () {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = this.getAttribute("href").slice(1);
@@ -92,17 +92,13 @@ function openArtistPanel (artist) {
       return;
     } else if (innerWidth < 960) {
         artist.style.setProperty('grid-column', '1 / 3');
-        artist.style.setProperty('grid-row', '1 / 2');
-        artist.style.setProperty('flex-direction', 'unset');
     } else if (innerWidth < 1200) {
         artist.style.setProperty('grid-column', '1 / 4');
-        artist.style.setProperty('grid-row', '1 / 2');
-        artist.style.setProperty('flex-direction', 'unset');
     } else {
         artist.style.setProperty('grid-column', '1 / 5');
-        artist.style.setProperty('grid-row', '1 / 2');
-        artist.style.setProperty('flex-direction', 'unset');
     }
+    artist.style.setProperty('flex-direction', 'unset');
+    artist.style.setProperty('grid-row', '1 / 2');
     artistPanelHorizontal(artist);
 }
 
