@@ -64,8 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function artistTapEvent(e) {
-   if (!allowTouch || (!!e.path["0"] && e.path["0"].classList.contains('book'))) {
-    return;
+//    console.log(e);
+   if (!allowTouch || 'BOOK' == e.explicitOriginalTarget.data) {
+       return;
    }
 
   if (this.classList.contains('clickd')) {
