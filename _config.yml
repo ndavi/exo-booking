@@ -37,8 +37,8 @@ incremental:   false
 # Serving
 detach:        false
 port:          4000
-host:          exo-booking.com
-# host:          localhost
+#host:          exo-booking.com
+host:          localhost
 baseurl:       "" # does not include hostname
 show_dir_listing: false
 

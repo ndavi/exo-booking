@@ -18,4 +18,5 @@ events:
 ---
 Rappelez-vous de votre tendre enfance... Voyage initiatique d’une croissance insignifiante entre une macération d’oursins aux confins d’un sac à jarretelles, et les divagations nostalgiques d’un poulpe se promenant quai Branly. Lors de ce pèlerinage hypnotique, vous serez bercés par des algo-rythmes à rebonds qui viendront chatouiller vos sens et émoustiller vos tabous les plus sombres. Ainsi font, font, font, les sales gosses de BassTurbation… 
 
-Lien lecteur : https://www.facebook.com/bassturbation/videos/1264188463616368/
+
+{% include facebook.html src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbassturbation%2Fvideos%2F1264188463616368%2F&width=600&show_text=false&appId=240739506425581&height=336" %}

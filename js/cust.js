@@ -65,13 +65,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function artistTapEvent(e) {
 //    console.log(e);
-   if (!allowTouch || 'BOOK' == e.explicitOriginalTarget.data) {
+   if (!allowTouch || 'BOOK' == e.target.innerHTML) {
        return;
    }
 
   if (this.classList.contains('clickd')) {
     closeArtistPanel(this);
-    artistDetails = undefined; 
+    artistDetails = undefined;
   } else {
     if (!!artistDetails) {
       closeArtistPanel(artistDetails)

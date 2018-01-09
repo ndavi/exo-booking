@@ -19,6 +19,7 @@ location: "Paris"
 events:
  - date: 31/03
    name: TBA - Lyon
-# Lien lecteur qui marche pas {% include soundcloud.html playlist=270064230 %}
 ---
 Footprint est un duo dub qui joue avec les courant et influences musicales en tout genre pour créer des productions Dub personnelles et porteuses de messages forts. Accompagnés d’instruments en live, l’idée d’origine était d’utiliser le sound system comme un terrain d’expérimentation musicale et sensorielle. Une traversée des âges et des continents aux confluences des musiques actuelles et antiques.
+
+{% include soundcloud.html playlist=270064230 %}
