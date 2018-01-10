@@ -99,11 +99,19 @@ function openArtistPanel (artist) {
     artist.getElementsByClassName('expand-info')['1'].classList.add("expand-openned");
     var fontSize = 15 + ((window.innerHeight / 1000) * 2);
     artist.getElementsByClassName('expand-info')['1'].getElementsByTagName("p")[0].style.fontSize = fontSize + "px";
-    /*var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
+    var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
     for (var i = 0; i < youtubePlayers.length; i++) {
         youtubePlayers[i].style.setProperty('display', 'block');
-    }*/
-
+    }
+    setTimeout(function() {
+        var SCPlayers = artist.getElementsByClassName('iframePlayer');
+        for (var i = 0; i < SCPlayers.length; i++) {
+            if(SCPlayers[i].getAttribute("data-src")) {
+                SCPlayers[i].setAttribute("src", SCPlayers[i].getAttribute("data-src"));
+                SCPlayers[i].removeAttribute("data-src");
+            }
+        }
+    }, 300)
     if (innerWidth < 576) {
         return;
     } else if (innerWidth < 960) {
@@ -116,15 +124,6 @@ function openArtistPanel (artist) {
     artist.style.setProperty('flex-direction', 'unset');
     artist.style.setProperty('grid-row', '1 / 2');
     artistPanelHorizontal(artist);
-    setTimeout(function() {
-        var SCPlayers = artist.getElementsByClassName('iframePlayer');
-        for (var i = 0; i < SCPlayers.length; i++) {
-            if(SCPlayers[i].getAttribute("data-src")) {
-                SCPlayers[i].setAttribute("src", SCPlayers[i].getAttribute("data-src"));
-                SCPlayers[i].removeAttribute("data-src");
-            }
-        }
-    }, 300)
 }
 
 function closeArtistPanel (artist) {
@@ -146,10 +145,10 @@ function closeArtistPanel (artist) {
         artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'block');
         artist.getElementsByClassName('expand-info')['1'].getElementsByTagName("p")[0].style.removeProperty("font-size");
     }
-    /*var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
+    var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
     for (var i = 0; i < youtubePlayers.length; i++) {
         youtubePlayers[i].style.setProperty('display', 'none');
-    }*/
+    }
 }
 
 function artistPanelHorizontal (artist) {
@@ -194,4 +193,7 @@ function scrollToX (element, x1, x2, t, v, step, operacion) {
 function easeOutCuaic(t){
     t--;
     return t*t*t+1;
+}
+function isMobile() {
+    return ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
 }
