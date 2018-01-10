@@ -55,7 +55,7 @@
       {% for artist in site.posts %}
       <div id="artist-{{ forloop.index0 }}" class="artist">
         <div class="artist-picture">
-          <img src="{{ artist.images[0].url }}" alt="{{ artist.images[0].alt }}" title="{{ artist.images[0].title }}" />
+          <img class="artist-picture-img" src="{{ artist.images[0].url }}" alt="{{ artist.images[0].alt }}" title="{{ artist.images[0].title }}" />
         </div>
         <div class="artist-content">
           <div class="artist-bio">
@@ -211,5 +211,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/js/bootstrap-formhelpers.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/cust.js" type="text/javascript"></script>
+  <script src="js/soundcloud-player.js" type="text/javascript"></script>
   </body>
 </html>

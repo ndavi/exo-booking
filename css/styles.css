@@ -149,6 +149,9 @@ p {
   flex-direction: column;
 }
 .artist:hover .artist-picture > img { -webkit-filter: brightness(130%); }
+.artist-picture:hover {
+    cursor: pointer;
+}
 .artist_grid { background-color: white; }
 .artist_grid .row:only-child {
     margin-left: 0;
@@ -266,17 +269,20 @@ span.fa {
 @media only screen and (max-width: 480px) {
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
-.facebook-responsive {
+.iframe-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
 
-.facebook-responsive iframe {
+.iframe-responsive iframe {
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+}
+.expand-openned > p  {
+    background : black;
 }

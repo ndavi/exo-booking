@@ -31,7 +31,7 @@ location: "Lille"
 events:
   - date: 11/11
     name: Rabadub 2017 - Felleries
-# Lien yt {% include youtube.html id=esmIyxnejow %}
 ---
 Ce groupe de live-bass-music délivre un set instrumental sur des rythmes numériques. Black Mantis fait danser les sonorités orientales de la mandole, les vibrations de la pipa chinoise et les mélodies indiennes du sitar et de la flûte bansuri.
 
+{% include youtube.html id=esmIyxnejow %}

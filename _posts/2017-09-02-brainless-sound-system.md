@@ -36,4 +36,4 @@ events:
 ---
 Brainless est un crew de dub makers, mcs et boxmen. Dans un premier temps musiciens, les inspirations des membres sont éclectiques et marquent l’empreinte musicale du groupe. Après un premier album intitulé Human Machine, Brainless a enchainé les dates en Europe (France, Croatie, Hongrie, Espagne, Angleterre, Suisse…) et construit son sound system 6 scoops. Des collaborations ont également vu le jour sur différents labels (CD, Vinyl, Digital) comme Jarring Effects, Rootical Attack, ODG…  
 
-{% include soundcloud.html user=7072125 %}
+{% include soundcloud-user.html id='7072125' %}

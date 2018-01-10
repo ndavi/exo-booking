@@ -22,4 +22,4 @@ events:
 ---
 Jungle Weed aka Dub-trotter, est un voyageur équipé de son home studio qui enregistre les sons et personnes qu’il rencontre sur les routes d’Asie. Le résultat est un dub profond et chargé de sonorités oniriques.
 
-Lien lecteur : https://soundcloud.com/jungle-weed/sets/yatra
+{% include soundcloud-playlist.html id='338968181' %}
