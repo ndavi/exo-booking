@@ -99,10 +99,10 @@ function openArtistPanel (artist) {
     artist.getElementsByClassName('expand-info')['1'].classList.add("expand-openned");
     var fontSize = 15 + ((window.innerHeight / 1000) * 2);
     artist.getElementsByClassName('expand-info')['1'].getElementsByTagName("p")[0].style.fontSize = fontSize + "px";
-    var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
+    /*var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
     for (var i = 0; i < youtubePlayers.length; i++) {
         youtubePlayers[i].style.setProperty('display', 'block');
-    }
+    }*/
 
     if (innerWidth < 576) {
         return;
@@ -146,10 +146,10 @@ function closeArtistPanel (artist) {
         artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'block');
         artist.getElementsByClassName('expand-info')['1'].getElementsByTagName("p")[0].style.removeProperty("font-size");
     }
-    var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
+    /*var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
     for (var i = 0; i < youtubePlayers.length; i++) {
         youtubePlayers[i].style.setProperty('display', 'none');
-    }
+    }*/
 }
 
 function artistPanelHorizontal (artist) {
