@@ -289,3 +289,7 @@ span.fa {
 .expand-openned > p  {
     background : black;
 }
+.container::after {
+    width: 0px;
+    height: 0px;
+}
