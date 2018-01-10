@@ -2,37 +2,39 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width"> <title>Exo Booking</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:Semi-Bold">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/css/bootstrap-formhelpers.min.css" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="manifest" href="img/manifest.json">
-  <meta name="google-site-verification" content="bOQayrIvQf7zf_fV6KUYkT6sCn7NioCGXlqC7CGJexM" />
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width"> <title>Exo Booking</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:Semi-Bold">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/css/bootstrap-formhelpers.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/alertify.min.css"/>
+    <link rel="stylesheet" href="css/default.min.css"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="google-site-verification" content="bOQayrIvQf7zf_fV6KUYkT6sCn7NioCGXlqC7CGJexM" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <div name="home" class="welcome-wrapper">
-    <div class="exo-welcome">
+<div name="home" class="welcome-wrapper">
+    <div class="exo-welcome" id="pageTop">
         <div class="exo-logo">
         </div>
         <div class="exo-booking">
@@ -41,190 +43,194 @@
         <div class="exo-artists">
             {% assign sortedPosts = site.posts | sort: 'name' %}
             {% for artist in sortedPosts %}
-                {% assign loopindex = forloop.index | modulo: 2 %}
-                <span class="{% if loopindex == 0 %}text-red{% else %}text-white{% endif %}">{{ artist.name | replace: ' ', '&#160;' }}</span>
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            <span class="{% if loopindex == 0 %}text-red{% else %}text-white{% endif %}">{{ artist.name | replace: ' ', '&#160;' }}</span>
             {% endfor %}
         </div>
         <div class="welcome-arrow">
             <img class="down-arrow"  onclick="gotoArtists();return false;"src="img/scroll-down-arrow.png" />
         </div>
     </div>
-  </div>
-  <section name="artists" id="artists-start" class="artist_grid">
+</div>
+<section name="artists" id="artists-start" class="artist_grid">
     <div class="container">
-      {% for artist in site.posts %}
-      <div id="artist-{{ forloop.index0 }}" class="artist">
-        <div class="artist-picture">
-          <img class="artist-picture-img" src="{{ artist.images[0].url }}" alt="{{ artist.images[0].alt }}" title="{{ artist.images[0].title }}" />
+        {% for artist in site.posts %}
+        <div id="artist-{{ forloop.index0 }}" class="artist">
+            <div class="artist-picture">
+                <img class="artist-picture-img" src="{{ artist.images[0].url }}" alt="{{ artist.images[0].alt }}" title="{{ artist.images[0].title | capitalize_all }}" />
+            </div>
+            <div class="artist-content">
+                <div class="artist-bio">
+                    <h2 {% if artist.name == 'The black mantis project' %}class="bmp"{% endif %}>{{ artist.name }}</h2>
+                    <div class="genre">{{ artist.genre }}</div>
+                    <div class="expand-info">
+                        {% if artist.members %}
+                        <div class="genre">
+                            {% for counter in (1..artist.members) %}
+                            <span class="fa fa-user"></span>
+                            {% endfor %}
+                            <span class="genre">{{ artist.members }} membre{% if artist.members != 1 %}s{% endif %}</span>
+                        </div>
+                        {% endif %}
+                        <div class="genre">
+                            <span class="fa fa-map-marker"></span>{{ artist.location }}
+                        </div>
+                    </div>
+                    <div class="desktop-excerpt">{{ artist.excerpt }}</div>
+                </div>
+                <div class="expand-info expand-content">
+                    <div>
+                        {{ artist.content }}
+                    </div>
+                </div>
+                <div class="artist_links">
+                    <div class="book_artist">
+                        <a class="book btn btn-default btn-outline" onclick="autoFillForm('{{ artist.name }}');return false;" title="Book this artist">BOOK</a>
+                    </div>
+                    <div class="artist_socials">
+                        {% for soc in artist.social %}
+                        <div class="social-item">
+                            <a class="fa fa-{{ soc.name }}" title="{{soc.name | capitalize_all}}" href="{{ soc.url }}" target="_blank"></a>
+                        </div>
+                        {% endfor %}
+                        {% for pdf in artist.pdf %}
+                        {% if pdf.press %}
+                        <div class="social-item">
+                            <a class="fa fa-newspaper-o" title="{{'kit presse' | capitalize_all}}" href="{{site.url}}/pdf/press/{{pdf.press}}.pdf" target="_blank"></a>
+                        </div>
+                        {% endif %}
+                        {% if pdf.rider %}
+                        <div class="social-item">
+                            <a class="fa fa-wrench" title="Fiche Technique" href="{{site.url}}/pdf/rider/{{pdf.rider}}.pdf" target="_blank"></a>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="artist-content">
-          <div class="artist-bio">
-            <h2 {% if artist.name == 'The black mantis project' %}class="bmp"{% endif %}>{{ artist.name }}</h2>
-            <div class="genre">{{ artist.genre }}</div>
-            <div class="expand-info">
-              {% if artist.members %}
-              <div class="genre">
-                {% for counter in (1..artist.members) %}
-                  <span class="fa fa-user"></span>
-                {% endfor %}
-                <span class="genre">{{ artist.members }} membre{% if artist.members != 1 %}s{% endif %}</span>
-              </div>
-              {% endif %}
-              <div class="genre">
-                <span class="fa fa-map-marker"></span>{{ artist.location }}
-              </div>
-            </div>
-            <div class="desktop-excerpt">{{ artist.excerpt }}</div>
-            </div>
-            <div class="expand-info expand-content">
-                <div>
-                  {{ artist.content }}
-                </div>
-            </div>
-            <div class="artist_links">
-                <div class="book_artist">
-                  <a class="book btn btn-default btn-outline" onclick="autoFillForm('{{ artist.name }}');return false;" title="Book this artist">BOOK</a>
-                </div>
-                <div class="artist_socials">
-                  {% for soc in artist.social %}
-                    <div class="social-item">
-                      <a class="fa fa-{{ soc.name }}" title="{{soc.name | capitalize_all}}" href="{{ soc.url }}" target="_blank"></a>
-                    </div>
-                  {% endfor %}
-                    {% for pdf in artist.pdf %}
-                    {% if pdf.press %}
-                    <div class="social-item">
-                        <a class="fa fa-newspaper-o" title="{{'kit presse' | capitalize_all}}" href="{{site.url}}/pdf/press/{{pdf.press}}.pdf" target="_blank"></a>
-                    </div>
-                    {% endif %}
-                    {% if pdf.rider %}
-                    <div class="social-item">
-                        <a class="fa fa-wrench" title="Fiche Technique" href="{{site.url}}/pdf/rider/{{pdf.rider}}.pdf" target="_blank"></a>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+        {% endfor %}
+    </div>
 </section>
-    <div name="contact" id="contact" class="exo-contact">
-      <div class="title">
+<div name="contact" id="contact" class="exo-contact">
+    <div class="title">
         Contact : <a class="contact-mail" href="mailto:contact@exo-booking.com">contact@exo-booking.com</a>
         <br />ALLEGRET Bérengère - <a class="contact-mail" href="mailto:berengere@exo-booking.com">berengere@exo-booking.com</a> - +33625321606
         <br />DENIAU Quentin - <a class="contact-mail" href="mailto:quentin@exo-booking.com">quentin@exo-booking.com</a> - +33612872024
-      </div>
-      <form action="https://formspree.io/nico01.david@gmail.com" method="post" class="hidden form">
+    </div>
+    <form id="contactform" action="https://formspree.io/nico01.david@gmail.com" method="post" class="hidden form">
         <div class="title">You can also fill the following form to book <span id="form-artist"></span> : </div>
+        <div class="g-recaptcha" style="display: inline-block;" data-sitekey="6LffL0AUAAAAAJc3wtyjNEfMwrKhN4-gqTb5de9W"></div>
         <div class="section group">
-        	<div class="col span_1_of_2">
-            <h4>Contact information</h4>
-            <div class="form-group">
-              <input type="text" class="form-control" name="organization" id="organization" aria-describedby="organization" placeholder="Organization">
+            <div class="col span_1_of_2">
+                <h4>Contact information</h4>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="organization" id="organization" aria-describedby="organization" placeholder="Organization">
+                </div>
+                <div class="form-group">
+                    <input type="first-name" class="form-control" name="first-name" id="first-name" aria-describedby="firstName" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="last-name" id="last-name" aria-describedby="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" aria-describedby="email" placeholder="Email">
+                    <small name="emailHelp" id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" name="tel" id="tel" aria-describedby="tel" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">Message to Agent</label>
+                    <textarea class="form-control" rows="3" name="textarea" id="textarea"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="vat" id="vat" aria-describedby="vat" placeholder="Organization VAT / Tax Number">
+                </div>
+                <div class="form-group">
+                    <select class="input-medium bfh-countries form-control" data-country="US"></select>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="website" id="website" aria-describedby="website" placeholder="Organization Website">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="city" id="city" aria-describedby="city" placeholder="Organization City">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="address" id="address" aria-describedby="address" placeholder="Organization Address">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="zipcode" id="zipcode" aria-describedby="zipcode" placeholder="Organization Zip Code">
+                </div>
             </div>
-            <div class="form-group">
-              <input type="first-name" class="form-control" name="first-name" id="first-name" aria-describedby="firstName" placeholder="First Name">
+            <div class="col span_1_of_2">
+                <h4>Event information</h4>
+                <div class="form-group">
+                    <input type="datetime-local" class="form-control date" name="dateEvent" id="dateEvent" aria-describedby="dateEvent" placeholder="Event date">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="venue" id="venue" placeholder="Venue Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="venueCountry" id="venueCountry" placeholder="Venue Country">
+                </div>
+                <div class="form-group">
+                    <label for="eventType">Event type</label>
+                    <select class="form-control" name="eventType" id="eventType">
+                        <option>Bar/Lounge</option>
+                        <option>Club</option>
+                        <option>Conference</option>
+                        <option>Cruise Ship Event</option>
+                        <option>Festival</option>
+                        <option>Other</option>
+                        <option>Underground</option>
+                        <option>Venue</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="closest" id="closest" placeholder="Closest Airport / Station">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="event-website" id="event-website" placeholder="Event Website">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="artists-confirmed" id="artists-confirmed" placeholder="Other artists confirmed">
+                </div>
+                <div class="form-group">
+                    <label for="venue-capacity">Venue Capacity</label>
+                    <input type="number" class="form-control" name="venue-capacity" id="venue-capacity" placeholder="Venue Capacity">
+                </div>
+                <div class="form-group">
+                    <label for="set">Set / Stage Time</label>
+                    <input type="time" class="form-control" name="set" id="set" placeholder="Set / Stage Time">
+                </div>
+                <div class="form-group">
+                    <input type="url" class="form-control" name="venue-website" id="venue-website" placeholder="Venue WebPage / Facebook Page">
+                </div>
+                <div class="form-group">
+                    <label for="performanceType">Performance type</label>
+                    <select class="form-control" name="performanceType" id="performanceType">
+                        <option>DJ Set</option>
+                        <option>Live Set</option>
+                        <option>Sound System Set</option>
+                        <option>Acoustic Set</option>
+                    </select>
+                </div>
+                <!-- @TODO : GMTs -->
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="last-name" id="last-name" aria-describedby="lastName" placeholder="Last Name">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" aria-describedby="email" placeholder="Email">
-              <small name="emailHelp" id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <input type="tel" class="form-control" name="tel" id="tel" aria-describedby="tel" placeholder="Phone">
-            </div>
-            <div class="form-group">
-              <label for="textarea">Message to Agent</label>
-              <textarea class="form-control" rows="3" name="textarea" id="textarea"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="vat" id="vat" aria-describedby="vat" placeholder="Organization VAT / Tax Number">
-            </div>
-            <div class="form-group">
-              <select class="input-medium bfh-countries form-control" data-country="US"></select>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="website" id="website" aria-describedby="website" placeholder="Organization Website">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="city" id="city" aria-describedby="city" placeholder="Organization City">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="address" id="address" aria-describedby="address" placeholder="Organization Address">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="zipcode" id="zipcode" aria-describedby="zipcode" placeholder="Organization Zip Code">
-            </div>
-          </div>
-        	<div class="col span_1_of_2">
-            <h4>Event information</h4>
-            <div class="form-group">
-              <input type="datetime-local" class="form-control date" name="dateEvent" id="dateEvent" aria-describedby="dateEvent" placeholder="Event date">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="venue" id="venue" placeholder="Venue Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="venueCountry" id="venueCountry" placeholder="Venue Country">
-            </div>
-            <div class="form-group">
-              <label for="eventType">Event type</label>
-              <select class="form-control" name="eventType" id="eventType">
-                <option>Bar/Lounge</option>
-                <option>Club</option>
-                <option>Conference</option>
-                <option>Cruise Ship Event</option>
-                <option>Festival</option>
-                <option>Other</option>
-                <option>Underground</option>
-                <option>Venue</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="closest" id="closest" placeholder="Closest Airport / Station">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="event-website" id="event-website" placeholder="Event Website">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="artists-confirmed" id="artists-confirmed" placeholder="Other artists confirmed">
-            </div>
-            <div class="form-group">
-              <label for="venue-capacity">Venue Capacity</label>
-              <input type="number" class="form-control" name="venue-capacity" id="venue-capacity" placeholder="Venue Capacity">
-            </div>
-            <div class="form-group">
-              <label for="set">Set / Stage Time</label>
-              <input type="time" class="form-control" name="set" id="set" placeholder="Set / Stage Time">
-            </div>
-            <div class="form-group">
-              <input type="url" class="form-control" name="venue-website" id="venue-website" placeholder="Venue WebPage / Facebook Page">
-            </div>
-            <div class="form-group">
-              <label for="performanceType">Performance type</label>
-              <select class="form-control" name="performanceType" id="performanceType">
-                <option>DJ Set</option>
-                <option>Live Set</option>
-                <option>Sound System Set</option>
-                <option>Acoustic Set</option>
-              </select>
-            </div>
-            <!-- @TODO : GMTs -->
-        	</div>
         </div>
         <button type="submit" class="btn btn-primary send">Submit</button>
-      </form>
-    </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/js/bootstrap-formhelpers.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/site.js" type="text/javascript"></script>
-  <script src="js/soundcloud-player.js" type="text/javascript"></script>
-  <script src="js/tippy.all.min.js"></script>
-
-  </body>
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/js/bootstrap-formhelpers.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/site.js" type="text/javascript"></script>
+<script src="js/soundcloud-player.js" type="text/javascript"></script>
+<script src="js/tippy.all.min.js"></script>
+<script async src="js/jquery-3.2.1.min.js"></script>
+<script async src="js/site.jquery.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="/js/lib/alertify.min.js"></script>
+</body>
 </html>

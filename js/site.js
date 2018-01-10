@@ -16,7 +16,9 @@ function gotoArtists() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    tippy(document.querySelectorAll(".fa"));
+    tippy('[title]', {
+        size: 'large'
+    });
     var aLiens        = document.querySelectorAll('a[href*="#"]');
     var artists       = document.getElementsByClassName('artist');
     var touchEvent    = !!('ontouchstart') in window ? 'touchend' : 'click';
@@ -145,10 +147,10 @@ function closeArtistPanel (artist) {
         artist.getElementsByClassName('desktop-excerpt')['0'].style.setProperty('display', 'block');
         artist.getElementsByClassName('expand-info')['1'].getElementsByTagName("p")[0].style.removeProperty("font-size");
     }
-    var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
+    /*var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
     for (var i = 0; i < youtubePlayers.length; i++) {
         youtubePlayers[i].style.setProperty('display', 'none');
-    }
+    }*/
 }
 
 function artistPanelHorizontal (artist) {

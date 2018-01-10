@@ -2,24 +2,24 @@
 ---
 * { box-sizing: border-box; }
 .section {
-  position: relative;
-  text-align: center;
-  -webkit-transform: matrix(1,0,0,1,0,0);
-  -ms-transform: matrix(1,0,0,1,0,0);
-  -o-transform: matrix(1,0,0,1,0,0);
-  transform: matrix(1,0,0,1,0,0);
-  -webkit-transition: all .3s ease-in-out 0s;
-  -o-transition: all .3s ease-in-out 0s;
-  transition: all .3s ease-in-out 0s;
-  width: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    -webkit-transform: matrix(1,0,0,1,0,0);
+    -ms-transform: matrix(1,0,0,1,0,0);
+    -o-transform: matrix(1,0,0,1,0,0);
+    transform: matrix(1,0,0,1,0,0);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container {
-  display: grid;
-  width: auto;
-  padding: 0;
+    display: grid;
+    width: auto;
+    padding: 0;
 }
 .container:before {
     display: none;
@@ -43,12 +43,12 @@
     margin: auto;
 }
 @font-face {
-  font-family: "zeronero";
-  src: url('../img/zeronero.ttf');
+    font-family: "zeronero";
+    src: url('../img/zeronero.ttf');
 }
 .text-white { color: white; }
 .text-red {
-  color: rgb(205, 23, 26);
+    color: rgb(205, 23, 26);
 }
 .text-white,
 .text-red {
@@ -58,10 +58,10 @@
     text-transform: uppercase;
 }
 h2 {
-  font-family: Poppins;
-  font-size: 28px;
-  min-height: 30px;
-  white-space: nowrap;
+    font-family: Poppins;
+    font-size: 28px;
+    min-height: 30px;
+    white-space: nowrap;
 }
 .bmp { font-size: 23px !important; }
 .contact-mail {
@@ -79,58 +79,61 @@ h4 {
     font-size: 2.5vh;
 }
 h3 {
-  font-size: 26px;
-  font-family: Poppins;
-  color: white !important;
+    font-size: 26px;
+    font-family: Poppins;
+    color: white !important;
 }
 .form {
-  padding: 0 5vw;
-  text-align: center;
+    padding: 0 5vw;
+    text-align: center;
 }
 label {
-  font-family: "Open sans";
-  color: white;
+    font-family: "Open sans";
+    color: white;
 }
 .text-muted { color: lightgray; }
 .send,
 .input-medium,
 .form-control {
-  outline: 0;
-  background: transparent;
-  background-color: rgba(0, 0, 0, 0);
-  font-family: "Open sans";
-  color: white;
+    outline: 0;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Open sans";
+    color: white;
 }
 .send { margin-bottom: 3vh; }
 h3:hover,
 h3:visited { text-decoration: none; }
 .exo { color: white !important; }
 p {
-  font-family: "Open Sans";
-  font-size: 12px;
-}
-@media (min-width: 576px) {
-  p {
     font-family: "Open Sans";
     font-size: 12px;
-  }
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+}
+@media (min-width: 576px) {
+    p {
+        font-family: "Open Sans";
+        font-size: 12px;
+    }
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media (min-width: 960px) {
-  p {
-    font-family: "Open Sans";
-    font-size: 13px;
-  }
-  .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    p {
+        font-family: "Open Sans";
+        font-size: 13px;
+    }
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media (min-width: 1200px) {
-  .container {
-    grid-template-columns: repeat(4, 1fr);
-  }
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .g-recaptcha {
+        left: 40px;
+    }
 }
 .desktop-excerpt {
     display: block;
@@ -144,9 +147,9 @@ p {
     border-color: rgb(173, 173, 173);
 }
 .artist {
-  transition: all 300ms;
-  display: flex;
-  flex-direction: column;
+    transition: all 300ms;
+    display: flex;
+    flex-direction: column;
 }
 .artist:hover .artist-picture > img { -webkit-filter: brightness(130%); }
 .artist-picture:hover {
@@ -171,24 +174,24 @@ span.fa {
     min-width: 30px;
 }
 .artist_socials {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 .social-item {
-  margin-bottom: 15px;
-  text-align: center;
-  flex: 1;
+    margin-bottom: 15px;
+    text-align: center;
+    flex: 1;
 }
 .book {
-  font-size: 18px;
-  border-radius: 0;
-  font-family: "Open Sans";
-  letter-spacing: 0.4em;
-  margin: 0 27px;
-  display: block;
+    font-size: 18px;
+    border-radius: 0;
+    font-family: "Open Sans";
+    letter-spacing: 0.4em;
+    margin: 0 27px;
+    display: block;
 }
 .navbar-custom.top-nav-collapse .navbar-header { background: #000; }
 .fa:visited,
@@ -199,8 +202,8 @@ span.fa {
     text-decoration: none;
 }
 .fa:hover {
-  text-decoration: none;
-  color: #23527c;
+    text-decoration: none;
+    color: #23527c;
 }
 .fa:before {
     width: 75px;
@@ -223,39 +226,39 @@ span.fa {
     padding: 0 10px;
 }
 .welcome-wrapper {
-  height: 100vh;
-  position: relative;
+    height: 100vh;
+    position: relative;
 }
 .welcome-arrow {
-  bottom: 25px;
-  position: absolute;
-  width: 100%;
-  text-align: center;
+    bottom: 25px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
 .down-arrow {
-  height: auto;
-  width: 13vh;
-  left: 50%;
+    height: auto;
+    width: 13vh;
+    left: 50%;
 }
 .exo-welcome { height: 100%; }
 .exo-contact,
 .exo-welcome {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  background-color: black;
-  align-items: center;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    align-items: center;
 }
 .artist-picture img { width: 100%; }
 .section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
 }
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
 }
 .col:first-child { margin-left: 0; }
 .group:before,
@@ -264,10 +267,10 @@ span.fa {
 .span_2_of_2 { width: 100%; }
 .span_1_of_2 { width: 49.2%; }
 @media only screen and (max-width: 480px) {
-	.col { margin: 1% 0 1% 0%; }
+    .col { margin: 1% 0 1% 0%; }
 }
 @media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+    .span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 .iframe-responsive {
     overflow:hidden;
