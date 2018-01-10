@@ -88,9 +88,21 @@
                 <div class="artist_socials">
                   {% for soc in artist.social %}
                     <div class="social-item">
-                      <a class="fa fa-{{ soc.name }}" href="{{ soc.url }}" target="_blank"></a>
+                      <a class="fa fa-{{ soc.name }}" title="{{soc.name | capitalize_all}}" href="{{ soc.url }}" target="_blank"></a>
                     </div>
                   {% endfor %}
+                    {% for pdf in artist.pdf %}
+                    {% if pdf.press %}
+                    <div class="social-item">
+                        <a class="fa fa-newspaper-o" title="{{'kit presse' | capitalize_all}}" href="{{site.url}}/pdf/press/{{pdf.press}}.pdf" target="_blank"></a>
+                    </div>
+                    {% endif %}
+                    {% if pdf.rider %}
+                    <div class="social-item">
+                        <a class="fa fa-wrench" title="Fiche Technique" href="{{site.url}}/pdf/rider/{{pdf.rider}}.pdf" target="_blank"></a>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -104,7 +116,7 @@
         <br />ALLEGRET Bérengère - <a class="contact-mail" href="mailto:berengere@exo-booking.com">berengere@exo-booking.com</a> - +33625321606
         <br />DENIAU Quentin - <a class="contact-mail" href="mailto:quentin@exo-booking.com">quentin@exo-booking.com</a> - +33612872024
       </div>
-      <form action="https://formspree.io/klem.deniau@gmail.com" method="post" class="hidden form">
+      <form action="https://formspree.io/contact@exo-booking.com" method="post" class="hidden form">
         <div class="title">You can also fill the following form to book <span id="form-artist"></span> : </div>
         <div class="section group">
         	<div class="col span_1_of_2">
@@ -212,5 +224,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/cust.js" type="text/javascript"></script>
   <script src="js/soundcloud-player.js" type="text/javascript"></script>
+  <script src="js/tippy.all.min.js"></script>
   </body>
 </html>

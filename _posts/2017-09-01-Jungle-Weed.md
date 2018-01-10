@@ -13,6 +13,10 @@ social:
    name: facebook
  - url: https://www.youtube.com/user/JungleWeeddubsound
    name: youtube
+pdf:
+ - press: press-jungleweed
+   rider: rider-jungleweed
+
 releases:
 members: 1
 location: "Toulouse"

@@ -11,6 +11,9 @@ social:
    name: soundcloud
  - url: https://www.facebook.com/bassturbation/
    name: facebook
+pdf:
+ - press: press-bassturbation
+   rider: rider-bassturbation
 releases:
 members: 2
 location: "Besançon"

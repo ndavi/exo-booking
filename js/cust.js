@@ -16,6 +16,7 @@ function gotoArtists() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    tippy(document.querySelectorAll(".fa"));
     var aLiens        = document.querySelectorAll('a[href*="#"]');
     var artists       = document.getElementsByClassName('artist');
     var touchEvent    = !!('ontouchstart') in window ? 'touchend' : 'click';
@@ -96,7 +97,7 @@ function openArtistPanel (artist) {
     artist.getElementsByClassName('expand-info')['0'].style.setProperty('display', 'block');
     artist.getElementsByClassName('expand-info')['1'].style.setProperty('display', 'block');
     artist.getElementsByClassName('expand-info')['1'].classList.add("expand-openned");
-    var fontSize = 20 + ((window.innerHeight / 1000) * 2);
+    var fontSize = 15 + ((window.innerHeight / 1000) * 2);
     artist.getElementsByClassName('expand-info')['1'].getElementsByTagName("p")[0].style.fontSize = fontSize + "px";
     var youtubePlayers = artist.getElementsByClassName('youtubePlayer')
     for (var i = 0; i < youtubePlayers.length; i++) {
@@ -172,7 +173,7 @@ function scrollTo (element, duration) {
     scrollToC(e, e.scrollTop, element, duration);
 }
 
-function scrollToC (element, from, to, duration, ) {
+function scrollToC (element, from, to, duration) {
     if (duration < 0) return;
     if (typeof from === "object")from=from.offsetTop;
     if (typeof to === "object")to=to.offsetTop;

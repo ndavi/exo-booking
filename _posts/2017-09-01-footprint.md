@@ -13,6 +13,10 @@ social:
    name: bandcamp
  - url: https://soundcloud.com/footprintsystem
    name: soundcloud
+pdf:
+ - press: press-footprint
+   rider: rider-footprint
+
 releases:
 members: 2
 location: "Paris"

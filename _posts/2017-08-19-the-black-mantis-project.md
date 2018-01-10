@@ -13,6 +13,9 @@ social:
    name: facebook
  - url: http://blackmantisproject.com
    name: globe
+pdf:
+ - press: press-black-mantis
+   rider: rider-black-mantis
 releases:
   - name: Diversion EP
     url: https://blackmantisproject.bandcamp.com/album/diversion-ep

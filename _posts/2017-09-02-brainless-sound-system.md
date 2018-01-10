@@ -15,6 +15,9 @@ social:
    name: bandcamp
  - url: https://www.youtube.com/user/OfficialBrainless/
    name: youtube
+pdf:
+ - press: press-brainless
+   rider: rider-brainless
 releases:
 members: "4"
 location: "Bourg-en-Bresse"
