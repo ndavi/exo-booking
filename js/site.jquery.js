@@ -18,10 +18,8 @@ $( document ).ready(function() {
                     success: function (xml, textStatus, xhr) {
                         if (xhr.status === 200) {
                             alertify
-                                .alert("Demande de booking envoyée", "Lorem ipsum dolor sit amet," +
-                                    " consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." +
-                                    " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." +
-                                    " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor");
+                                .alert("Success",
+                                    "Thank you, a member of Exo will answer you as soon as possible !");
                             notification.dismiss();
                             sendingForm = false;
                         }

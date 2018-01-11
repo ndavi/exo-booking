@@ -101,6 +101,9 @@ label {
     font-family: "Open sans";
     color: white;
 }
+.form-control:active {
+    color: black;
+}
 .send { margin-bottom: 3vh; }
 h3:hover,
 h3:visited { text-decoration: none; }
