@@ -9,7 +9,7 @@ $( document ).ready(function() {
         } else {
             if(!sendingForm) {
                 sendingForm = true;
-                var notification = alertify.warning("Envoie du formulaire...");
+                var notification = alertify.warning("Envoi du formulaire...");
                 $.ajax({
                     url: "https://formspree.io/contact@exo-booking.com",
                     method: "POST",

@@ -54,7 +54,8 @@
 </div>
 <section name="artists" id="artists-start" class="artist_grid">
     <div class="container">
-        {% for artist in site.posts %}
+        {% assign artistSorted = site.posts | sort: 'name' %}
+        {% for artist in artistSorted %}
         <div id="artist-{{ forloop.index0 }}" class="artist">
             <div class="artist-picture">
                 <img class="artist-picture-img" src="{{ artist.images[0].url }}" alt="{{ artist.images[0].alt }}" title="{{ artist.images[0].title | capitalize_all }}" />
