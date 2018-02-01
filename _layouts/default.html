@@ -116,10 +116,11 @@
 <div name="contact" id="contact" class="exo-contact">
     <div class="title">
         Contact : <a class="contact-mail" href="mailto:contact@exo-booking.com">contact@exo-booking.com</a>
-        <br />ALLEGRET Bérengère - <a class="contact-mail" href="mailto:berengere@exo-booking.com">berengere@exo-booking.com</a> - +33625321606
-        <br />DENIAU Quentin - <a class="contact-mail" href="mailto:quentin@exo-booking.com">quentin@exo-booking.com</a> - +33612872024
+        <br />ALLEGRET Bérengère - <a class="contact-mail" href="mailto:berengere@exo-booking.com">berengere@exo-booking.com</a>
+        <br />DENIAU Quentin - <a class="contact-mail" href="mailto:quentin@exo-booking.com">quentin@exo-booking.com</a>
     </div>
-    <form id="contactform" action="https://formspree.io/nico01.david@gmail.com" method="post" class="hidden form">
+    <form id="contactform" method="post" class="hidden form">
+        <input type="hidden" name="artist" id="hidden-artist-form" value=""/>
         <div class="title">You can also fill the following form to book <span id="form-artist"></span> : </div>
         <div class="g-recaptcha" style="display: inline-block;" data-sitekey="6LffL0AUAAAAAJc3wtyjNEfMwrKhN4-gqTb5de9W"></div>
         <div class="section group">
@@ -235,5 +236,14 @@
 <script async src="js/site.jquery.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="/js/lib/alertify.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112466816-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112466816-1');
+</script>
+
 </body>
 </html>
